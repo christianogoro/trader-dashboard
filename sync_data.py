@@ -186,6 +186,9 @@ def load_meme(cfg):
     # Compute equity curve from closed trades
     equity_curve = build_equity_from_trades(trades, starting)
 
+    # Daily stats
+    daily_breakdown, today = compute_daily_stats(trades, equity_curve)
+
     # Find last trade time
     last_trade = None
     if trades:
@@ -202,9 +205,13 @@ def load_meme(cfg):
         "wins": wins,
         "losses": losses,
         "win_rate": round(wins / len(trades) * 100, 1) if trades else 0,
-        "daily_pnl": 0,
+        "daily_pnl": today["today_pnl"],
         "open_positions": len(open_trades),
         "last_trade_at": last_trade,
+        "today_trades": today["today_trades"],
+        "today_wins": today["today_wins"],
+        "today_losses": today["today_losses"],
+        "daily_breakdown": daily_breakdown,
         "trades": trades,
         "open": open_pos,
         "equity_curve": equity_curve,
@@ -260,6 +267,9 @@ def load_jsonl_trader(cfg, trader_type="standard"):
     if not equity_curve:
         equity_curve = build_equity_from_trades(trades, starting)
 
+    # Daily stats
+    daily_breakdown, today = compute_daily_stats(trades, equity_curve)
+
     # Last trade time
     last_trade = None
     if trades:
@@ -278,9 +288,13 @@ def load_jsonl_trader(cfg, trader_type="standard"):
         "wins": wins,
         "losses": losses,
         "win_rate": round(wins / len(closed) * 100, 1) if closed else 0,
-        "daily_pnl": round(state.get("daily_pnl", 0), 2),
+        "daily_pnl": round(state.get("daily_pnl", 0), 2) or today["today_pnl"],
         "open_positions": len(open_pos),
         "last_trade_at": last_trade,
+        "today_trades": today["today_trades"],
+        "today_wins": today["today_wins"],
+        "today_losses": today["today_losses"],
+        "daily_breakdown": daily_breakdown,
         "trades": trades,
         "open": open_pos,
         "equity_curve": equity_curve,
@@ -413,6 +427,57 @@ def normalize_open_position(p, trader_type):
             },
         }
     return {}
+
+
+def compute_daily_stats(trades, equity_curve):
+    """Compute daily breakdown: trades per day, wins, losses, P&L, balance change."""
+    from collections import defaultdict
+
+    daily = defaultdict(lambda: {"trades": 0, "wins": 0, "losses": 0, "pnl": 0.0})
+    for t in trades:
+        dt = (t.get("closed_at") or t.get("opened_at") or "")[:10]
+        if not dt:
+            continue
+        daily[dt]["trades"] += 1
+        daily[dt]["pnl"] += t.get("pnl", 0)
+        if t.get("outcome") == "WIN":
+            daily[dt]["wins"] += 1
+        elif t.get("outcome") == "LOSS":
+            daily[dt]["losses"] += 1
+
+    # Build sorted list with previous day balance
+    dates = sorted(daily.keys())
+    result = []
+    # Build equity lookup from curve
+    eq_lookup = {p["date"]: p["value"] for p in equity_curve} if equity_curve else {}
+
+    prev_balance = None
+    for d in dates:
+        s = daily[d]
+        balance = eq_lookup.get(d)
+        result.append({
+            "date": d,
+            "trades": s["trades"],
+            "wins": s["wins"],
+            "losses": s["losses"],
+            "pnl": round(s["pnl"], 2),
+            "prev_balance": round(prev_balance, 2) if prev_balance is not None else None,
+            "balance": round(balance, 2) if balance is not None else None,
+            "pnl_pct_of_prev": round(s["pnl"] / prev_balance * 100, 2) if prev_balance and prev_balance > 0 else None,
+        })
+        if balance is not None:
+            prev_balance = balance
+
+    # Today's stats
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today_stats = daily.get(today, {"trades": 0, "wins": 0, "losses": 0, "pnl": 0.0})
+
+    return result, {
+        "today_trades": today_stats["trades"],
+        "today_wins": today_stats["wins"],
+        "today_losses": today_stats["losses"],
+        "today_pnl": round(today_stats["pnl"], 2),
+    }
 
 
 def load_equity_csv(csv_path):

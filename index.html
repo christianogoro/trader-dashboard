@@ -10,15 +10,7 @@
   <script>
     tailwind.config = {
       darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            bg: '#0f172a',
-            card: '#1e293b',
-            cardHover: '#334155',
-          }
-        }
-      }
+      theme: { extend: { colors: { bg: '#0f172a', card: '#1e293b', cardHover: '#334155' } } }
     }
   </script>
   <style>
@@ -28,6 +20,8 @@
     .card-border-red { border-top: 3px solid #ef4444; }
     .card-border-gray { border-top: 3px solid #475569; }
     .filter-btn.active { background: #3b82f6; color: white; }
+    .trader-toggle.active { background: #3b82f6; color: white; }
+    .trader-toggle.hidden-trader { opacity: 0.4; }
     .status-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
     .status-running { background: #22c55e; box-shadow: 0 0 6px #22c55e; }
     .status-stopped { background: #ef4444; }
@@ -44,28 +38,37 @@
     <h1 class="text-xl font-bold tracking-tight">Paper Trading Dashboard</h1>
     <div class="flex items-center gap-4 text-sm text-slate-400">
       <span id="lastSync">Loading...</span>
-      <button id="refreshBtn" onclick="fetchData()" class="px-3 py-1 rounded bg-slate-700 hover:bg-slate-600 text-slate-200 text-xs">Refresh</button>
+      <button onclick="fetchData()" class="px-3 py-1 rounded bg-slate-700 hover:bg-slate-600 text-slate-200 text-xs">Refresh</button>
     </div>
   </header>
 
-  <!-- Time Filter Bar -->
-  <div class="px-4 py-3 border-b border-slate-800 flex flex-wrap items-center gap-2">
-    <button class="filter-btn active px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" data-period="all" onclick="setFilter('all', this)">ALL</button>
-    <button class="filter-btn px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" data-period="1h" onclick="setFilter('1h', this)">1H</button>
-    <button class="filter-btn px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" data-period="6h" onclick="setFilter('6h', this)">6H</button>
-    <button class="filter-btn px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" data-period="12h" onclick="setFilter('12h', this)">12H</button>
-    <button class="filter-btn px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" data-period="24h" onclick="setFilter('24h', this)">24H</button>
-    <button class="filter-btn px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" data-period="7d" onclick="setFilter('7d', this)">1W</button>
-    <button class="filter-btn px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" data-period="30d" onclick="setFilter('30d', this)">1M</button>
-    <button class="filter-btn px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" data-period="365d" onclick="setFilter('365d', this)">1Y</button>
-    <span class="text-slate-500 mx-2">|</span>
-    <input type="date" id="dateFrom" class="bg-slate-800 text-slate-300 text-xs px-2 py-1 rounded border border-slate-600" onchange="setCustomFilter()">
-    <span class="text-slate-500 text-xs">to</span>
-    <input type="date" id="dateTo" class="bg-slate-800 text-slate-300 text-xs px-2 py-1 rounded border border-slate-600" onchange="setCustomFilter()">
+  <!-- Trader Visibility Toggles + Time Filters -->
+  <div class="px-4 py-3 border-b border-slate-800">
+    <!-- Trader toggles -->
+    <div class="flex flex-wrap items-center gap-2 mb-2">
+      <span class="text-xs text-slate-500 mr-1">Show:</span>
+      <button class="trader-toggle active px-2 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" onclick="toggleTrader('all', this)">All</button>
+      <div id="traderToggles" class="flex flex-wrap gap-1"></div>
+    </div>
+    <!-- Time filters -->
+    <div class="flex flex-wrap items-center gap-2">
+      <button class="filter-btn active px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" onclick="setFilter('all', this)">ALL</button>
+      <button class="filter-btn px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" onclick="setFilter('1h', this)">1H</button>
+      <button class="filter-btn px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" onclick="setFilter('6h', this)">6H</button>
+      <button class="filter-btn px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" onclick="setFilter('12h', this)">12H</button>
+      <button class="filter-btn px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" onclick="setFilter('24h', this)">24H</button>
+      <button class="filter-btn px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" onclick="setFilter('7d', this)">1W</button>
+      <button class="filter-btn px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" onclick="setFilter('30d', this)">1M</button>
+      <button class="filter-btn px-3 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600" onclick="setFilter('365d', this)">1Y</button>
+      <span class="text-slate-500 mx-2">|</span>
+      <input type="date" id="dateFrom" class="bg-slate-800 text-slate-300 text-xs px-2 py-1 rounded border border-slate-600" onchange="setCustomFilter()">
+      <span class="text-slate-500 text-xs">to</span>
+      <input type="date" id="dateTo" class="bg-slate-800 text-slate-300 text-xs px-2 py-1 rounded border border-slate-600" onchange="setCustomFilter()">
+    </div>
   </div>
 
   <!-- Portfolio Summary -->
-  <div id="portfolioSummary" class="px-4 py-4 grid grid-cols-2 md:grid-cols-4 gap-3">
+  <div class="px-4 py-4 grid grid-cols-2 md:grid-cols-5 gap-3">
     <div class="bg-card rounded-lg p-3 text-center">
       <div class="text-xs text-slate-400 mb-1">Total Bankroll</div>
       <div id="totalBankroll" class="text-lg font-bold">--</div>
@@ -79,25 +82,31 @@
       <div id="totalWinRate" class="text-lg font-bold">--</div>
     </div>
     <div class="bg-card rounded-lg p-3 text-center">
+      <div class="text-xs text-slate-400 mb-1">Today's Trades</div>
+      <div id="totalTodayTrades" class="text-lg font-bold">--</div>
+    </div>
+    <div class="bg-card rounded-lg p-3 text-center">
       <div class="text-xs text-slate-400 mb-1">Active Traders</div>
       <div id="activeTraders" class="text-lg font-bold">--</div>
     </div>
   </div>
 
   <!-- Trader Cards Grid -->
-  <div id="cardsGrid" class="px-4 pb-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-    <!-- Cards populated by JS -->
-  </div>
+  <div id="cardsGrid" class="px-4 pb-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 
   <!-- Detail Panel -->
   <div id="detailPanel" class="hidden px-4 pb-8">
     <div class="bg-card rounded-lg p-4">
       <div class="flex items-center justify-between mb-4">
         <h2 id="detailTitle" class="text-lg font-bold"></h2>
-        <button onclick="closeDetail()" class="text-slate-400 hover:text-white text-sm">Close</button>
+        <button onclick="closeDetail()" class="text-slate-400 hover:text-white text-sm px-3 py-1 bg-slate-700 rounded">Close</button>
       </div>
 
-      <!-- Charts Row -->
+      <!-- Daily Stats Bar -->
+      <div id="dailyStatsBar" class="grid grid-cols-2 md:grid-cols-5 gap-3 mb-4">
+      </div>
+
+      <!-- Charts -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
         <div class="bg-slate-800/50 rounded-lg p-3">
           <h3 class="text-xs text-slate-400 mb-2">Equity Curve</h3>
@@ -119,6 +128,24 @@
         </div>
       </div>
 
+      <!-- Daily Breakdown Table -->
+      <div id="dailyBreakdownSection" class="mb-4">
+        <h3 class="text-sm font-semibold text-slate-300 mb-2">Daily Breakdown</h3>
+        <div class="overflow-x-auto max-h-60 overflow-y-auto">
+          <table class="w-full text-xs">
+            <thead class="sticky top-0 bg-card"><tr class="text-slate-400 border-b border-slate-700">
+              <th class="text-left py-2 px-2">Date</th>
+              <th class="text-right py-2 px-2">Trades</th>
+              <th class="text-right py-2 px-2">W/L</th>
+              <th class="text-right py-2 px-2">P&L</th>
+              <th class="text-right py-2 px-2">Prev Balance</th>
+              <th class="text-right py-2 px-2">% of Balance</th>
+            </tr></thead>
+            <tbody id="dailyBreakdownBody"></tbody>
+          </table>
+        </div>
+      </div>
+
       <!-- Open Positions -->
       <div id="openPosSection" class="mb-4">
         <h3 class="text-sm font-semibold text-slate-300 mb-2">Open Positions</h3>
@@ -131,6 +158,7 @@
               <th class="text-right py-2 px-2">P&L</th>
               <th class="text-right py-2 px-2">P&L %</th>
               <th class="text-right py-2 px-2">Hold</th>
+              <th class="text-left py-2 px-2">Opened</th>
             </tr></thead>
             <tbody id="openPosBody"></tbody>
           </table>
@@ -140,7 +168,7 @@
       <!-- Recent Trades -->
       <div>
         <h3 class="text-sm font-semibold text-slate-300 mb-2">Recent Trades</h3>
-        <div class="overflow-x-auto max-h-80 overflow-y-auto">
+        <div class="overflow-x-auto max-h-96 overflow-y-auto">
           <table class="w-full text-xs">
             <thead class="sticky top-0 bg-card"><tr class="text-slate-400 border-b border-slate-700">
               <th class="text-left py-2 px-2">#</th>
@@ -151,6 +179,7 @@
               <th class="text-right py-2 px-2">P&L</th>
               <th class="text-right py-2 px-2">P&L %</th>
               <th class="text-left py-2 px-2">Reason</th>
+              <th class="text-left py-2 px-2">Date</th>
               <th class="text-left py-2 px-2">Time</th>
             </tr></thead>
             <tbody id="tradesBody"></tbody>
@@ -169,12 +198,15 @@
     let selectedTrader = null;
     let charts = {};
     let sparkCharts = {};
+    let hiddenTraders = new Set(); // trader IDs to hide
+    let soloTrader = null; // if set, only show this one
 
     // ── Data Loading ──
     async function fetchData() {
       try {
         const resp = await fetch('data.json?' + Date.now());
         dashData = await resp.json();
+        buildTraderToggles();
         render();
         document.getElementById('lastSync').textContent =
           'Synced: ' + new Date(dashData.updated_at).toLocaleString();
@@ -184,27 +216,68 @@
       }
     }
 
+    // ── Trader Visibility ──
+    function buildTraderToggles() {
+      if (!dashData) return;
+      const container = document.getElementById('traderToggles');
+      if (container.children.length > 0) return; // already built
+      Object.entries(dashData.traders).forEach(([id, t]) => {
+        const btn = document.createElement('button');
+        btn.className = 'trader-toggle active px-2 py-1 rounded text-xs bg-slate-700 hover:bg-slate-600';
+        btn.textContent = t.name;
+        btn.dataset.id = id;
+        btn.onclick = () => toggleTrader(id, btn);
+        container.appendChild(btn);
+      });
+    }
+
+    function toggleTrader(id, btn) {
+      if (id === 'all') {
+        // Show all
+        hiddenTraders.clear();
+        soloTrader = null;
+        document.querySelectorAll('.trader-toggle').forEach(b => b.classList.add('active'));
+        document.querySelectorAll('.trader-toggle').forEach(b => b.classList.remove('hidden-trader'));
+      } else {
+        const allBtn = document.querySelector('.trader-toggle[onclick*="all"]');
+        // If clicking the already-solo trader, go back to all
+        if (soloTrader === id) {
+          soloTrader = null;
+          hiddenTraders.clear();
+          document.querySelectorAll('.trader-toggle').forEach(b => { b.classList.add('active'); b.classList.remove('hidden-trader'); });
+        } else {
+          // Solo this trader
+          soloTrader = id;
+          hiddenTraders.clear();
+          Object.keys(dashData.traders).forEach(tid => {
+            if (tid !== id) hiddenTraders.add(tid);
+          });
+          document.querySelectorAll('#traderToggles .trader-toggle').forEach(b => {
+            if (b.dataset.id === id) { b.classList.add('active'); b.classList.remove('hidden-trader'); }
+            else { b.classList.remove('active'); b.classList.add('hidden-trader'); }
+          });
+          if (allBtn) { allBtn.classList.remove('active'); }
+        }
+      }
+      render();
+    }
+
+    function visibleTraderIds() {
+      if (!dashData) return [];
+      return Object.keys(dashData.traders).filter(id => !hiddenTraders.has(id));
+    }
+
     // ── Time Filtering ──
     function setFilter(period, btn) {
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
       if (btn) btn.classList.add('active');
       currentFilter = period;
-
       const now = new Date();
       const hours = { '1h': 1, '6h': 6, '12h': 12, '24h': 24 };
       const days = { '7d': 7, '30d': 30, '365d': 365 };
-
-      if (period === 'all') {
-        filterFrom = null;
-        filterTo = null;
-      } else if (hours[period]) {
-        filterFrom = new Date(now - hours[period] * 3600000);
-        filterTo = now;
-      } else if (days[period]) {
-        filterFrom = new Date(now - days[period] * 86400000);
-        filterTo = now;
-      }
-
+      if (period === 'all') { filterFrom = null; filterTo = null; }
+      else if (hours[period]) { filterFrom = new Date(now - hours[period] * 3600000); filterTo = now; }
+      else if (days[period]) { filterFrom = new Date(now - days[period] * 86400000); filterTo = now; }
       render();
     }
 
@@ -244,12 +317,7 @@
       const str = abs >= 1000 ? '$' + (abs/1000).toFixed(1) + 'K' : '$' + abs.toFixed(2);
       return v < 0 ? '-' + str : (v > 0 ? '+' + str : str);
     }
-
-    function fmtPct(v) {
-      if (v == null) return '--';
-      return (v > 0 ? '+' : '') + v.toFixed(1) + '%';
-    }
-
+    function fmtPct(v) { if (v == null) return '--'; return (v > 0 ? '+' : '') + v.toFixed(1) + '%'; }
     function fmtPrice(v) {
       if (v == null || v === 0) return '--';
       if (v < 0.0001) return v.toExponential(3);
@@ -257,13 +325,7 @@
       if (v < 100) return v.toFixed(4);
       return v.toFixed(2);
     }
-
-    function pnlColor(v) {
-      if (v > 0) return 'text-green-400';
-      if (v < 0) return 'text-red-400';
-      return 'text-slate-400';
-    }
-
+    function pnlColor(v) { return v > 0 ? 'text-green-400' : (v < 0 ? 'text-red-400' : 'text-slate-400'); }
     function timeAgo(iso) {
       if (!iso) return '--';
       const diff = (Date.now() - new Date(iso).getTime()) / 60000;
@@ -271,31 +333,39 @@
       if (diff < 1440) return Math.round(diff / 60) + 'h ago';
       return Math.round(diff / 1440) + 'd ago';
     }
-
     function fmtHold(mins) {
       if (!mins) return '--';
       if (mins < 60) return Math.round(mins) + 'm';
       if (mins < 1440) return (mins / 60).toFixed(1) + 'h';
       return (mins / 1440).toFixed(1) + 'd';
     }
+    function fmtDateTime(iso) {
+      if (!iso) return { date: '--', time: '--' };
+      const d = new Date(iso);
+      return {
+        date: d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
+        time: d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false }),
+      };
+    }
 
     // ── Rendering ──
     function render() {
       if (!dashData) return;
       const traders = dashData.traders;
-      const ids = Object.keys(traders);
+      const ids = visibleTraderIds();
 
-      // Portfolio summary
-      let totalBankroll = 0, totalPnl = 0, totalWins = 0, totalTrades = 0, activeCount = 0;
-
+      // Portfolio summary (only visible traders)
+      let totalBankroll = 0, totalPnl = 0, totalWins = 0, totalTrades = 0, activeCount = 0, todayTrades = 0, todayPnl = 0;
       ids.forEach(id => {
         const t = traders[id];
         const stats = computeFilteredStats(t);
         totalBankroll += t.bankroll || 0;
         totalPnl += currentFilter === 'all' ? (t.total_pnl || 0) : stats.pnl;
-        totalWins += stats.wins;
+        totalWins += stats.wins || (currentFilter === 'all' ? t.wins : 0);
         totalTrades += stats.total || (currentFilter === 'all' ? t.total_trades : 0);
         if (t.status === 'running') activeCount++;
+        todayTrades += t.today_trades || 0;
+        todayPnl += t.daily_pnl || 0;
       });
 
       document.getElementById('totalBankroll').textContent = '$' + totalBankroll.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
@@ -303,7 +373,9 @@
       pnlEl.textContent = fmt$(totalPnl);
       pnlEl.className = 'text-lg font-bold ' + pnlColor(totalPnl);
       document.getElementById('totalWinRate').textContent = totalTrades > 0 ? (totalWins / totalTrades * 100).toFixed(1) + '%' : '--';
-      document.getElementById('activeTraders').textContent = activeCount + '/' + ids.length + ' active';
+      const ttEl = document.getElementById('totalTodayTrades');
+      ttEl.innerHTML = `${todayTrades} <span class="text-xs ${pnlColor(todayPnl)}">(${fmt$(todayPnl)})</span>`;
+      document.getElementById('activeTraders').textContent = activeCount + '/' + Object.keys(traders).length + ' active';
 
       // Cards
       const grid = document.getElementById('cardsGrid');
@@ -311,8 +383,10 @@
       ids.forEach(id => renderCard(id, traders[id], grid));
 
       // Update detail if open
-      if (selectedTrader && traders[selectedTrader]) {
+      if (selectedTrader && traders[selectedTrader] && !hiddenTraders.has(selectedTrader)) {
         renderDetail(selectedTrader, traders[selectedTrader]);
+      } else if (selectedTrader && hiddenTraders.has(selectedTrader)) {
+        closeDetail();
       }
     }
 
@@ -322,6 +396,9 @@
       const pnlPct = currentFilter === 'all' ? trader.total_pnl_pct : (trader.starting_bankroll > 0 ? pnl / trader.starting_bankroll * 100 : 0);
       const wr = currentFilter === 'all' ? trader.win_rate : stats.winRate;
       const tradeCount = currentFilter === 'all' ? trader.total_trades : stats.total;
+      const todayTr = trader.today_trades || 0;
+      const todayW = trader.today_wins || 0;
+      const todayL = trader.today_losses || 0;
 
       const borderClass = pnl > 0 ? 'card-border-green' : (pnl < 0 ? 'card-border-red' : 'card-border-gray');
       const isSelected = selectedTrader === id;
@@ -343,44 +420,36 @@
           <span class="${pnlColor(pnl)} text-sm font-medium">${fmt$(pnl)}</span>
           <span class="${pnlColor(pnlPct)} text-xs">${fmtPct(pnlPct)}</span>
         </div>
-        <div class="flex items-center justify-between text-xs text-slate-400 mb-2">
+        <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
           <span>${wr.toFixed(1)}% WR</span>
           <span>${tradeCount} trades</span>
           <span>${trader.open_positions} open</span>
         </div>
+        <div class="flex items-center justify-between text-xs mb-2">
+          <span class="text-slate-500">Today: <span class="text-slate-300">${todayTr}</span> trades <span class="text-green-400">${todayW}W</span>/<span class="text-red-400">${todayL}L</span></span>
+          <span class="${pnlColor(trader.daily_pnl)}">${fmt$(trader.daily_pnl)}</span>
+        </div>
         <div class="sparkline-container">
           <canvas id="spark-${id}" height="40"></canvas>
         </div>
-        <div class="flex items-center justify-between text-xs text-slate-500 mt-1">
-          <span>Daily: <span class="${pnlColor(trader.daily_pnl)}">${fmt$(trader.daily_pnl)}</span></span>
-          <span>Last: ${timeAgo(trader.last_trade_at)}</span>
-        </div>
+        <div class="text-xs text-slate-500 mt-1 text-right">Last: ${timeAgo(trader.last_trade_at)}</div>
       `;
 
       container.appendChild(card);
-
-      // Render sparkline
       requestAnimationFrame(() => renderSparkline(id, trader));
     }
 
     function renderSparkline(id, trader) {
       const canvas = document.getElementById('spark-' + id);
       if (!canvas) return;
-
       if (sparkCharts[id]) sparkCharts[id].destroy();
 
       let curve = trader.equity_curve || [];
       if (filterFrom && filterTo) {
-        curve = curve.filter(p => {
-          const d = new Date(p.date);
-          return d >= filterFrom && d <= filterTo;
-        });
+        curve = curve.filter(p => { const d = new Date(p.date); return d >= filterFrom && d <= filterTo; });
       }
       const last20 = curve.slice(-20);
-      if (last20.length < 2) {
-        // Not enough data for sparkline
-        return;
-      }
+      if (last20.length < 2) return;
 
       const vals = last20.map(p => p.value);
       const isUp = vals[vals.length - 1] >= vals[0];
@@ -388,249 +457,142 @@
 
       sparkCharts[id] = new Chart(canvas, {
         type: 'line',
-        data: {
-          labels: last20.map(p => p.date),
-          datasets: [{
-            data: vals,
-            borderColor: color,
-            borderWidth: 1.5,
-            fill: true,
-            backgroundColor: color + '15',
-            pointRadius: 0,
-            tension: 0.3,
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          plugins: { legend: { display: false }, tooltip: { enabled: false } },
-          scales: { x: { display: false }, y: { display: false } },
-          animation: false,
-        }
+        data: { labels: last20.map(p => p.date), datasets: [{ data: vals, borderColor: color, borderWidth: 1.5, fill: true, backgroundColor: color + '15', pointRadius: 0, tension: 0.3 }] },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }, tooltip: { enabled: false } }, scales: { x: { display: false }, y: { display: false } }, animation: false }
       });
     }
 
     // ── Detail Panel ──
     function renderDetail(id, trader) {
       document.getElementById('detailTitle').textContent = trader.name + ' — Detail View';
-
       const stats = computeFilteredStats(trader);
       const trades = stats.trades.length > 0 ? stats.trades : trader.trades;
 
+      renderDailyStatsBar(trader);
       renderEquityChart(trader);
       renderDailyPnlChart(trades);
       renderWinRateChart(trades);
       renderWinLossChart(stats.wins || trader.wins, stats.losses || trader.losses);
+      renderDailyBreakdown(trader.daily_breakdown || []);
       renderOpenPositions(trader.open || []);
       renderTradesTable(trades);
+    }
+
+    function renderDailyStatsBar(trader) {
+      const bar = document.getElementById('dailyStatsBar');
+      const db = trader.daily_breakdown || [];
+      const today = db.length > 0 ? db[db.length - 1] : null;
+      const yesterday = db.length > 1 ? db[db.length - 2] : null;
+      const todayPnl = trader.daily_pnl || 0;
+      const todayTr = trader.today_trades || 0;
+      const prevBal = today ? today.prev_balance : null;
+      const pnlPctPrev = prevBal ? (todayPnl / prevBal * 100) : null;
+
+      bar.innerHTML = `
+        <div class="bg-slate-800/50 rounded-lg p-3 text-center">
+          <div class="text-xs text-slate-400 mb-1">Today's Trades</div>
+          <div class="text-lg font-bold">${todayTr}</div>
+          <div class="text-xs text-slate-500">${trader.today_wins || 0}W / ${trader.today_losses || 0}L</div>
+        </div>
+        <div class="bg-slate-800/50 rounded-lg p-3 text-center">
+          <div class="text-xs text-slate-400 mb-1">Today's P&L</div>
+          <div class="text-lg font-bold ${pnlColor(todayPnl)}">${fmt$(todayPnl)}</div>
+          <div class="text-xs text-slate-500">${pnlPctPrev != null ? fmtPct(pnlPctPrev) + ' of prev bal' : '--'}</div>
+        </div>
+        <div class="bg-slate-800/50 rounded-lg p-3 text-center">
+          <div class="text-xs text-slate-400 mb-1">Prev Day Balance</div>
+          <div class="text-lg font-bold">${prevBal != null ? '$' + prevBal.toLocaleString(undefined, {minimumFractionDigits: 2}) : '--'}</div>
+        </div>
+        <div class="bg-slate-800/50 rounded-lg p-3 text-center">
+          <div class="text-xs text-slate-400 mb-1">Current Balance</div>
+          <div class="text-lg font-bold">$${(trader.bankroll || 0).toLocaleString(undefined, {minimumFractionDigits: 2})}</div>
+        </div>
+        <div class="bg-slate-800/50 rounded-lg p-3 text-center">
+          <div class="text-xs text-slate-400 mb-1">Yesterday</div>
+          <div class="text-lg font-bold ${pnlColor(yesterday ? yesterday.pnl : 0)}">${yesterday ? fmt$(yesterday.pnl) : '--'}</div>
+          <div class="text-xs text-slate-500">${yesterday ? yesterday.trades + ' trades' : '--'}</div>
+        </div>
+      `;
     }
 
     function renderEquityChart(trader) {
       if (charts.equity) charts.equity.destroy();
       let curve = trader.equity_curve || [];
-      if (filterFrom && filterTo) {
-        curve = curve.filter(p => new Date(p.date) >= filterFrom && new Date(p.date) <= filterTo);
-      }
-      if (curve.length === 0) {
-        curve = [{ date: new Date().toISOString().slice(0,10), value: trader.bankroll }];
-      }
-
+      if (filterFrom && filterTo) curve = curve.filter(p => new Date(p.date) >= filterFrom && new Date(p.date) <= filterTo);
+      if (curve.length === 0) curve = [{ date: new Date().toISOString().slice(0,10), value: trader.bankroll }];
       const isUp = curve[curve.length - 1].value >= curve[0].value;
       const color = isUp ? '#22c55e' : '#ef4444';
-
       charts.equity = new Chart(document.getElementById('equityChart'), {
         type: 'line',
-        data: {
-          labels: curve.map(p => p.date),
-          datasets: [{
-            label: 'Equity',
-            data: curve.map(p => p.value),
-            borderColor: color,
-            borderWidth: 2,
-            fill: true,
-            backgroundColor: color + '20',
-            pointRadius: curve.length < 30 ? 3 : 0,
-            tension: 0.2,
-          }]
-        },
-        options: {
-          responsive: true,
-          plugins: {
-            legend: { display: false },
-            tooltip: {
-              callbacks: {
-                label: ctx => '$' + ctx.parsed.y.toFixed(2)
-              }
-            }
-          },
-          scales: {
-            x: { ticks: { color: '#94a3b8', maxTicksLimit: 8, font: { size: 10 } }, grid: { color: '#1e293b' } },
-            y: { ticks: { color: '#94a3b8', callback: v => '$' + v.toLocaleString(), font: { size: 10 } }, grid: { color: '#1e293b' } }
-          }
-        }
+        data: { labels: curve.map(p => p.date), datasets: [{ label: 'Equity', data: curve.map(p => p.value), borderColor: color, borderWidth: 2, fill: true, backgroundColor: color + '20', pointRadius: curve.length < 30 ? 3 : 0, tension: 0.2 }] },
+        options: { responsive: true, plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => '$' + ctx.parsed.y.toFixed(2) } } }, scales: { x: { ticks: { color: '#94a3b8', maxTicksLimit: 8, font: { size: 10 } }, grid: { color: '#1e293b' } }, y: { ticks: { color: '#94a3b8', callback: v => '$' + v.toLocaleString(), font: { size: 10 } }, grid: { color: '#1e293b' } } } }
       });
     }
 
     function renderDailyPnlChart(trades) {
       if (charts.dailyPnl) charts.dailyPnl.destroy();
-
-      // Group by date
       const daily = {};
-      trades.forEach(t => {
-        const d = (t.closed_at || t.opened_at || '').slice(0, 10);
-        if (d) daily[d] = (daily[d] || 0) + (t.pnl || 0);
-      });
-
+      trades.forEach(t => { const d = (t.closed_at || t.opened_at || '').slice(0, 10); if (d) daily[d] = (daily[d] || 0) + (t.pnl || 0); });
       const dates = Object.keys(daily).sort();
       const vals = dates.map(d => daily[d]);
-
       charts.dailyPnl = new Chart(document.getElementById('dailyPnlChart'), {
         type: 'bar',
-        data: {
-          labels: dates,
-          datasets: [{
-            label: 'Daily P&L',
-            data: vals,
-            backgroundColor: vals.map(v => v >= 0 ? '#22c55e80' : '#ef444480'),
-            borderColor: vals.map(v => v >= 0 ? '#22c55e' : '#ef4444'),
-            borderWidth: 1,
-          }]
-        },
-        options: {
-          responsive: true,
-          plugins: {
-            legend: { display: false },
-            tooltip: { callbacks: { label: ctx => fmt$(ctx.parsed.y) } }
-          },
-          scales: {
-            x: { ticks: { color: '#94a3b8', maxTicksLimit: 8, font: { size: 10 } }, grid: { display: false } },
-            y: { ticks: { color: '#94a3b8', callback: v => '$' + v, font: { size: 10 } }, grid: { color: '#1e293b' } }
-          }
-        }
+        data: { labels: dates, datasets: [{ label: 'Daily P&L', data: vals, backgroundColor: vals.map(v => v >= 0 ? '#22c55e80' : '#ef444480'), borderColor: vals.map(v => v >= 0 ? '#22c55e' : '#ef4444'), borderWidth: 1 }] },
+        options: { responsive: true, plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => fmt$(ctx.parsed.y) } } }, scales: { x: { ticks: { color: '#94a3b8', maxTicksLimit: 8, font: { size: 10 } }, grid: { display: false } }, y: { ticks: { color: '#94a3b8', callback: v => '$' + v, font: { size: 10 } }, grid: { color: '#1e293b' } } } }
       });
     }
 
     function renderWinRateChart(trades) {
       if (charts.winRate) charts.winRate.destroy();
-
-      const window = 20;
-      const points = [];
+      const w = 20, points = [];
       const sorted = [...trades].sort((a, b) => (a.closed_at || '').localeCompare(b.closed_at || ''));
-
       for (let i = 0; i < sorted.length; i++) {
-        const start = Math.max(0, i - window + 1);
-        const slice = sorted.slice(start, i + 1);
-        const wins = slice.filter(t => t.outcome === 'WIN').length;
-        points.push({
-          x: i + 1,
-          y: (wins / slice.length) * 100,
-        });
+        const slice = sorted.slice(Math.max(0, i - w + 1), i + 1);
+        points.push({ x: i + 1, y: (slice.filter(t => t.outcome === 'WIN').length / slice.length) * 100 });
       }
-
       charts.winRate = new Chart(document.getElementById('winRateChart'), {
         type: 'line',
-        data: {
-          labels: points.map(p => p.x),
-          datasets: [
-            {
-              label: 'Win Rate %',
-              data: points.map(p => p.y),
-              borderColor: '#3b82f6',
-              borderWidth: 2,
-              fill: false,
-              pointRadius: 0,
-              tension: 0.3,
-            },
-            {
-              label: '50%',
-              data: points.map(() => 50),
-              borderColor: '#475569',
-              borderWidth: 1,
-              borderDash: [5, 5],
-              pointRadius: 0,
-              fill: false,
-            }
-          ]
-        },
-        options: {
-          responsive: true,
-          plugins: {
-            legend: { display: false },
-            tooltip: { callbacks: { label: ctx => ctx.parsed.y.toFixed(1) + '%' } }
-          },
-          scales: {
-            x: { title: { display: true, text: 'Trade #', color: '#64748b', font: { size: 10 } }, ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { display: false } },
-            y: { min: 0, max: 100, ticks: { color: '#94a3b8', callback: v => v + '%', font: { size: 10 } }, grid: { color: '#1e293b' } }
-          }
-        }
+        data: { labels: points.map(p => p.x), datasets: [{ label: 'Win Rate %', data: points.map(p => p.y), borderColor: '#3b82f6', borderWidth: 2, fill: false, pointRadius: 0, tension: 0.3 }, { label: '50%', data: points.map(() => 50), borderColor: '#475569', borderWidth: 1, borderDash: [5, 5], pointRadius: 0, fill: false }] },
+        options: { responsive: true, plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ctx.parsed.y.toFixed(1) + '%' } } }, scales: { x: { title: { display: true, text: 'Trade #', color: '#64748b', font: { size: 10 } }, ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { display: false } }, y: { min: 0, max: 100, ticks: { color: '#94a3b8', callback: v => v + '%', font: { size: 10 } }, grid: { color: '#1e293b' } } } }
       });
     }
 
     function renderWinLossChart(wins, losses) {
       if (charts.winLoss) charts.winLoss.destroy();
-
       const total = wins + losses;
-      if (total === 0) {
-        // Empty state
-        charts.winLoss = new Chart(document.getElementById('winLossChart'), {
-          type: 'doughnut',
-          data: { labels: ['No trades'], datasets: [{ data: [1], backgroundColor: ['#475569'] }] },
-          options: { responsive: true, plugins: { legend: { display: false } } }
-        });
-        return;
-      }
-
+      if (total === 0) { charts.winLoss = new Chart(document.getElementById('winLossChart'), { type: 'doughnut', data: { labels: ['No trades'], datasets: [{ data: [1], backgroundColor: ['#475569'] }] }, options: { responsive: true, plugins: { legend: { display: false } } } }); return; }
       charts.winLoss = new Chart(document.getElementById('winLossChart'), {
         type: 'doughnut',
-        data: {
-          labels: ['Wins', 'Losses'],
-          datasets: [{
-            data: [wins, losses],
-            backgroundColor: ['#22c55e', '#ef4444'],
-            borderWidth: 0,
-          }]
-        },
-        options: {
-          responsive: true,
-          cutout: '65%',
-          plugins: {
-            legend: {
-              position: 'bottom',
-              labels: { color: '#94a3b8', font: { size: 11 }, padding: 12 }
-            },
-            tooltip: {
-              callbacks: {
-                label: ctx => `${ctx.label}: ${ctx.parsed} (${(ctx.parsed / total * 100).toFixed(1)}%)`
-              }
-            }
-          }
-        },
-        plugins: [{
-          id: 'centerText',
-          afterDraw(chart) {
-            const { ctx, chartArea: { width, height, top } } = chart;
-            ctx.save();
-            ctx.font = 'bold 24px sans-serif';
-            ctx.fillStyle = '#f1f5f9';
-            ctx.textAlign = 'center';
-            ctx.textBaseline = 'middle';
-            ctx.fillText((wins / total * 100).toFixed(0) + '%', width / 2 + chart.chartArea.left, top + height / 2);
-            ctx.restore();
-          }
-        }]
+        data: { labels: ['Wins', 'Losses'], datasets: [{ data: [wins, losses], backgroundColor: ['#22c55e', '#ef4444'], borderWidth: 0 }] },
+        options: { responsive: true, cutout: '65%', plugins: { legend: { position: 'bottom', labels: { color: '#94a3b8', font: { size: 11 }, padding: 12 } }, tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.parsed} (${(ctx.parsed / total * 100).toFixed(1)}%)` } } } },
+        plugins: [{ id: 'centerText', afterDraw(chart) { const { ctx, chartArea: { width, height, top, left } } = chart; ctx.save(); ctx.font = 'bold 24px sans-serif'; ctx.fillStyle = '#f1f5f9'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText((wins / total * 100).toFixed(0) + '%', left + width / 2, top + height / 2); ctx.restore(); } }]
       });
+    }
+
+    function renderDailyBreakdown(breakdown) {
+      const body = document.getElementById('dailyBreakdownBody');
+      if (!breakdown || breakdown.length === 0) { body.innerHTML = '<tr><td colspan="6" class="text-center py-4 text-slate-500">No daily data</td></tr>'; return; }
+      const sorted = [...breakdown].reverse();
+      body.innerHTML = sorted.map(d => `
+        <tr class="trade-row border-b border-slate-800">
+          <td class="py-1.5 px-2 font-medium">${d.date}</td>
+          <td class="py-1.5 px-2 text-right">${d.trades}</td>
+          <td class="py-1.5 px-2 text-right"><span class="text-green-400">${d.wins}W</span> / <span class="text-red-400">${d.losses}L</span></td>
+          <td class="py-1.5 px-2 text-right ${pnlColor(d.pnl)}">${fmt$(d.pnl)}</td>
+          <td class="py-1.5 px-2 text-right">${d.prev_balance != null ? '$' + d.prev_balance.toLocaleString(undefined, {minimumFractionDigits: 2}) : '--'}</td>
+          <td class="py-1.5 px-2 text-right ${pnlColor(d.pnl_pct_of_prev)}">${d.pnl_pct_of_prev != null ? fmtPct(d.pnl_pct_of_prev) : '--'}</td>
+        </tr>
+      `).join('');
     }
 
     function renderOpenPositions(positions) {
       const section = document.getElementById('openPosSection');
       const body = document.getElementById('openPosBody');
-
-      if (positions.length === 0) {
-        section.style.display = 'none';
-        return;
-      }
+      if (positions.length === 0) { section.style.display = 'none'; return; }
       section.style.display = 'block';
-      body.innerHTML = positions.map(p => `
+      body.innerHTML = positions.map(p => {
+        const dt = fmtDateTime(p.opened_at);
+        return `
         <tr class="trade-row border-b border-slate-800">
           <td class="py-1.5 px-2 font-medium">${p.symbol}</td>
           <td class="py-1.5 px-2 text-right">${fmtPrice(p.entry_price)}</td>
@@ -638,15 +600,17 @@
           <td class="py-1.5 px-2 text-right ${pnlColor(p.pnl)}">${fmt$(p.pnl)}</td>
           <td class="py-1.5 px-2 text-right ${pnlColor(p.pnl_pct)}">${fmtPct(p.pnl_pct)}</td>
           <td class="py-1.5 px-2 text-right">${fmtHold(p.hold_minutes)}</td>
-        </tr>
-      `).join('');
+          <td class="py-1.5 px-2 text-slate-400">${dt.date} ${dt.time}</td>
+        </tr>`;
+      }).join('');
     }
 
     function renderTradesTable(trades) {
       const body = document.getElementById('tradesBody');
-      const sorted = [...trades].sort((a, b) => (b.closed_at || '').localeCompare(a.closed_at || '')).slice(0, 50);
-
-      body.innerHTML = sorted.map(t => `
+      const sorted = [...trades].sort((a, b) => (b.closed_at || '').localeCompare(a.closed_at || '')).slice(0, 100);
+      body.innerHTML = sorted.map(t => {
+        const dt = fmtDateTime(t.closed_at || t.opened_at);
+        return `
         <tr class="trade-row border-b border-slate-800">
           <td class="py-1.5 px-2 text-slate-500">${t.id || '--'}</td>
           <td class="py-1.5 px-2 font-medium">${t.symbol}</td>
@@ -656,9 +620,10 @@
           <td class="py-1.5 px-2 text-right ${pnlColor(t.pnl)}">${fmt$(t.pnl)}</td>
           <td class="py-1.5 px-2 text-right ${pnlColor(t.pnl_pct)}">${fmtPct(t.pnl_pct)}</td>
           <td class="py-1.5 px-2 text-slate-400">${t.exit_reason || '--'}</td>
-          <td class="py-1.5 px-2 text-slate-400">${timeAgo(t.closed_at)}</td>
-        </tr>
-      `).join('');
+          <td class="py-1.5 px-2 text-slate-300">${dt.date}</td>
+          <td class="py-1.5 px-2 text-slate-400">${dt.time}</td>
+        </tr>`;
+      }).join('');
     }
 
     function closeDetail() {
@@ -668,8 +633,11 @@
     }
 
     // ── Init ──
+    const isLocal = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+    const refreshMs = isLocal ? 10000 : 30000;
     fetchData();
-    setInterval(fetchData, 30000);
+    setInterval(fetchData, refreshMs);
+    if (isLocal) document.getElementById('lastSync').textContent = 'Live (local)';
   </script>
 </body>
 </html>
