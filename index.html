@@ -355,11 +355,12 @@
       const ids = visibleTraderIds();
 
       // Portfolio summary (only visible traders)
-      let totalBankroll = 0, totalPnl = 0, totalWins = 0, totalTrades = 0, activeCount = 0, todayTrades = 0, todayPnl = 0;
+      let totalBankroll = 0, totalStarting = 0, totalPnl = 0, totalWins = 0, totalTrades = 0, activeCount = 0, todayTrades = 0, todayPnl = 0;
       ids.forEach(id => {
         const t = traders[id];
         const stats = computeFilteredStats(t);
         totalBankroll += t.bankroll || 0;
+        totalStarting += t.starting_bankroll || 0;
         totalPnl += currentFilter === 'all' ? (t.total_pnl || 0) : stats.pnl;
         totalWins += stats.wins || (currentFilter === 'all' ? t.wins : 0);
         totalTrades += stats.total || (currentFilter === 'all' ? t.total_trades : 0);
@@ -368,7 +369,7 @@
         todayPnl += t.daily_pnl || 0;
       });
 
-      document.getElementById('totalBankroll').textContent = '$' + totalBankroll.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
+      document.getElementById('totalBankroll').innerHTML = '$' + totalBankroll.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2}) + '<div class="text-xs text-slate-500 font-normal">Started: $' + totalStarting.toLocaleString(undefined, {minimumFractionDigits: 0, maximumFractionDigits: 0}) + '</div>';
       const pnlEl = document.getElementById('totalPnl');
       pnlEl.textContent = fmt$(totalPnl);
       pnlEl.className = 'text-lg font-bold ' + pnlColor(totalPnl);
@@ -415,7 +416,8 @@
             ${trader.status}
           </span>
         </div>
-        <div class="text-2xl font-bold mb-1">$${(trader.bankroll || 0).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</div>
+        <div class="text-2xl font-bold mb-0">$${(trader.bankroll || 0).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</div>
+        <div class="text-xs text-slate-500 mb-1">Started: $${(trader.starting_bankroll || 0).toLocaleString(undefined, {minimumFractionDigits: 0, maximumFractionDigits: 0})}</div>
         <div class="flex items-center gap-3 mb-2">
           <span class="${pnlColor(pnl)} text-sm font-medium">${fmt$(pnl)}</span>
           <span class="${pnlColor(pnlPct)} text-xs">${fmtPct(pnlPct)}</span>
