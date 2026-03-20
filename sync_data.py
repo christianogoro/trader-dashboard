@@ -409,21 +409,53 @@ def normalize_trade(t, trader_type):
 def normalize_open_position(p, trader_type):
     """Normalize an open position from state.json."""
     if isinstance(p, dict):
-        # Try to extract common fields
         symbol = p.get("pair") or p.get("symbol") or p.get("coin") or "???"
+        entry = p.get("entry_price", 0)
+        current = p.get("current_price")
+
+        # Leverage positions: compute current price from unrealized P&L
+        if current is None and p.get("unrealized_pnl") is not None and p.get("quantity"):
+            side = p.get("side") or p.get("direction") or "long"
+            upnl = p.get("unrealized_pnl", 0)
+            qty = p.get("quantity", 1)
+            if side in ("long", "up"):
+                current = entry + (upnl / qty) if qty else entry
+            else:
+                current = entry - (upnl / qty) if qty else entry
+        if current is None:
+            current = p.get("peak_price", entry)
+
+        # Compute P&L %
+        margin = p.get("margin", 0)
+        upnl = p.get("unrealized_pnl", p.get("pnl", 0))
+        pnl_pct = (upnl / margin * 100) if margin else p.get("pnl_pct", 0)
+
+        # Hold time
+        hold = 0
+        if p.get("opened_at"):
+            try:
+                opened = datetime.fromisoformat(p["opened_at"])
+                if opened.tzinfo is None:
+                    opened = opened.replace(tzinfo=timezone.utc)
+                hold = (datetime.now(timezone.utc) - opened).total_seconds() / 60
+            except Exception:
+                pass
+
         return {
             "symbol": symbol,
-            "entry_price": p.get("entry_price", 0),
-            "current_price": p.get("current_price", p.get("entry_price", 0)),
-            "pnl": p.get("pnl", 0),
-            "pnl_pct": p.get("pnl_pct", 0),
+            "entry_price": entry,
+            "current_price": round(current, 6) if current else entry,
+            "pnl": round(upnl, 2),
+            "pnl_pct": round(pnl_pct, 2),
             "opened_at": p.get("opened_at"),
-            "hold_minutes": 0,
+            "hold_minutes": round(hold, 1),
             "extra": {
-                "direction": p.get("direction"),
+                "direction": p.get("direction") or p.get("side"),
                 "leverage": p.get("leverage"),
                 "stop_loss": p.get("stop_loss"),
                 "take_profit": p.get("take_profit"),
+                "margin": margin,
+                "liquidation_price": p.get("liquidation_price"),
             },
         }
     return {}
