@@ -254,6 +254,16 @@ def load_jsonl_trader(cfg, trader_type="standard"):
     starting = state.get("starting_bankroll", bankroll)
     total_pnl = state.get("total_pnl", sum(t["pnl"] for t in closed))
 
+    # For leverage trader: bankroll = free cash only, need to add back margin + unrealized
+    state_open = state.get("open_positions", state.get("positions", []))
+    if isinstance(state_open, list):
+        margin_locked = sum(p.get("margin", 0) for p in state_open)
+        unrealized = sum(p.get("unrealized_pnl", 0) for p in state_open)
+        if margin_locked > 0:
+            # Total equity = free cash + margin + unrealized P&L
+            bankroll = bankroll + margin_locked + unrealized
+            total_pnl = round(bankroll - starting, 2)
+
     # Open positions
     open_pos = []
     state_open = state.get("open_positions", state.get("positions", []))
