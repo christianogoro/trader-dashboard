@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-30T21:45:01.124617+00:00",
+  "updated_at": "2026-03-30T21:50:00.354011+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -7353,20 +7353,20 @@
     "crypto_5m": {
       "name": "Crypto 5m",
       "status": "running",
-      "bankroll": 3432.16,
+      "bankroll": 3270.7,
       "starting_bankroll": 2000.0,
-      "total_pnl": 1432.16,
-      "total_pnl_pct": 71.61,
-      "total_trades": 245,
+      "total_pnl": 1270.7,
+      "total_pnl_pct": 63.53,
+      "total_trades": 246,
       "wins": 134,
-      "losses": 111,
-      "win_rate": 54.7,
-      "daily_pnl": 156.65,
+      "losses": 112,
+      "win_rate": 54.5,
+      "daily_pnl": -4.81,
       "open_positions": 0,
-      "last_trade_at": "2026-03-30T16:10:10.938844+00:00",
-      "today_trades": 1,
+      "last_trade_at": "2026-03-30T21:45:11.485810+00:00",
+      "today_trades": 2,
       "today_wins": 1,
-      "today_losses": 0,
+      "today_losses": 1,
       "daily_breakdown": [
         {
           "date": "2026-03-06",
@@ -7560,13 +7560,13 @@
         },
         {
           "date": "2026-03-30",
-          "trades": 1,
+          "trades": 2,
           "wins": 1,
-          "losses": 0,
-          "pnl": 156.65,
+          "losses": 1,
+          "pnl": -4.81,
           "prev_balance": 3275.51,
-          "balance": 3432.16,
-          "pnl_pct_of_prev": 4.78
+          "balance": 3270.7,
+          "pnl_pct_of_prev": -0.15
         }
       ],
       "trades": [
@@ -12959,6 +12959,28 @@
             "market_regime": "trending_up",
             "fee": 4.95
           }
+        },
+        {
+          "id": 250,
+          "opened_at": "2026-03-30T21:35:10.893656+00:00",
+          "closed_at": "2026-03-30T21:45:11.485810+00:00",
+          "symbol": "ETH",
+          "direction": "down",
+          "entry_price": 0.53,
+          "exit_price": null,
+          "pnl": -161.46,
+          "pnl_pct": -102.94,
+          "outcome": "LOSS",
+          "exit_reason": "resolved",
+          "bankroll_after": 3270.7,
+          "extra": {
+            "ml_prob": 0.3856,
+            "edge_pct": 16.31,
+            "bet_size": 156.85,
+            "confidence": "high",
+            "market_regime": "trending_up",
+            "fee": 4.61
+          }
         }
       ],
       "open": [],
@@ -13057,12 +13079,12 @@
         },
         {
           "date": "2026-03-30",
-          "value": 3432.16
+          "value": 3270.7
         }
       ],
       "extra_state": {
-        "total_fees": 338.49,
-        "consec_losses": 0
+        "total_fees": 343.1,
+        "consec_losses": 1
       }
     },
     "crypto_15m": {
@@ -15257,10 +15279,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1934.13,
+      "bankroll": 1934.72,
       "starting_bankroll": 2000.0,
-      "total_pnl": -65.87,
-      "total_pnl_pct": -3.29,
+      "total_pnl": -65.28,
+      "total_pnl_pct": -3.26,
       "total_trades": 30,
       "wins": 11,
       "losses": 19,
@@ -15939,11 +15961,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2061.789248,
-          "current_price": 2043.816496,
-          "pnl": 5.77,
-          "pnl_pct": 2.62,
+          "current_price": 2041.386904,
+          "pnl": 6.55,
+          "pnl_pct": 2.97,
           "opened_at": "2026-03-30T17:10:03.245140+00:00",
-          "hold_minutes": 275.0,
+          "hold_minutes": 280.0,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -15956,11 +15978,11 @@
         {
           "symbol": "BTC",
           "entry_price": 66597.7356,
-          "current_price": 66858.485242,
-          "pnl": 3.01,
-          "pnl_pct": 1.17,
+          "current_price": 66838.560851,
+          "pnl": 2.78,
+          "pnl_pct": 1.08,
           "opened_at": "2026-03-30T18:26:17.233762+00:00",
-          "hold_minutes": 198.7,
+          "hold_minutes": 203.7,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -15973,11 +15995,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.325259,
-          "current_price": 1.33175,
-          "pnl": -3.2,
-          "pnl_pct": -1.47,
+          "current_price": 1.331669,
+          "pnl": -3.16,
+          "pnl_pct": -1.45,
           "opened_at": "2026-03-30T20:58:19.780270+00:00",
-          "hold_minutes": 46.7,
+          "hold_minutes": 51.7,
           "extra": {
             "direction": "short",
             "leverage": 3,
