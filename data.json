@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-31T18:50:00.529132+00:00",
+  "updated_at": "2026-03-31T18:55:00.753350+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -6716,11 +6716,11 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T16:45:10.822291+00:00",
-          "hold_minutes": 124.8,
+          "hold_minutes": 129.8,
           "extra": {
             "direction": "short",
             "leverage": null,
-            "stop_loss": 183.61035,
+            "stop_loss": 183.38802,
             "take_profit": 183.21779,
             "margin": 0,
             "liquidation_price": null
@@ -6733,7 +6733,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T18:15:10.460915+00:00",
-          "hold_minutes": 34.8,
+          "hold_minutes": 39.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -6750,11 +6750,11 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T18:20:10.382716+00:00",
-          "hold_minutes": 29.8,
+          "hold_minutes": 34.8,
           "extra": {
             "direction": "short",
             "leverage": null,
-            "stop_loss": 1.32548,
+            "stop_loss": 1.32383,
             "take_profit": 1.32226,
             "margin": 0,
             "liquidation_price": null
@@ -7885,15 +7885,15 @@
         {
           "symbol": "AAPL",
           "entry_price": 253.3831,
-          "current_price": 253.79,
+          "current_price": 253.815,
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T14:30:33.273909-04:00",
-          "hold_minutes": 19.5,
+          "hold_minutes": 24.5,
           "extra": {
             "direction": "long",
             "leverage": null,
-            "stop_loss": 252.66,
+            "stop_loss": 252.69,
             "take_profit": 254.82,
             "margin": 0,
             "liquidation_price": null
@@ -7902,11 +7902,11 @@
         {
           "symbol": "INTC",
           "entry_price": 44.034,
-          "current_price": 44.03399,
+          "current_price": 44.06,
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T14:38:35.468455-04:00",
-          "hold_minutes": 11.4,
+          "hold_minutes": 16.4,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -7923,7 +7923,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T14:39:47.459575-04:00",
-          "hold_minutes": 10.2,
+          "hold_minutes": 15.2,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -7940,7 +7940,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T14:40:55.590257-04:00",
-          "hold_minutes": 9.1,
+          "hold_minutes": 14.1,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -7957,7 +7957,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T14:43:10.164528-04:00",
-          "hold_minutes": 6.8,
+          "hold_minutes": 11.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -16038,10 +16038,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1914.41,
+      "bankroll": 1914.13,
       "starting_bankroll": 2000.0,
-      "total_pnl": -85.59,
-      "total_pnl_pct": -4.28,
+      "total_pnl": -85.87,
+      "total_pnl_pct": -4.29,
       "total_trades": 34,
       "wins": 11,
       "losses": 23,
@@ -16806,11 +16806,11 @@
         {
           "symbol": "BTC",
           "entry_price": 66775.3776,
-          "current_price": 67790.746433,
-          "pnl": 11.6,
-          "pnl_pct": 4.56,
+          "current_price": 67766.23753,
+          "pnl": 11.32,
+          "pnl_pct": 4.45,
           "opened_at": "2026-03-31T14:51:32.974489+00:00",
-          "hold_minutes": 238.5,
+          "hold_minutes": 243.5,
           "extra": {
             "direction": "long",
             "leverage": 3,
