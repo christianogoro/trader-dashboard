@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-31T18:40:00.780359+00:00",
+  "updated_at": "2026-03-31T18:45:00.224589+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -6716,7 +6716,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T16:45:10.822291+00:00",
-          "hold_minutes": 114.8,
+          "hold_minutes": 119.8,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -6733,7 +6733,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T18:15:10.460915+00:00",
-          "hold_minutes": 24.8,
+          "hold_minutes": 29.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -6750,7 +6750,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T18:20:10.382716+00:00",
-          "hold_minutes": 19.8,
+          "hold_minutes": 24.8,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -6832,7 +6832,7 @@
       "losses": 39,
       "win_rate": 22.0,
       "daily_pnl": 0.0,
-      "open_positions": 3,
+      "open_positions": 5,
       "last_trade_at": "2026-03-30T15:58:49.642840-04:00",
       "today_trades": 0,
       "today_wins": 0,
@@ -7889,7 +7889,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T14:30:33.273909-04:00",
-          "hold_minutes": 9.5,
+          "hold_minutes": 14.5,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -7906,7 +7906,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T14:38:35.468455-04:00",
-          "hold_minutes": 1.4,
+          "hold_minutes": 6.4,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -7923,12 +7923,46 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T14:39:47.459575-04:00",
-          "hold_minutes": 0.2,
+          "hold_minutes": 5.2,
           "extra": {
             "direction": "long",
             "leverage": null,
             "stop_loss": 172.92,
             "take_profit": 175.18,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "TSLA",
+          "entry_price": 372.7424,
+          "current_price": 372.74237,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-03-31T14:40:55.590257-04:00",
+          "hold_minutes": 4.1,
+          "extra": {
+            "direction": "long",
+            "leverage": null,
+            "stop_loss": 370.66,
+            "take_profit": 375.78,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "MSFT",
+          "entry_price": 370.6303,
+          "current_price": 370.63026,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-03-31T14:43:10.164528-04:00",
+          "hold_minutes": 1.8,
+          "extra": {
+            "direction": "long",
+            "leverage": null,
+            "stop_loss": 369.14,
+            "take_profit": 372.48,
             "margin": 0,
             "liquidation_price": null
           }
@@ -16004,10 +16038,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1914.31,
+      "bankroll": 1913.64,
       "starting_bankroll": 2000.0,
-      "total_pnl": -85.69,
-      "total_pnl_pct": -4.28,
+      "total_pnl": -86.36,
+      "total_pnl_pct": -4.32,
       "total_trades": 34,
       "wins": 11,
       "losses": 23,
@@ -16772,11 +16806,11 @@
         {
           "symbol": "BTC",
           "entry_price": 66775.3776,
-          "current_price": 67781.993253,
-          "pnl": 11.5,
-          "pnl_pct": 4.52,
+          "current_price": 67723.34695,
+          "pnl": 10.83,
+          "pnl_pct": 4.26,
           "opened_at": "2026-03-31T14:51:32.974489+00:00",
-          "hold_minutes": 228.5,
+          "hold_minutes": 233.5,
           "extra": {
             "direction": "long",
             "leverage": 3,
