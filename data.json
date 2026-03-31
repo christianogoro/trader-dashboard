@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-31T19:55:00.798569+00:00",
+  "updated_at": "2026-03-31T20:00:00.844134+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -6779,11 +6779,11 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T19:00:10.512963+00:00",
-          "hold_minutes": 54.8,
+          "hold_minutes": 59.8,
           "extra": {
             "direction": "short",
             "leverage": null,
-            "stop_loss": 158.78742,
+            "stop_loss": 158.76767,
             "take_profit": 158.64449,
             "margin": 0,
             "liquidation_price": null
@@ -6796,7 +6796,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T19:20:10.463280+00:00",
-          "hold_minutes": 34.8,
+          "hold_minutes": 39.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -6813,7 +6813,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-03-31T19:40:10.376560+00:00",
-          "hold_minutes": 14.8,
+          "hold_minutes": 19.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -6886,20 +6886,20 @@
     "stock": {
       "name": "Stock Trader",
       "status": "running",
-      "bankroll": 23947.54,
+      "bankroll": 23928.03,
       "starting_bankroll": 25000.0,
-      "total_pnl": -1052.46,
-      "total_pnl_pct": -4.21,
-      "total_trades": 53,
-      "wins": 13,
-      "losses": 40,
-      "win_rate": 24.5,
-      "daily_pnl": 36.96,
-      "open_positions": 5,
-      "last_trade_at": "2026-03-31T15:53:01.874832-04:00",
-      "today_trades": 3,
-      "today_wins": 2,
-      "today_losses": 1,
+      "total_pnl": -1071.97,
+      "total_pnl_pct": -4.29,
+      "total_trades": 62,
+      "wins": 17,
+      "losses": 45,
+      "win_rate": 27.4,
+      "daily_pnl": 17.44,
+      "open_positions": 1,
+      "last_trade_at": "2026-03-31T15:59:51.719157-04:00",
+      "today_trades": 12,
+      "today_wins": 6,
+      "today_losses": 6,
       "daily_breakdown": [
         {
           "date": "2026-03-25",
@@ -6943,13 +6943,13 @@
         },
         {
           "date": "2026-03-31",
-          "trades": 3,
-          "wins": 2,
-          "losses": 1,
-          "pnl": 36.95,
+          "trades": 12,
+          "wins": 6,
+          "losses": 6,
+          "pnl": -2.01,
           "prev_balance": 23910.59,
-          "balance": 23947.54,
-          "pnl_pct_of_prev": 0.15
+          "balance": 23928.03,
+          "pnl_pct_of_prev": -0.01
         }
       ],
       "trades": [
@@ -8012,90 +8012,202 @@
             "strategy": "momentum",
             "hold_minutes": 1.0
           }
+        },
+        {
+          "id": 52,
+          "opened_at": "2026-03-31T14:38:35.468455-04:00",
+          "closed_at": "2026-03-31T15:55:12.779302-04:00",
+          "symbol": "INTC",
+          "direction": "long",
+          "entry_price": 44.034,
+          "exit_price": 44.1658,
+          "pnl": 28.6,
+          "pnl_pct": 0.3,
+          "outcome": "WIN",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23976.14,
+          "extra": {
+            "shares": 217,
+            "score": 65,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 76.6
+          }
+        },
+        {
+          "id": 53,
+          "opened_at": "2026-03-31T14:39:47.459575-04:00",
+          "closed_at": "2026-03-31T15:55:12.780857-04:00",
+          "symbol": "NVDA",
+          "direction": "long",
+          "entry_price": 173.8437,
+          "exit_price": 173.9808,
+          "pnl": 7.54,
+          "pnl_pct": 0.08,
+          "outcome": "WIN",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23983.69,
+          "extra": {
+            "shares": 55,
+            "score": 70,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 75.4
+          }
+        },
+        {
+          "id": 54,
+          "opened_at": "2026-03-31T14:40:55.590257-04:00",
+          "closed_at": "2026-03-31T15:55:12.781433-04:00",
+          "symbol": "TSLA",
+          "direction": "long",
+          "entry_price": 372.7424,
+          "exit_price": 371.2334,
+          "pnl": -37.73,
+          "pnl_pct": -0.4,
+          "outcome": "LOSS",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23945.96,
+          "extra": {
+            "shares": 25,
+            "score": 75,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 74.3
+          }
+        },
+        {
+          "id": 56,
+          "opened_at": "2026-03-31T15:50:52.870905-04:00",
+          "closed_at": "2026-03-31T15:55:12.781901-04:00",
+          "symbol": "ARM",
+          "direction": "long",
+          "entry_price": 151.121,
+          "exit_price": 151.2886,
+          "pnl": 10.56,
+          "pnl_pct": 0.11,
+          "outcome": "WIN",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23956.52,
+          "extra": {
+            "shares": 63,
+            "score": 95,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 4.3
+          }
+        },
+        {
+          "id": 58,
+          "opened_at": "2026-03-31T15:53:11.760033-04:00",
+          "closed_at": "2026-03-31T15:55:12.782404-04:00",
+          "symbol": "NET",
+          "direction": "long",
+          "entry_price": 205.8456,
+          "exit_price": 206.0338,
+          "pnl": 8.66,
+          "pnl_pct": 0.09,
+          "outcome": "WIN",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23965.17,
+          "extra": {
+            "shares": 46,
+            "score": 90,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 2.0
+          }
+        },
+        {
+          "id": 59,
+          "opened_at": "2026-03-31T15:55:23.116759-04:00",
+          "closed_at": "2026-03-31T15:56:23.361851-04:00",
+          "symbol": "NET",
+          "direction": "long",
+          "entry_price": 206.2861,
+          "exit_price": 206.0837,
+          "pnl": -9.31,
+          "pnl_pct": -0.1,
+          "outcome": "LOSS",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23955.86,
+          "extra": {
+            "shares": 46,
+            "score": 95,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 1.0
+          }
+        },
+        {
+          "id": 60,
+          "opened_at": "2026-03-31T15:56:31.509907-04:00",
+          "closed_at": "2026-03-31T15:57:31.588031-04:00",
+          "symbol": "ARM",
+          "direction": "long",
+          "entry_price": 151.4713,
+          "exit_price": 151.1487,
+          "pnl": -20.32,
+          "pnl_pct": -0.21,
+          "outcome": "LOSS",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23935.54,
+          "extra": {
+            "shares": 63,
+            "score": 80,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 1.0
+          }
+        },
+        {
+          "id": 61,
+          "opened_at": "2026-03-31T15:57:40.970666-04:00",
+          "closed_at": "2026-03-31T15:58:41.132515-04:00",
+          "symbol": "NET",
+          "direction": "long",
+          "entry_price": 206.6665,
+          "exit_price": 206.5033,
+          "pnl": -7.51,
+          "pnl_pct": -0.08,
+          "outcome": "LOSS",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23928.03,
+          "extra": {
+            "shares": 46,
+            "score": 100,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 1.0
+          }
+        },
+        {
+          "id": 62,
+          "opened_at": "2026-03-31T15:58:50.569059-04:00",
+          "closed_at": "2026-03-31T15:59:51.719157-04:00",
+          "symbol": "NET",
+          "direction": "long",
+          "entry_price": 206.6564,
+          "exit_price": 206.2336,
+          "pnl": -19.45,
+          "pnl_pct": -0.2,
+          "outcome": "LOSS",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23908.58,
+          "extra": {
+            "shares": 46,
+            "score": 100,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 1.0
+          }
         }
       ],
       "open": [
         {
-          "symbol": "INTC",
-          "entry_price": 44.034,
-          "current_price": 44.2,
-          "pnl": 0,
-          "pnl_pct": 0,
-          "opened_at": "2026-03-31T14:38:35.468455-04:00",
-          "hold_minutes": 76.4,
-          "extra": {
-            "direction": "long",
-            "leverage": null,
-            "stop_loss": 43.85,
-            "take_profit": 44.52,
-            "margin": 0,
-            "liquidation_price": null
-          }
-        },
-        {
-          "symbol": "NVDA",
-          "entry_price": 173.8437,
-          "current_price": 174.55,
-          "pnl": 0,
-          "pnl_pct": 0,
-          "opened_at": "2026-03-31T14:39:47.459575-04:00",
-          "hold_minutes": 75.2,
-          "extra": {
-            "direction": "long",
-            "leverage": null,
-            "stop_loss": 173.54,
-            "take_profit": 175.18,
-            "margin": 0,
-            "liquidation_price": null
-          }
-        },
-        {
-          "symbol": "TSLA",
-          "entry_price": 372.7424,
-          "current_price": 373.21,
-          "pnl": 0,
-          "pnl_pct": 0,
-          "opened_at": "2026-03-31T14:40:55.590257-04:00",
-          "hold_minutes": 74.1,
-          "extra": {
-            "direction": "long",
-            "leverage": null,
-            "stop_loss": 370.94,
-            "take_profit": 375.78,
-            "margin": 0,
-            "liquidation_price": null
-          }
-        },
-        {
-          "symbol": "ARM",
-          "entry_price": 151.121,
-          "current_price": 151.12097,
-          "pnl": 0,
-          "pnl_pct": 0,
-          "opened_at": "2026-03-31T15:50:52.870905-04:00",
-          "hold_minutes": 4.1,
-          "extra": {
-            "direction": "long",
-            "leverage": null,
-            "stop_loss": 150.23,
-            "take_profit": 152.44,
-            "margin": 0,
-            "liquidation_price": null
-          }
-        },
-        {
           "symbol": "NET",
-          "entry_price": 205.8456,
-          "current_price": 205.84564,
+          "entry_price": 206.6564,
+          "current_price": 206.65645,
           "pnl": 0,
           "pnl_pct": 0,
-          "opened_at": "2026-03-31T15:53:11.760033-04:00",
-          "hold_minutes": 1.8,
+          "opened_at": "2026-03-31T15:58:50.569059-04:00",
+          "hold_minutes": 1.2,
           "extra": {
             "direction": "long",
             "leverage": null,
-            "stop_loss": 204.85,
-            "take_profit": 207.23,
+            "stop_loss": 205.63,
+            "take_profit": 208.09,
             "margin": 0,
             "liquidation_price": null
           }
@@ -8128,12 +8240,12 @@
         },
         {
           "date": "2026-03-31",
-          "value": 23947.54
+          "value": 23928.03
         }
       ],
       "extra_state": {
         "total_fees": 0.0,
-        "consec_losses": 1
+        "consec_losses": 3
       }
     },
     "crypto_5m": {
@@ -16171,10 +16283,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1915.39,
+      "bankroll": 1915.24,
       "starting_bankroll": 2000.0,
-      "total_pnl": -84.61,
-      "total_pnl_pct": -4.23,
+      "total_pnl": -84.76,
+      "total_pnl_pct": -4.24,
       "total_trades": 34,
       "wins": 11,
       "losses": 23,
@@ -16939,11 +17051,11 @@
         {
           "symbol": "BTC",
           "entry_price": 66775.3776,
-          "current_price": 67788.995797,
-          "pnl": 11.58,
-          "pnl_pct": 4.55,
+          "current_price": 67803.000884,
+          "pnl": 11.74,
+          "pnl_pct": 4.62,
           "opened_at": "2026-03-31T14:51:32.974489+00:00",
-          "hold_minutes": 303.5,
+          "hold_minutes": 308.5,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -16956,11 +17068,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2098.180112,
-          "current_price": 2094.616396,
-          "pnl": 1.26,
-          "pnl_pct": 0.51,
+          "current_price": 2095.493183,
+          "pnl": 0.95,
+          "pnl_pct": 0.38,
           "opened_at": "2026-03-31T19:15:03.704377+00:00",
-          "hold_minutes": 40.0,
+          "hold_minutes": 45.0,
           "extra": {
             "direction": "short",
             "leverage": 3,
