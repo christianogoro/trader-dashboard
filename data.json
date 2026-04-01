@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T19:20:00.343211+00:00",
+  "updated_at": "2026-04-01T19:25:00.366875+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -7440,7 +7440,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-01T18:30:10.655944+00:00",
-          "hold_minutes": 49.8,
+          "hold_minutes": 54.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -7457,7 +7457,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-01T18:35:10.364772+00:00",
-          "hold_minutes": 44.8,
+          "hold_minutes": 49.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -7474,7 +7474,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-01T19:10:10.870850+00:00",
-          "hold_minutes": 9.8,
+          "hold_minutes": 14.8,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -7560,7 +7560,7 @@
       "losses": 46,
       "win_rate": 27.0,
       "daily_pnl": -40.62,
-      "open_positions": 1,
+      "open_positions": 3,
       "last_trade_at": "2026-04-01T09:30:27.405245-04:00",
       "today_trades": 1,
       "today_wins": 0,
@@ -8897,12 +8897,46 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-01T14:35:41.195584-04:00",
-          "hold_minutes": 44.3,
+          "hold_minutes": 49.3,
           "extra": {
             "direction": "short",
             "leverage": null,
             "stop_loss": 174.03,
             "take_profit": 171.45,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "TSLA",
+          "entry_price": 380.6503,
+          "current_price": 380.65027,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-01T15:20:12.863933-04:00",
+          "hold_minutes": 4.8,
+          "extra": {
+            "direction": "long",
+            "leverage": null,
+            "stop_loss": 379.07,
+            "take_profit": 382.67,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "AAPL",
+          "entry_price": 255.4552,
+          "current_price": 255.4552,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-01T15:23:36.094953-04:00",
+          "hold_minutes": 1.4,
+          "extra": {
+            "direction": "long",
+            "leverage": null,
+            "stop_loss": 254.43,
+            "take_profit": 256.73,
             "margin": 0,
             "liquidation_price": null
           }
@@ -17132,10 +17166,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1902.56,
+      "bankroll": 1902.31,
       "starting_bankroll": 2000.0,
-      "total_pnl": -97.44,
-      "total_pnl_pct": -4.87,
+      "total_pnl": -97.69,
+      "total_pnl_pct": -4.88,
       "total_trades": 38,
       "wins": 12,
       "losses": 26,
@@ -17986,11 +18020,11 @@
         {
           "symbol": "BTC",
           "entry_price": 68420.7196,
-          "current_price": 68065.521539,
-          "pnl": 3.78,
-          "pnl_pct": 1.56,
+          "current_price": 68090.89283,
+          "pnl": 3.51,
+          "pnl_pct": 1.45,
           "opened_at": "2026-04-01T13:20:36.040253+00:00",
-          "hold_minutes": 359.4,
+          "hold_minutes": 364.4,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -18003,11 +18037,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.358442,
-          "current_price": 1.348739,
-          "pnl": 4.42,
-          "pnl_pct": 2.14,
+          "current_price": 1.348695,
+          "pnl": 4.44,
+          "pnl_pct": 2.15,
           "opened_at": "2026-04-01T16:37:45.440347+00:00",
-          "hold_minutes": 162.2,
+          "hold_minutes": 167.3,
           "extra": {
             "direction": "short",
             "leverage": 3,
