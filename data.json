@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-02T21:10:00.850450+00:00",
+  "updated_at": "2026-04-02T21:15:00.882849+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -8100,7 +8100,7 @@
     },
     "stock": {
       "name": "Stock Trader",
-      "status": "running",
+      "status": "stopped",
       "bankroll": 23524.76,
       "starting_bankroll": 25000.0,
       "total_pnl": -1475.24,
@@ -9857,7 +9857,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-02T15:59:14.663690-04:00",
-          "hold_minutes": 70.8,
+          "hold_minutes": 75.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -18388,10 +18388,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1932.29,
+      "bankroll": 1933.05,
       "starting_bankroll": 2000.0,
-      "total_pnl": -67.71,
-      "total_pnl_pct": -3.39,
+      "total_pnl": -66.95,
+      "total_pnl_pct": -3.35,
       "total_trades": 44,
       "wins": 16,
       "losses": 28,
@@ -19366,11 +19366,11 @@
         {
           "symbol": "BTC",
           "entry_price": 66941.61048,
-          "current_price": 66917.747274,
-          "pnl": -0.27,
-          "pnl_pct": -0.11,
+          "current_price": 66790.476845,
+          "pnl": -1.71,
+          "pnl_pct": -0.68,
           "opened_at": "2026-04-02T17:48:35.426448+00:00",
-          "hold_minutes": 201.4,
+          "hold_minutes": 206.4,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -19383,11 +19383,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2064.926736,
-          "current_price": 2064.189291,
-          "pnl": 0.27,
-          "pnl_pct": 0.11,
+          "current_price": 2058.180484,
+          "pnl": 2.47,
+          "pnl_pct": 0.98,
           "opened_at": "2026-04-02T21:05:36.520989+00:00",
-          "hold_minutes": 4.4,
+          "hold_minutes": 9.4,
           "extra": {
             "direction": "short",
             "leverage": 3,
