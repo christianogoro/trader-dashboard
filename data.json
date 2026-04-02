@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-02T21:30:12.316111+00:00",
+  "updated_at": "2026-04-02T21:35:05.530003+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -9844,7 +9844,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-02T15:59:14.663690-04:00",
-          "hold_minutes": 91.0,
+          "hold_minutes": 95.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -19357,7 +19357,7 @@
           "pnl": -1.27,
           "pnl_pct": -0.5,
           "opened_at": "2026-04-02T17:48:35.426448+00:00",
-          "hold_minutes": 221.6,
+          "hold_minutes": 226.5,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -19374,7 +19374,7 @@
           "pnl": 1.97,
           "pnl_pct": 0.78,
           "opened_at": "2026-04-02T21:05:36.520989+00:00",
-          "hold_minutes": 24.6,
+          "hold_minutes": 29.5,
           "extra": {
             "direction": "short",
             "leverage": 3,
