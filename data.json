@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-03T19:15:00.465204+00:00",
+  "updated_at": "2026-04-03T19:20:00.735844+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -18888,10 +18888,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1938.32,
+      "bankroll": 1937.35,
       "starting_bankroll": 2000.0,
-      "total_pnl": -61.68,
-      "total_pnl_pct": -3.08,
+      "total_pnl": -62.65,
+      "total_pnl_pct": -3.13,
       "total_trades": 44,
       "wins": 16,
       "losses": 28,
@@ -19866,11 +19866,11 @@
         {
           "symbol": "BTC",
           "entry_price": 66941.61048,
-          "current_price": 66780.754798,
-          "pnl": -1.82,
-          "pnl_pct": -0.72,
+          "current_price": 66782.522443,
+          "pnl": -1.8,
+          "pnl_pct": -0.71,
           "opened_at": "2026-04-02T17:48:35.426448+00:00",
-          "hold_minutes": 1526.4,
+          "hold_minutes": 1531.4,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -19883,11 +19883,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2064.926736,
-          "current_price": 2047.610445,
-          "pnl": 6.34,
-          "pnl_pct": 2.52,
+          "current_price": 2048.839519,
+          "pnl": 5.89,
+          "pnl_pct": 2.34,
           "opened_at": "2026-04-02T21:05:36.520989+00:00",
-          "hold_minutes": 1329.4,
+          "hold_minutes": 1334.4,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -19900,11 +19900,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.317195,
-          "current_price": 1.313648,
-          "pnl": 1.73,
-          "pnl_pct": 0.81,
+          "current_price": 1.314755,
+          "pnl": 1.19,
+          "pnl_pct": 0.56,
           "opened_at": "2026-04-02T22:57:03.779846+00:00",
-          "hold_minutes": 1217.9,
+          "hold_minutes": 1223.0,
           "extra": {
             "direction": "short",
             "leverage": 3,
