@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-03T05:20:00.337261+00:00",
+  "updated_at": "2026-04-03T05:25:00.515367+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -9834,7 +9834,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-02T15:59:14.663690-04:00",
-          "hold_minutes": 560.8,
+          "hold_minutes": 565.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -18437,9 +18437,9 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1932.35,
+      "bankroll": 1932.39,
       "starting_bankroll": 2000.0,
-      "total_pnl": -67.65,
+      "total_pnl": -67.61,
       "total_pnl_pct": -3.38,
       "total_trades": 44,
       "wins": 16,
@@ -19415,11 +19415,11 @@
         {
           "symbol": "BTC",
           "entry_price": 66941.61048,
-          "current_price": 66497.931622,
-          "pnl": -5.02,
-          "pnl_pct": -1.99,
+          "current_price": 66482.906641,
+          "pnl": -5.19,
+          "pnl_pct": -2.06,
           "opened_at": "2026-04-02T17:48:35.426448+00:00",
-          "hold_minutes": 691.4,
+          "hold_minutes": 696.4,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -19432,11 +19432,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2064.926736,
-          "current_price": 2050.150532,
-          "pnl": 5.41,
-          "pnl_pct": 2.15,
+          "current_price": 2050.068593,
+          "pnl": 5.44,
+          "pnl_pct": 2.16,
           "opened_at": "2026-04-02T21:05:36.520989+00:00",
-          "hold_minutes": 494.4,
+          "hold_minutes": 499.4,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -19449,11 +19449,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.317195,
-          "current_price": 1.317421,
-          "pnl": -0.11,
-          "pnl_pct": -0.05,
+          "current_price": 1.317051,
+          "pnl": 0.07,
+          "pnl_pct": 0.03,
           "opened_at": "2026-04-02T22:57:03.779846+00:00",
-          "hold_minutes": 382.9,
+          "hold_minutes": 387.9,
           "extra": {
             "direction": "short",
             "leverage": 3,
