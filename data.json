@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-03T20:05:00.441513+00:00",
+  "updated_at": "2026-04-03T20:10:00.387982+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -18888,10 +18888,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1935.37,
+      "bankroll": 1935.13,
       "starting_bankroll": 2000.0,
-      "total_pnl": -64.63,
-      "total_pnl_pct": -3.23,
+      "total_pnl": -64.87,
+      "total_pnl_pct": -3.24,
       "total_trades": 44,
       "wins": 16,
       "losses": 28,
@@ -19866,11 +19866,11 @@
         {
           "symbol": "BTC",
           "entry_price": 66941.61048,
-          "current_price": 66878.859088,
-          "pnl": -0.71,
-          "pnl_pct": -0.28,
+          "current_price": 66863.834107,
+          "pnl": -0.88,
+          "pnl_pct": -0.35,
           "opened_at": "2026-04-02T17:48:35.426448+00:00",
-          "hold_minutes": 1576.4,
+          "hold_minutes": 1581.4,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -19883,11 +19883,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2064.926736,
-          "current_price": 2052.663306,
-          "pnl": 4.49,
-          "pnl_pct": 1.78,
+          "current_price": 2052.881808,
+          "pnl": 4.41,
+          "pnl_pct": 1.75,
           "opened_at": "2026-04-02T21:05:36.520989+00:00",
-          "hold_minutes": 1379.4,
+          "hold_minutes": 1384.4,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -19900,11 +19900,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.317195,
-          "current_price": 1.318179,
-          "pnl": -0.48,
+          "current_price": 1.318159,
+          "pnl": -0.47,
           "pnl_pct": -0.22,
           "opened_at": "2026-04-02T22:57:03.779846+00:00",
-          "hold_minutes": 1267.9,
+          "hold_minutes": 1272.9,
           "extra": {
             "direction": "short",
             "leverage": 3,
