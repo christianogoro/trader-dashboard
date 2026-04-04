@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T10:25:01.014057+00:00",
+  "updated_at": "2026-04-04T10:30:01.310663+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -18900,10 +18900,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1941.71,
+      "bankroll": 1942.31,
       "starting_bankroll": 2000.0,
-      "total_pnl": -58.29,
-      "total_pnl_pct": -2.91,
+      "total_pnl": -57.69,
+      "total_pnl_pct": -2.88,
       "total_trades": 44,
       "wins": 16,
       "losses": 28,
@@ -19878,11 +19878,11 @@
         {
           "symbol": "BTC",
           "entry_price": 66941.61048,
-          "current_price": 66918.631097,
-          "pnl": -0.26,
+          "current_price": 66920.398742,
+          "pnl": -0.24,
           "pnl_pct": -0.1,
           "opened_at": "2026-04-02T17:48:35.426448+00:00",
-          "hold_minutes": 2436.4,
+          "hold_minutes": 2441.4,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -19895,11 +19895,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2064.926736,
-          "current_price": 2047.801634,
-          "pnl": 6.27,
-          "pnl_pct": 2.49,
+          "current_price": 2048.539079,
+          "pnl": 6.0,
+          "pnl_pct": 2.38,
           "opened_at": "2026-04-02T21:05:36.520989+00:00",
-          "hold_minutes": 2239.4,
+          "hold_minutes": 2244.4,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -19912,11 +19912,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.317195,
-          "current_price": 1.309753,
-          "pnl": 3.63,
-          "pnl_pct": 1.69,
+          "current_price": 1.308011,
+          "pnl": 4.48,
+          "pnl_pct": 2.09,
           "opened_at": "2026-04-02T22:57:03.779846+00:00",
-          "hold_minutes": 2128.0,
+          "hold_minutes": 2133.0,
           "extra": {
             "direction": "short",
             "leverage": 3,
