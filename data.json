@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-05T03:30:00.992809+00:00",
+  "updated_at": "2026-04-05T03:35:01.174457+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -18912,10 +18912,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1937.82,
+      "bankroll": 1938.73,
       "starting_bankroll": 2000.0,
-      "total_pnl": -62.18,
-      "total_pnl_pct": -3.11,
+      "total_pnl": -61.27,
+      "total_pnl_pct": -3.06,
       "total_trades": 44,
       "wins": 16,
       "losses": 28,
@@ -19890,11 +19890,11 @@
         {
           "symbol": "BTC",
           "entry_price": 66941.61048,
-          "current_price": 67136.051414,
-          "pnl": 2.2,
-          "pnl_pct": 0.87,
+          "current_price": 67110.420563,
+          "pnl": 1.91,
+          "pnl_pct": 0.76,
           "opened_at": "2026-04-02T17:48:35.426448+00:00",
-          "hold_minutes": 3461.4,
+          "hold_minutes": 3466.4,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -19907,11 +19907,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2064.926736,
-          "current_price": 2057.880043,
-          "pnl": 2.58,
-          "pnl_pct": 1.02,
+          "current_price": 2055.421895,
+          "pnl": 3.48,
+          "pnl_pct": 1.38,
           "opened_at": "2026-04-02T21:05:36.520989+00:00",
-          "hold_minutes": 3264.4,
+          "hold_minutes": 3269.4,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -19924,11 +19924,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.317195,
-          "current_price": 1.315206,
-          "pnl": 0.97,
-          "pnl_pct": 0.45,
+          "current_price": 1.314591,
+          "pnl": 1.27,
+          "pnl_pct": 0.59,
           "opened_at": "2026-04-02T22:57:03.779846+00:00",
-          "hold_minutes": 3153.0,
+          "hold_minutes": 3158.0,
           "extra": {
             "direction": "short",
             "leverage": 3,
