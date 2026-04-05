@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-05T03:15:00.574453+00:00",
+  "updated_at": "2026-04-05T03:20:00.480829+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -18912,10 +18912,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1936.64,
+      "bankroll": 1937.14,
       "starting_bankroll": 2000.0,
-      "total_pnl": -63.36,
-      "total_pnl_pct": -3.17,
+      "total_pnl": -62.86,
+      "total_pnl_pct": -3.14,
       "total_trades": 44,
       "wins": 16,
       "losses": 28,
@@ -19890,11 +19890,11 @@
         {
           "symbol": "BTC",
           "entry_price": 66941.61048,
-          "current_price": 67154.611685,
-          "pnl": 2.41,
+          "current_price": 67153.727862,
+          "pnl": 2.4,
           "pnl_pct": 0.95,
           "opened_at": "2026-04-02T17:48:35.426448+00:00",
-          "hold_minutes": 3446.4,
+          "hold_minutes": 3451.4,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -19907,11 +19907,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2064.926736,
-          "current_price": 2059.13643,
-          "pnl": 2.12,
-          "pnl_pct": 0.84,
+          "current_price": 2058.672113,
+          "pnl": 2.29,
+          "pnl_pct": 0.91,
           "opened_at": "2026-04-02T21:05:36.520989+00:00",
-          "hold_minutes": 3249.4,
+          "hold_minutes": 3254.4,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -19924,11 +19924,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.317195,
-          "current_price": 1.317113,
-          "pnl": 0.04,
-          "pnl_pct": 0.02,
+          "current_price": 1.316416,
+          "pnl": 0.38,
+          "pnl_pct": 0.18,
           "opened_at": "2026-04-02T22:57:03.779846+00:00",
-          "hold_minutes": 3137.9,
+          "hold_minutes": 3142.9,
           "extra": {
             "direction": "short",
             "leverage": 3,
