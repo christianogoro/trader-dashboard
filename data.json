@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-06T03:15:00.571997+00:00",
+  "updated_at": "2026-04-06T03:20:00.742567+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -10244,20 +10244,20 @@
     "crypto_5m": {
       "name": "Crypto 5m",
       "status": "running",
-      "bankroll": 4748.44,
+      "bankroll": 4653.74,
       "starting_bankroll": 2000.0,
-      "total_pnl": 2748.44,
-      "total_pnl_pct": 137.42,
-      "total_trades": 280,
+      "total_pnl": 2653.74,
+      "total_pnl_pct": 132.69,
+      "total_trades": 281,
       "wins": 158,
-      "losses": 122,
-      "win_rate": 56.4,
-      "daily_pnl": 354.96,
+      "losses": 123,
+      "win_rate": 56.2,
+      "daily_pnl": 260.26,
       "open_positions": 0,
-      "last_trade_at": "2026-04-06T03:05:10.820639+00:00",
-      "today_trades": 4,
+      "last_trade_at": "2026-04-06T03:15:10.516526+00:00",
+      "today_trades": 5,
       "today_wins": 3,
-      "today_losses": 1,
+      "today_losses": 2,
       "daily_breakdown": [
         {
           "date": "2026-03-06",
@@ -10511,13 +10511,13 @@
         },
         {
           "date": "2026-04-06",
-          "trades": 4,
+          "trades": 5,
           "wins": 3,
-          "losses": 1,
-          "pnl": 354.96,
+          "losses": 2,
+          "pnl": 260.26,
           "prev_balance": 4393.48,
-          "balance": 4748.44,
-          "pnl_pct_of_prev": 8.08
+          "balance": 4653.74,
+          "pnl_pct_of_prev": 5.92
         }
       ],
       "trades": [
@@ -16680,6 +16680,28 @@
             "market_regime": "trending_up",
             "fee": 3.56
           }
+        },
+        {
+          "id": 285,
+          "opened_at": "2026-04-06T03:05:10.618003+00:00",
+          "closed_at": "2026-04-06T03:15:10.516526+00:00",
+          "symbol": "ETH",
+          "direction": "up",
+          "entry_price": 0.38,
+          "exit_price": null,
+          "pnl": -94.7,
+          "pnl_pct": -103.87,
+          "outcome": "LOSS",
+          "exit_reason": "resolved",
+          "bankroll_after": 4653.74,
+          "extra": {
+            "ml_prob": 0.4328,
+            "edge_pct": 12.22,
+            "bet_size": 91.17,
+            "confidence": "medium",
+            "market_regime": "trending_up",
+            "fee": 3.53
+          }
         }
       ],
       "open": [],
@@ -16806,12 +16828,12 @@
         },
         {
           "date": "2026-04-06",
-          "value": 4748.44
+          "value": 4653.74
         }
       ],
       "extra_state": {
-        "total_fees": 467.94,
-        "consec_losses": 1
+        "total_fees": 471.47,
+        "consec_losses": 2
       }
     },
     "crypto_15m": {
@@ -19250,10 +19272,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1939.06,
+      "bankroll": 1939.54,
       "starting_bankroll": 2000.0,
-      "total_pnl": -60.94,
-      "total_pnl_pct": -3.05,
+      "total_pnl": -60.46,
+      "total_pnl_pct": -3.02,
       "total_trades": 49,
       "wins": 18,
       "losses": 31,
@@ -20333,11 +20355,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2114.15732,
-          "current_price": 2133.49508,
-          "pnl": -8.02,
-          "pnl_pct": -2.74,
+          "current_price": 2133.229849,
+          "pnl": -7.91,
+          "pnl_pct": -2.71,
           "opened_at": "2026-04-06T01:50:22.864997+00:00",
-          "hold_minutes": 84.6,
+          "hold_minutes": 89.6,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -20350,11 +20372,11 @@
         {
           "symbol": "BTC",
           "entry_price": 69068.50096,
-          "current_price": 69142.654543,
-          "pnl": -0.8,
-          "pnl_pct": -0.32,
+          "current_price": 69108.358511,
+          "pnl": -0.43,
+          "pnl_pct": -0.17,
           "opened_at": "2026-04-06T02:25:32.370294+00:00",
-          "hold_minutes": 49.5,
+          "hold_minutes": 54.5,
           "extra": {
             "direction": "short",
             "leverage": 3,
