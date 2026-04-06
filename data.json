@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-06T03:05:00.304174+00:00",
+  "updated_at": "2026-04-06T03:10:00.475868+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -10244,20 +10244,20 @@
     "crypto_5m": {
       "name": "Crypto 5m",
       "status": "running",
-      "bankroll": 4875.83,
+      "bankroll": 4748.44,
       "starting_bankroll": 2000.0,
-      "total_pnl": 2875.83,
-      "total_pnl_pct": 143.79,
-      "total_trades": 279,
+      "total_pnl": 2748.44,
+      "total_pnl_pct": 137.42,
+      "total_trades": 280,
       "wins": 158,
-      "losses": 121,
-      "win_rate": 56.6,
-      "daily_pnl": 482.35,
+      "losses": 122,
+      "win_rate": 56.4,
+      "daily_pnl": 354.96,
       "open_positions": 0,
-      "last_trade_at": "2026-04-06T03:00:11.081757+00:00",
-      "today_trades": 3,
+      "last_trade_at": "2026-04-06T03:05:10.820639+00:00",
+      "today_trades": 4,
       "today_wins": 3,
-      "today_losses": 0,
+      "today_losses": 1,
       "daily_breakdown": [
         {
           "date": "2026-03-06",
@@ -10511,13 +10511,13 @@
         },
         {
           "date": "2026-04-06",
-          "trades": 3,
+          "trades": 4,
           "wins": 3,
-          "losses": 0,
-          "pnl": 482.35,
+          "losses": 1,
+          "pnl": 354.96,
           "prev_balance": 4393.48,
-          "balance": 4875.83,
-          "pnl_pct_of_prev": 10.98
+          "balance": 4748.44,
+          "pnl_pct_of_prev": 8.08
         }
       ],
       "trades": [
@@ -16658,6 +16658,28 @@
             "market_regime": "trending_up",
             "fee": 6.6
           }
+        },
+        {
+          "id": 284,
+          "opened_at": "2026-04-06T02:55:10.949244+00:00",
+          "closed_at": "2026-04-06T03:05:10.820639+00:00",
+          "symbol": "ETH",
+          "direction": "down",
+          "entry_price": 0.54,
+          "exit_price": null,
+          "pnl": -127.39,
+          "pnl_pct": -102.87,
+          "outcome": "LOSS",
+          "exit_reason": "resolved",
+          "bankroll_after": 4748.44,
+          "extra": {
+            "ml_prob": 0.4128,
+            "edge_pct": 9.06,
+            "bet_size": 123.83,
+            "confidence": "medium",
+            "market_regime": "trending_up",
+            "fee": 3.56
+          }
         }
       ],
       "open": [],
@@ -16784,12 +16806,12 @@
         },
         {
           "date": "2026-04-06",
-          "value": 4875.83
+          "value": 4748.44
         }
       ],
       "extra_state": {
-        "total_fees": 464.38,
-        "consec_losses": 0
+        "total_fees": 467.94,
+        "consec_losses": 1
       }
     },
     "crypto_15m": {
@@ -19228,10 +19250,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1938.63,
+      "bankroll": 1939.53,
       "starting_bankroll": 2000.0,
-      "total_pnl": -61.37,
-      "total_pnl_pct": -3.07,
+      "total_pnl": -60.47,
+      "total_pnl_pct": -3.02,
       "total_trades": 49,
       "wins": 18,
       "losses": 31,
@@ -20311,11 +20333,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2114.15732,
-          "current_price": 2133.085178,
-          "pnl": -7.85,
-          "pnl_pct": -2.69,
+          "current_price": 2132.36182,
+          "pnl": -7.55,
+          "pnl_pct": -2.58,
           "opened_at": "2026-04-06T01:50:22.864997+00:00",
-          "hold_minutes": 74.6,
+          "hold_minutes": 79.6,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -20328,11 +20350,11 @@
         {
           "symbol": "BTC",
           "entry_price": 69068.50096,
-          "current_price": 69198.269731,
-          "pnl": -1.4,
-          "pnl_pct": -0.56,
+          "current_price": 69142.654543,
+          "pnl": -0.8,
+          "pnl_pct": -0.32,
           "opened_at": "2026-04-06T02:25:32.370294+00:00",
-          "hold_minutes": 39.5,
+          "hold_minutes": 44.5,
           "extra": {
             "direction": "short",
             "leverage": 3,
