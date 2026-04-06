@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-06T01:25:00.297339+00:00",
+  "updated_at": "2026-04-06T01:30:01.005234+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -10244,19 +10244,19 @@
     "crypto_5m": {
       "name": "Crypto 5m",
       "status": "running",
-      "bankroll": 4393.48,
+      "bankroll": 4556.92,
       "starting_bankroll": 2000.0,
-      "total_pnl": 2393.48,
-      "total_pnl_pct": 119.67,
-      "total_trades": 276,
-      "wins": 155,
+      "total_pnl": 2556.92,
+      "total_pnl_pct": 127.85,
+      "total_trades": 277,
+      "wins": 156,
       "losses": 121,
-      "win_rate": 56.2,
-      "daily_pnl": 0.0,
+      "win_rate": 56.3,
+      "daily_pnl": 163.44,
       "open_positions": 0,
-      "last_trade_at": "2026-04-05T21:10:10.813363+00:00",
-      "today_trades": 0,
-      "today_wins": 0,
+      "last_trade_at": "2026-04-06T01:25:10.628958+00:00",
+      "today_trades": 1,
+      "today_wins": 1,
       "today_losses": 0,
       "daily_breakdown": [
         {
@@ -10508,6 +10508,16 @@
           "prev_balance": 4041.88,
           "balance": 4393.48,
           "pnl_pct_of_prev": 8.7
+        },
+        {
+          "date": "2026-04-06",
+          "trades": 1,
+          "wins": 1,
+          "losses": 0,
+          "pnl": 163.44,
+          "prev_balance": 4393.48,
+          "balance": 4556.92,
+          "pnl_pct_of_prev": 3.72
         }
       ],
       "trades": [
@@ -16582,6 +16592,28 @@
             "market_regime": "trending_up",
             "fee": 4.85
           }
+        },
+        {
+          "id": 281,
+          "opened_at": "2026-04-06T01:15:10.486384+00:00",
+          "closed_at": "2026-04-06T01:25:10.628958+00:00",
+          "symbol": "ETH",
+          "direction": "down",
+          "entry_price": 0.48,
+          "exit_price": null,
+          "pnl": 163.44,
+          "pnl_pct": 105.09,
+          "outcome": "WIN",
+          "exit_reason": "resolved",
+          "bankroll_after": 4556.92,
+          "extra": {
+            "ml_prob": 0.4486,
+            "edge_pct": 15.49,
+            "bet_size": 155.53,
+            "confidence": "high",
+            "market_regime": "trending_up",
+            "fee": 5.05
+          }
         }
       ],
       "open": [],
@@ -16708,11 +16740,11 @@
         },
         {
           "date": "2026-04-06",
-          "value": 4393.48
+          "value": 4556.92
         }
       ],
       "extra_state": {
-        "total_fees": 447.97,
+        "total_fees": 453.02,
         "consec_losses": 0
       }
     },
