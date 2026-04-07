@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-07T22:15:01.140484+00:00",
+  "updated_at": "2026-04-07T22:20:00.668993+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -11877,7 +11877,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-07T15:59:00.388047-04:00",
-          "hold_minutes": 136.0,
+          "hold_minutes": 141.0,
           "extra": {
             "direction": "long",
             "leverage": null,
