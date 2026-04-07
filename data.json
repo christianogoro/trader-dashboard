@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-07T11:55:00.374893+00:00",
+  "updated_at": "2026-04-07T12:00:00.858905+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -8860,7 +8860,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-07T10:25:10.595108+00:00",
-          "hold_minutes": 89.8,
+          "hold_minutes": 94.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -8877,7 +8877,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-07T10:30:10.484778+00:00",
-          "hold_minutes": 84.8,
+          "hold_minutes": 89.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -8894,7 +8894,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-07T11:00:10.260793+00:00",
-          "hold_minutes": 54.8,
+          "hold_minutes": 59.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -8994,7 +8994,7 @@
     },
     "stock": {
       "name": "Stock Trader",
-      "status": "stopped",
+      "status": "running",
       "bankroll": 23308.61,
       "starting_bankroll": 25000.0,
       "total_pnl": -1691.39,
@@ -9003,7 +9003,7 @@
       "wins": 24,
       "losses": 70,
       "win_rate": 25.5,
-      "daily_pnl": -205.63,
+      "daily_pnl": 0.0,
       "open_positions": 1,
       "last_trade_at": "2026-04-06T15:59:52.119937-04:00",
       "today_trades": 0,
@@ -10991,7 +10991,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-06T15:59:59.042619-04:00",
-          "hold_minutes": 955.0,
+          "hold_minutes": 960.0,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -11045,6 +11045,10 @@
         },
         {
           "date": "2026-04-06",
+          "value": 23308.61
+        },
+        {
+          "date": "2026-04-07",
           "value": 23308.61
         }
       ],
@@ -20398,10 +20402,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1970.82,
+      "bankroll": 1970.63,
       "starting_bankroll": 2000.0,
-      "total_pnl": -29.18,
-      "total_pnl_pct": -1.46,
+      "total_pnl": -29.37,
+      "total_pnl_pct": -1.47,
       "total_trades": 51,
       "wins": 19,
       "losses": 32,
@@ -21539,11 +21543,11 @@
         {
           "symbol": "BTC",
           "entry_price": 69068.50096,
-          "current_price": 68353.845802,
-          "pnl": 7.71,
-          "pnl_pct": 3.1,
+          "current_price": 68360.33424,
+          "pnl": 7.64,
+          "pnl_pct": 3.08,
           "opened_at": "2026-04-06T02:25:32.370294+00:00",
-          "hold_minutes": 2009.5,
+          "hold_minutes": 2014.5,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -21556,11 +21560,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.339518,
-          "current_price": 1.306328,
-          "pnl": 15.69,
-          "pnl_pct": 7.43,
+          "current_price": 1.306582,
+          "pnl": 15.57,
+          "pnl_pct": 7.38,
           "opened_at": "2026-04-06T04:36:14.088385+00:00",
-          "hold_minutes": 1878.8,
+          "hold_minutes": 1883.8,
           "extra": {
             "direction": "short",
             "leverage": 3,
