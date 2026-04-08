@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-07T23:55:00.841942+00:00",
+  "updated_at": "2026-04-08T00:00:01.107464+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -2100,9 +2100,9 @@
       "daily_pnl": 1014.18,
       "open_positions": 0,
       "last_trade_at": "2026-04-07T21:10:11.195752+00:00",
-      "today_trades": 41,
-      "today_wins": 26,
-      "today_losses": 15,
+      "today_trades": 0,
+      "today_wins": 0,
+      "today_losses": 0,
       "daily_breakdown": [
         {
           "date": "2026-03-20",
@@ -9542,9 +9542,9 @@
       "daily_pnl": -284.94,
       "open_positions": 1,
       "last_trade_at": "2026-04-07T15:58:50.917376-04:00",
-      "today_trades": 17,
-      "today_wins": 5,
-      "today_losses": 12,
+      "today_trades": 0,
+      "today_wins": 0,
+      "today_losses": 0,
       "daily_breakdown": [
         {
           "date": "2026-03-25",
@@ -11877,7 +11877,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-07T15:59:00.388047-04:00",
-          "hold_minutes": 236.0,
+          "hold_minutes": 241.0,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -11957,9 +11957,9 @@
       "daily_pnl": -329.74,
       "open_positions": 0,
       "last_trade_at": "2026-04-07T08:50:11.337954+00:00",
-      "today_trades": 2,
+      "today_trades": 0,
       "today_wins": 0,
-      "today_losses": 2,
+      "today_losses": 0,
       "daily_breakdown": [
         {
           "date": "2026-03-06",
@@ -18786,9 +18786,9 @@
       "daily_pnl": -42.05,
       "open_positions": 0,
       "last_trade_at": "2026-04-07T21:15:11.036899+00:00",
-      "today_trades": 3,
-      "today_wins": 1,
-      "today_losses": 2,
+      "today_trades": 0,
+      "today_wins": 0,
+      "today_losses": 0,
       "daily_breakdown": [
         {
           "date": "2026-03-06",
@@ -21321,9 +21321,9 @@
       "daily_pnl": 44.65,
       "open_positions": 0,
       "last_trade_at": "2026-04-07T22:06:06.680273+00:00",
-      "today_trades": 5,
-      "today_wins": 3,
-      "today_losses": 2,
+      "today_trades": 0,
+      "today_wins": 0,
+      "today_losses": 0,
       "daily_breakdown": [
         {
           "date": "2026-03-21",
