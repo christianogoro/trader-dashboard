@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-08T00:00:01.107464+00:00",
+  "updated_at": "2026-04-08T00:05:00.581445+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -2097,7 +2097,7 @@
       "wins": 169,
       "losses": 174,
       "win_rate": 49.3,
-      "daily_pnl": 1014.18,
+      "daily_pnl": 0.0,
       "open_positions": 0,
       "last_trade_at": "2026-04-07T21:10:11.195752+00:00",
       "today_trades": 0,
@@ -9521,6 +9521,10 @@
         {
           "date": "2026-04-07",
           "value": 6935.69
+        },
+        {
+          "date": "2026-04-08",
+          "value": 6935.69
         }
       ],
       "extra_state": {
@@ -11877,7 +11881,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-07T15:59:00.388047-04:00",
-          "hold_minutes": 241.0,
+          "hold_minutes": 246.0,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -11954,7 +11958,7 @@
       "wins": 163,
       "losses": 128,
       "win_rate": 56.0,
-      "daily_pnl": -329.74,
+      "daily_pnl": 0.0,
       "open_positions": 0,
       "last_trade_at": "2026-04-07T08:50:11.337954+00:00",
       "today_trades": 0,
@@ -18765,6 +18769,10 @@
         {
           "date": "2026-04-07",
           "value": 4245.27
+        },
+        {
+          "date": "2026-04-08",
+          "value": 4245.27
         }
       ],
       "extra_state": {
@@ -18783,7 +18791,7 @@
       "wins": 46,
       "losses": 53,
       "win_rate": 46.5,
-      "daily_pnl": -42.05,
+      "daily_pnl": 0.0,
       "open_positions": 0,
       "last_trade_at": "2026-04-07T21:15:11.036899+00:00",
       "today_trades": 0,
@@ -21300,6 +21308,10 @@
         {
           "date": "2026-04-07",
           "value": 1579.23
+        },
+        {
+          "date": "2026-04-08",
+          "value": 1579.23
         }
       ],
       "extra_state": {
@@ -21318,7 +21330,7 @@
       "wins": 21,
       "losses": 34,
       "win_rate": 38.2,
-      "daily_pnl": 44.65,
+      "daily_pnl": 0.0,
       "open_positions": 0,
       "last_trade_at": "2026-04-07T22:06:06.680273+00:00",
       "today_trades": 0,
@@ -22603,6 +22615,10 @@
         },
         {
           "date": "2026-04-07",
+          "value": 1973.15
+        },
+        {
+          "date": "2026-04-08",
           "value": 1973.15
         }
       ],
