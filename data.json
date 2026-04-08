@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-08T17:45:01.204428+00:00",
+  "updated_at": "2026-04-08T17:50:00.365711+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -21778,20 +21778,20 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1968.4,
+      "bankroll": 1967.81,
       "starting_bankroll": 2000.0,
-      "total_pnl": -31.6,
-      "total_pnl_pct": -1.58,
-      "total_trades": 57,
+      "total_pnl": -32.19,
+      "total_pnl_pct": -1.61,
+      "total_trades": 58,
       "wins": 21,
-      "losses": 36,
-      "win_rate": 36.8,
-      "daily_pnl": -10.44,
-      "open_positions": 3,
-      "last_trade_at": "2026-04-08T14:32:40.269885+00:00",
-      "today_trades": 2,
+      "losses": 37,
+      "win_rate": 36.2,
+      "daily_pnl": -11.07,
+      "open_positions": 2,
+      "last_trade_at": "2026-04-08T17:45:51.750353+00:00",
+      "today_trades": 3,
       "today_wins": 0,
-      "today_losses": 2,
+      "today_losses": 3,
       "daily_breakdown": [
         {
           "date": "2026-03-21",
@@ -21945,12 +21945,12 @@
         },
         {
           "date": "2026-04-08",
-          "trades": 2,
+          "trades": 3,
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "pnl": 0.0,
           "prev_balance": 1973.15,
-          "balance": 1294.18,
+          "balance": 1507.31,
           "pnl_pct_of_prev": 0.0
         }
       ],
@@ -23037,34 +23037,36 @@
             "margin": 251.53,
             "funding_paid": 0.0755
           }
+        },
+        {
+          "id": 58,
+          "opened_at": "2026-04-08T01:47:15.983202+00:00",
+          "closed_at": "2026-04-08T17:45:51.750353+00:00",
+          "symbol": "ETH",
+          "direction": "",
+          "entry_price": 2236.699208,
+          "exit_price": 2236.567824,
+          "pnl": 0,
+          "pnl_pct": 0.0,
+          "outcome": "LOSS",
+          "exit_reason": "",
+          "bankroll_after": 1507.31,
+          "extra": {
+            "leverage": 3,
+            "margin": 213.76,
+            "funding_paid": -0.0641
+          }
         }
       ],
       "open": [
         {
-          "symbol": "ETH",
-          "entry_price": 2236.699208,
-          "current_price": 2233.385735,
-          "pnl": 0.95,
-          "pnl_pct": 0.44,
-          "opened_at": "2026-04-08T01:47:15.983202+00:00",
-          "hold_minutes": 957.8,
-          "extra": {
-            "direction": "short",
-            "leverage": 3,
-            "stop_loss": 2272.07,
-            "take_profit": 2171.34,
-            "margin": 213.76,
-            "liquidation_price": 2971.08
-          }
-        },
-        {
           "symbol": "BTC",
           "entry_price": 71436.90384,
-          "current_price": 71833.651986,
-          "pnl": 3.75,
-          "pnl_pct": 1.67,
+          "current_price": 71920.407581,
+          "pnl": 4.57,
+          "pnl_pct": 2.03,
           "opened_at": "2026-04-08T14:09:19.617593+00:00",
-          "hold_minutes": 215.7,
+          "hold_minutes": 220.7,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -23077,11 +23079,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.357055,
-          "current_price": 1.36153,
-          "pnl": 2.26,
-          "pnl_pct": 0.99,
+          "current_price": 1.361867,
+          "pnl": 2.43,
+          "pnl_pct": 1.06,
           "opened_at": "2026-04-08T14:34:42.029364+00:00",
-          "hold_minutes": 190.3,
+          "hold_minutes": 195.3,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -23175,14 +23177,14 @@
         },
         {
           "date": "2026-04-08",
-          "value": 1294.18
+          "value": 1507.31
         }
       ],
       "extra_state": {
-        "total_fees": 96.9,
-        "total_funding": -2.51,
+        "total_fees": 97.64,
+        "total_funding": -2.57,
         "liquidations": 0,
-        "consec_losses": 2,
+        "consec_losses": 3,
         "peak_bankroll": 2000.0,
         "max_drawdown": 29.93
       }
