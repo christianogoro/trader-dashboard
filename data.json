@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-08T14:30:01.052012+00:00",
+  "updated_at": "2026-04-08T14:35:00.382905+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -21778,20 +21778,20 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1971.34,
+      "bankroll": 1966.04,
       "starting_bankroll": 2000.0,
-      "total_pnl": -28.66,
-      "total_pnl_pct": -1.43,
-      "total_trades": 56,
+      "total_pnl": -33.96,
+      "total_pnl_pct": -1.7,
+      "total_trades": 57,
       "wins": 21,
-      "losses": 35,
-      "win_rate": 37.5,
-      "daily_pnl": -6.6,
+      "losses": 36,
+      "win_rate": 36.8,
+      "daily_pnl": -10.44,
       "open_positions": 3,
-      "last_trade_at": "2026-04-08T14:09:18.952709+00:00",
-      "today_trades": 1,
+      "last_trade_at": "2026-04-08T14:32:40.269885+00:00",
+      "today_trades": 2,
       "today_wins": 0,
-      "today_losses": 1,
+      "today_losses": 2,
       "daily_breakdown": [
         {
           "date": "2026-03-21",
@@ -21945,9 +21945,9 @@
         },
         {
           "date": "2026-04-08",
-          "trades": 1,
+          "trades": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "pnl": 0.0,
           "prev_balance": 1973.15,
           "balance": 1275.16,
@@ -23018,34 +23018,36 @@
             "margin": 295.97,
             "funding_paid": 0.0888
           }
+        },
+        {
+          "id": 57,
+          "opened_at": "2026-04-08T00:46:25.246440+00:00",
+          "closed_at": "2026-04-08T14:32:40.269885+00:00",
+          "symbol": "XRP",
+          "direction": "",
+          "entry_price": 1.362509,
+          "exit_price": 1.357273,
+          "pnl": 0,
+          "pnl_pct": 0.0,
+          "outcome": "LOSS",
+          "exit_reason": "",
+          "bankroll_after": 1522.85,
+          "extra": {
+            "leverage": 3,
+            "margin": 251.53,
+            "funding_paid": 0.0755
+          }
         }
       ],
       "open": [
         {
-          "symbol": "XRP",
-          "entry_price": 1.362509,
-          "current_price": 1.367168,
-          "pnl": 2.58,
-          "pnl_pct": 1.03,
-          "opened_at": "2026-04-08T00:46:25.246440+00:00",
-          "hold_minutes": 823.6,
-          "extra": {
-            "direction": "long",
-            "leverage": 3,
-            "stop_loss": 1.34,
-            "take_profit": 1.4,
-            "margin": 251.53,
-            "liquidation_price": 0.92
-          }
-        },
-        {
           "symbol": "ETH",
           "entry_price": 2236.699208,
-          "current_price": 2227.386604,
-          "pnl": 2.67,
-          "pnl_pct": 1.25,
+          "current_price": 2207.889429,
+          "pnl": 8.26,
+          "pnl_pct": 3.86,
           "opened_at": "2026-04-08T01:47:15.983202+00:00",
-          "hold_minutes": 762.8,
+          "hold_minutes": 767.7,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -23058,11 +23060,11 @@
         {
           "symbol": "BTC",
           "entry_price": 71436.90384,
-          "current_price": 71497.209558,
-          "pnl": 0.57,
-          "pnl_pct": 0.25,
+          "current_price": 71049.677649,
+          "pnl": -3.66,
+          "pnl_pct": -1.63,
           "opened_at": "2026-04-08T14:09:19.617593+00:00",
-          "hold_minutes": 20.7,
+          "hold_minutes": 25.7,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -23070,6 +23072,23 @@
             "take_profit": 73521.19,
             "margin": 225.07,
             "liquidation_price": 47981.79
+          }
+        },
+        {
+          "symbol": "XRP",
+          "entry_price": 1.357055,
+          "current_price": 1.357055,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "opened_at": "2026-04-08T14:34:42.029364+00:00",
+          "hold_minutes": 0.3,
+          "extra": {
+            "direction": "long",
+            "leverage": 3,
+            "stop_loss": 1.34,
+            "take_profit": 1.4,
+            "margin": 228.43,
+            "liquidation_price": 0.91
           }
         }
       ],
@@ -23160,10 +23179,10 @@
         }
       ],
       "extra_state": {
-        "total_fees": 95.24,
-        "total_funding": -2.59,
+        "total_fees": 96.9,
+        "total_funding": -2.51,
         "liquidations": 0,
-        "consec_losses": 1,
+        "consec_losses": 2,
         "peak_bankroll": 2000.0,
         "max_drawdown": 29.93
       }
