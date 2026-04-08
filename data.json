@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-08T19:35:01.152801+00:00",
+  "updated_at": "2026-04-08T19:40:00.306189+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -9713,20 +9713,20 @@
     "stock": {
       "name": "Stock Trader",
       "status": "running",
-      "bankroll": 23541.56,
+      "bankroll": 23470.42,
       "starting_bankroll": 25000.0,
-      "total_pnl": -1458.44,
-      "total_pnl_pct": -5.83,
-      "total_trades": 116,
+      "total_pnl": -1529.58,
+      "total_pnl_pct": -6.12,
+      "total_trades": 117,
       "wins": 31,
-      "losses": 85,
-      "win_rate": 26.7,
-      "daily_pnl": 517.89,
-      "open_positions": 1,
-      "last_trade_at": "2026-04-08T15:31:43.150947-04:00",
-      "today_trades": 5,
+      "losses": 86,
+      "win_rate": 26.5,
+      "daily_pnl": 446.74,
+      "open_positions": 2,
+      "last_trade_at": "2026-04-08T15:36:12.153813-04:00",
+      "today_trades": 6,
       "today_wins": 2,
-      "today_losses": 3,
+      "today_losses": 4,
       "daily_breakdown": [
         {
           "date": "2026-03-25",
@@ -9830,13 +9830,13 @@
         },
         {
           "date": "2026-04-08",
-          "trades": 5,
+          "trades": 6,
           "wins": 2,
-          "losses": 3,
-          "pnl": 517.88,
+          "losses": 4,
+          "pnl": 446.74,
           "prev_balance": 23023.67,
-          "balance": 23541.56,
-          "pnl_pct_of_prev": 2.25
+          "balance": 23470.42,
+          "pnl_pct_of_prev": 1.94
         }
       ],
       "trades": [
@@ -12159,22 +12159,59 @@
             "strategy": "breakout",
             "hold_minutes": 2.1
           }
+        },
+        {
+          "id": 117,
+          "opened_at": "2026-04-08T15:30:42.872639-04:00",
+          "closed_at": "2026-04-08T15:36:12.153813-04:00",
+          "symbol": "SOFI",
+          "direction": "short",
+          "entry_price": 16.2537,
+          "exit_price": 16.3764,
+          "pnl": -71.14,
+          "pnl_pct": -0.75,
+          "outcome": "LOSS",
+          "exit_reason": "stop_loss",
+          "bankroll_after": 23470.42,
+          "extra": {
+            "shares": 580,
+            "score": 70,
+            "strategy": "momentum",
+            "hold_minutes": 5.5
+          }
         }
       ],
       "open": [
         {
-          "symbol": "SOFI",
-          "entry_price": 16.2537,
-          "current_price": 16.25373,
+          "symbol": "NVDA",
+          "entry_price": 182.0819,
+          "current_price": 182.0819,
           "pnl": 0,
           "pnl_pct": 0,
-          "opened_at": "2026-04-08T15:30:42.872639-04:00",
-          "hold_minutes": 4.3,
+          "opened_at": "2026-04-08T15:35:11.967699-04:00",
+          "hold_minutes": 4.8,
+          "extra": {
+            "direction": "long",
+            "leverage": null,
+            "stop_loss": 181.35,
+            "take_profit": 182.99,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "GOOG",
+          "entry_price": 314.5651,
+          "current_price": 314.56512,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-08T15:39:40.272688-04:00",
+          "hold_minutes": 0.3,
           "extra": {
             "direction": "short",
             "leverage": null,
-            "stop_loss": 16.36,
-            "take_profit": 16.1,
+            "stop_loss": 315.82,
+            "take_profit": 312.99,
             "margin": 0,
             "liquidation_price": null
           }
@@ -12231,12 +12268,12 @@
         },
         {
           "date": "2026-04-08",
-          "value": 23541.56
+          "value": 23470.42
         }
       ],
       "extra_state": {
         "total_fees": 0.0,
-        "consec_losses": 2
+        "consec_losses": 3
       }
     },
     "crypto_5m": {
@@ -21876,10 +21913,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1952.01,
+      "bankroll": 1955.21,
       "starting_bankroll": 2000.0,
-      "total_pnl": -47.99,
-      "total_pnl_pct": -2.4,
+      "total_pnl": -44.79,
+      "total_pnl_pct": -2.24,
       "total_trades": 58,
       "wins": 21,
       "losses": 37,
@@ -23160,11 +23197,11 @@
         {
           "symbol": "BTC",
           "entry_price": 71436.90384,
-          "current_price": 71155.477155,
-          "pnl": -2.66,
-          "pnl_pct": -1.18,
+          "current_price": 71330.046339,
+          "pnl": -1.01,
+          "pnl_pct": -0.45,
           "opened_at": "2026-04-08T14:09:19.617593+00:00",
-          "hold_minutes": 325.7,
+          "hold_minutes": 330.7,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -23177,11 +23214,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.357055,
-          "current_price": 1.344896,
-          "pnl": -6.14,
-          "pnl_pct": -2.69,
+          "current_price": 1.347966,
+          "pnl": -4.59,
+          "pnl_pct": -2.01,
           "opened_at": "2026-04-08T14:34:42.029364+00:00",
-          "hold_minutes": 300.3,
+          "hold_minutes": 305.3,
           "extra": {
             "direction": "long",
             "leverage": 3,
