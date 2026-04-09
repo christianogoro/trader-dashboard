@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T19:55:00.723224+00:00",
+  "updated_at": "2026-04-09T20:00:01.025855+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -9853,20 +9853,20 @@
     "stock": {
       "name": "Stock Trader",
       "status": "running",
-      "bankroll": 23277.0,
+      "bankroll": 23231.58,
       "starting_bankroll": 25000.0,
-      "total_pnl": -1723.0,
-      "total_pnl_pct": -6.89,
-      "total_trades": 130,
-      "wins": 34,
-      "losses": 96,
-      "win_rate": 26.2,
-      "daily_pnl": -34.48,
-      "open_positions": 5,
-      "last_trade_at": "2026-04-09T15:41:58.295434-04:00",
-      "today_trades": 5,
-      "today_wins": 1,
-      "today_losses": 4,
+      "total_pnl": -1768.42,
+      "total_pnl_pct": -7.07,
+      "total_trades": 137,
+      "wins": 35,
+      "losses": 102,
+      "win_rate": 25.5,
+      "daily_pnl": -79.91,
+      "open_positions": 0,
+      "last_trade_at": "2026-04-09T15:57:30.474284-04:00",
+      "today_trades": 12,
+      "today_wins": 2,
+      "today_losses": 10,
       "daily_breakdown": [
         {
           "date": "2026-03-25",
@@ -9980,13 +9980,13 @@
         },
         {
           "date": "2026-04-09",
-          "trades": 5,
-          "wins": 1,
-          "losses": 4,
-          "pnl": -34.49,
+          "trades": 12,
+          "wins": 2,
+          "losses": 10,
+          "pnl": -79.92,
           "prev_balance": 23311.48,
-          "balance": 23277.0,
-          "pnl_pct_of_prev": -0.15
+          "balance": 23247.15,
+          "pnl_pct_of_prev": -0.34
         }
       ],
       "trades": [
@@ -12589,95 +12589,149 @@
             "strategy": "vwap_bounce",
             "hold_minutes": 8.1
           }
-        }
-      ],
-      "open": [
+        },
         {
-          "symbol": "NFLX",
-          "entry_price": 102.062,
-          "current_price": 102.295,
-          "pnl": 0,
-          "pnl_pct": 0,
+          "id": 128,
           "opened_at": "2026-04-09T14:35:18.204049-04:00",
-          "hold_minutes": 79.7,
+          "closed_at": "2026-04-09T15:55:14.051947-04:00",
+          "symbol": "NFLX",
+          "direction": "long",
+          "entry_price": 102.062,
+          "exit_price": 101.883,
+          "pnl": -16.29,
+          "pnl_pct": -0.18,
+          "outcome": "LOSS",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23260.71,
           "extra": {
-            "direction": "long",
-            "leverage": null,
-            "stop_loss": 101.88,
-            "take_profit": 102.58,
-            "margin": 0,
-            "liquidation_price": null
+            "shares": 91,
+            "score": 65,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 79.9
           }
         },
         {
-          "symbol": "AMZN",
-          "entry_price": 232.0818,
-          "current_price": 233.19,
-          "pnl": 0,
-          "pnl_pct": 0,
+          "id": 131,
           "opened_at": "2026-04-09T14:55:09.122003-04:00",
-          "hold_minutes": 59.9,
+          "closed_at": "2026-04-09T15:55:14.054346-04:00",
+          "symbol": "AMZN",
+          "direction": "long",
+          "entry_price": 232.0818,
+          "exit_price": 232.8769,
+          "pnl": 31.8,
+          "pnl_pct": 0.34,
+          "outcome": "WIN",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23292.52,
           "extra": {
-            "direction": "long",
-            "leverage": null,
-            "stop_loss": 232.21,
-            "take_profit": 233.33,
-            "margin": 0,
-            "liquidation_price": null
+            "shares": 40,
+            "score": 70,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 60.1
           }
         },
         {
-          "symbol": "NVDA",
-          "entry_price": 183.9438,
-          "current_price": 184.015,
-          "pnl": 0,
-          "pnl_pct": 0,
+          "id": 132,
           "opened_at": "2026-04-09T15:10:33.217460-04:00",
-          "hold_minutes": 44.5,
+          "closed_at": "2026-04-09T15:55:14.055030-04:00",
+          "symbol": "NVDA",
+          "direction": "long",
+          "entry_price": 183.9438,
+          "exit_price": 183.6512,
+          "pnl": -14.63,
+          "pnl_pct": -0.16,
+          "outcome": "LOSS",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23277.89,
           "extra": {
-            "direction": "long",
-            "leverage": null,
-            "stop_loss": 183.48,
-            "take_profit": 184.86,
-            "margin": 0,
-            "liquidation_price": null
+            "shares": 50,
+            "score": 70,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 44.7
           }
         },
         {
-          "symbol": "AAPL",
-          "entry_price": 260.4302,
-          "current_price": 260.95,
-          "pnl": 0,
-          "pnl_pct": 0,
+          "id": 133,
           "opened_at": "2026-04-09T15:12:39.728967-04:00",
-          "hold_minutes": 42.4,
+          "closed_at": "2026-04-09T15:55:14.055378-04:00",
+          "symbol": "AAPL",
+          "direction": "long",
+          "entry_price": 260.4302,
+          "exit_price": 260.3094,
+          "pnl": -4.23,
+          "pnl_pct": -0.05,
+          "outcome": "LOSS",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23273.66,
           "extra": {
-            "direction": "long",
-            "leverage": null,
-            "stop_loss": 260.37,
-            "take_profit": 261.73,
-            "margin": 0,
-            "liquidation_price": null
+            "shares": 35,
+            "score": 70,
+            "strategy": "momentum",
+            "hold_minutes": 42.6
           }
         },
         {
-          "symbol": "AMD",
-          "entry_price": 236.9367,
-          "current_price": 237.03,
-          "pnl": 0,
-          "pnl_pct": 0,
+          "id": 135,
           "opened_at": "2026-04-09T15:43:09.111664-04:00",
-          "hold_minutes": 11.9,
+          "closed_at": "2026-04-09T15:55:14.055658-04:00",
+          "symbol": "AMD",
+          "direction": "long",
+          "entry_price": 236.9367,
+          "exit_price": 236.5132,
+          "pnl": -16.51,
+          "pnl_pct": -0.18,
+          "outcome": "LOSS",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23257.14,
           "extra": {
-            "direction": "long",
-            "leverage": null,
-            "stop_loss": 236.23,
-            "take_profit": 238.13,
-            "margin": 0,
-            "liquidation_price": null
+            "shares": 39,
+            "score": 75,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 12.1
+          }
+        },
+        {
+          "id": 136,
+          "opened_at": "2026-04-09T15:55:22.676389-04:00",
+          "closed_at": "2026-04-09T15:56:22.814597-04:00",
+          "symbol": "AMZN",
+          "direction": "long",
+          "entry_price": 233.273,
+          "exit_price": 233.0168,
+          "pnl": -9.99,
+          "pnl_pct": -0.11,
+          "outcome": "LOSS",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23247.15,
+          "extra": {
+            "shares": 39,
+            "score": 90,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 1.0
+          }
+        },
+        {
+          "id": 137,
+          "opened_at": "2026-04-09T15:56:30.305149-04:00",
+          "closed_at": "2026-04-09T15:57:30.474284-04:00",
+          "symbol": "RIVN",
+          "direction": "short",
+          "entry_price": 15.2647,
+          "exit_price": 15.2903,
+          "pnl": -15.58,
+          "pnl_pct": -0.17,
+          "outcome": "LOSS",
+          "exit_reason": "eod_close",
+          "bankroll_after": 23231.58,
+          "extra": {
+            "shares": 609,
+            "score": 70,
+            "strategy": "momentum",
+            "hold_minutes": 1.0
           }
         }
       ],
+      "open": [],
       "equity_curve": [
         {
           "date": "2026-03-23",
@@ -12733,12 +12787,12 @@
         },
         {
           "date": "2026-04-09",
-          "value": 23277.0
+          "value": 23247.15
         }
       ],
       "extra_state": {
         "total_fees": 0.0,
-        "consec_losses": 1
+        "consec_losses": 5
       }
     },
     "crypto_5m": {
@@ -22560,10 +22614,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1962.07,
+      "bankroll": 1962.17,
       "starting_bankroll": 2000.0,
-      "total_pnl": -37.93,
-      "total_pnl_pct": -1.9,
+      "total_pnl": -37.83,
+      "total_pnl_pct": -1.89,
       "total_trades": 60,
       "wins": 21,
       "losses": 39,
@@ -23892,11 +23946,11 @@
         {
           "symbol": "BTC",
           "entry_price": 71436.90384,
-          "current_price": 72170.094415,
-          "pnl": 6.93,
-          "pnl_pct": 3.08,
+          "current_price": 72111.904686,
+          "pnl": 6.38,
+          "pnl_pct": 2.83,
           "opened_at": "2026-04-08T14:09:19.617593+00:00",
-          "hold_minutes": 1785.7,
+          "hold_minutes": 1790.7,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -23909,11 +23963,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.329142,
-          "current_price": 1.357233,
-          "pnl": 14.26,
-          "pnl_pct": 6.34,
+          "current_price": 1.356484,
+          "pnl": 13.88,
+          "pnl_pct": 6.17,
           "opened_at": "2026-04-09T01:25:03.249364+00:00",
-          "hold_minutes": 1110.0,
+          "hold_minutes": 1115.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -23926,11 +23980,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2201.03776,
-          "current_price": 2219.72856,
-          "pnl": -5.72,
-          "pnl_pct": -2.55,
+          "current_price": 2216.362909,
+          "pnl": -4.69,
+          "pnl_pct": -2.09,
           "opened_at": "2026-04-09T16:45:07.962390+00:00",
-          "hold_minutes": 189.9,
+          "hold_minutes": 194.9,
           "extra": {
             "direction": "short",
             "leverage": 3,
