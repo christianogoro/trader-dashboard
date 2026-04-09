@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T04:55:00.722139+00:00",
+  "updated_at": "2026-04-09T05:00:00.511667+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -12353,7 +12353,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-08T15:59:09.667593-04:00",
-          "hold_minutes": 535.9,
+          "hold_minutes": 540.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -22090,10 +22090,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1954.07,
+      "bankroll": 1954.32,
       "starting_bankroll": 2000.0,
-      "total_pnl": -45.93,
-      "total_pnl_pct": -2.3,
+      "total_pnl": -45.68,
+      "total_pnl_pct": -2.28,
       "total_trades": 59,
       "wins": 21,
       "losses": 38,
@@ -23397,7 +23397,7 @@
           "pnl": -6.31,
           "pnl_pct": -2.8,
           "opened_at": "2026-04-08T14:09:19.617593+00:00",
-          "hold_minutes": 885.7,
+          "hold_minutes": 890.7,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -23410,11 +23410,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2208.232,
-          "current_price": 2178.899595,
-          "pnl": 9.01,
-          "pnl_pct": 3.98,
+          "current_price": 2178.053155,
+          "pnl": 9.27,
+          "pnl_pct": 4.1,
           "opened_at": "2026-04-08T19:59:36.098638+00:00",
-          "hold_minutes": 535.4,
+          "hold_minutes": 540.4,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -23427,11 +23427,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.329142,
-          "current_price": 1.33121,
-          "pnl": 1.05,
-          "pnl_pct": 0.47,
+          "current_price": 1.331191,
+          "pnl": 1.04,
+          "pnl_pct": 0.46,
           "opened_at": "2026-04-09T01:25:03.249364+00:00",
-          "hold_minutes": 210.0,
+          "hold_minutes": 215.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
