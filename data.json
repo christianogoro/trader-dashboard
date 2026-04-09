@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T17:40:00.505191+00:00",
+  "updated_at": "2026-04-09T17:45:00.516082+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -22394,10 +22394,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1964.63,
+      "bankroll": 1965.33,
       "starting_bankroll": 2000.0,
-      "total_pnl": -35.37,
-      "total_pnl_pct": -1.77,
+      "total_pnl": -34.67,
+      "total_pnl_pct": -1.73,
       "total_trades": 60,
       "wins": 21,
       "losses": 39,
@@ -23726,11 +23726,11 @@
         {
           "symbol": "BTC",
           "entry_price": 71436.90384,
-          "current_price": 72469.507016,
-          "pnl": 9.76,
-          "pnl_pct": 4.34,
+          "current_price": 72474.796991,
+          "pnl": 9.81,
+          "pnl_pct": 4.36,
           "opened_at": "2026-04-08T14:09:19.617593+00:00",
-          "hold_minutes": 1650.7,
+          "hold_minutes": 1655.7,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -23743,11 +23743,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.329142,
-          "current_price": 1.358572,
-          "pnl": 14.94,
-          "pnl_pct": 6.64,
+          "current_price": 1.359833,
+          "pnl": 15.58,
+          "pnl_pct": 6.93,
           "opened_at": "2026-04-09T01:25:03.249364+00:00",
-          "hold_minutes": 975.0,
+          "hold_minutes": 980.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -23760,11 +23760,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2201.03776,
-          "current_price": 2222.832802,
-          "pnl": -6.67,
+          "current_price": 2222.800125,
+          "pnl": -6.66,
           "pnl_pct": -2.97,
           "opened_at": "2026-04-09T16:45:07.962390+00:00",
-          "hold_minutes": 54.9,
+          "hold_minutes": 59.9,
           "extra": {
             "direction": "short",
             "leverage": 3,
