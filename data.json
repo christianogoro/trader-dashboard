@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T20:40:00.397548+00:00",
+  "updated_at": "2026-04-10T20:45:00.859348+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -2098,7 +2098,7 @@
       "losses": 184,
       "win_rate": 49.3,
       "daily_pnl": 254.26,
-      "open_positions": 0,
+      "open_positions": 1,
       "last_trade_at": "2026-04-10T20:35:10.604082+00:00",
       "today_trades": 6,
       "today_wins": 4,
@@ -9890,7 +9890,25 @@
           }
         }
       ],
-      "open": [],
+      "open": [
+        {
+          "symbol": "GBP/JPY",
+          "entry_price": 214.50699,
+          "current_price": 214.50699,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-10T20:40:10.685198+00:00",
+          "hold_minutes": 4.8,
+          "extra": {
+            "direction": "long",
+            "leverage": null,
+            "stop_loss": 214.44625,
+            "take_profit": 214.62848,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        }
+      ],
       "equity_curve": [
         {
           "date": "2026-03-19",
@@ -22810,10 +22828,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1931.6,
+      "bankroll": 1932.21,
       "starting_bankroll": 2000.0,
-      "total_pnl": -68.4,
-      "total_pnl_pct": -3.42,
+      "total_pnl": -67.79,
+      "total_pnl_pct": -3.39,
       "total_trades": 64,
       "wins": 23,
       "losses": 41,
@@ -24228,11 +24246,11 @@
         {
           "symbol": "BTC",
           "entry_price": 71645.87088,
-          "current_price": 73121.021167,
-          "pnl": 15.83,
-          "pnl_pct": 6.18,
+          "current_price": 73177.86524,
+          "pnl": 16.44,
+          "pnl_pct": 6.41,
           "opened_at": "2026-04-09T23:16:31.849588+00:00",
-          "hold_minutes": 1283.5,
+          "hold_minutes": 1288.5,
           "extra": {
             "direction": "long",
             "leverage": 3,
