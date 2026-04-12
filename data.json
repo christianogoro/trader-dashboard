@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T11:15:00.377775+00:00",
+  "updated_at": "2026-04-12T00:28:24.188349+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -10029,6 +10029,10 @@
         {
           "date": "2026-04-11",
           "value": 7102.96
+        },
+        {
+          "date": "2026-04-12",
+          "value": 7102.96
         }
       ],
       "extra_state": {
@@ -19997,6 +20001,10 @@
         {
           "date": "2026-04-11",
           "value": 4507.29
+        },
+        {
+          "date": "2026-04-12",
+          "value": 4507.29
         }
       ],
       "extra_state": {
@@ -22854,6 +22862,10 @@
         {
           "date": "2026-04-11",
           "value": 1664.06
+        },
+        {
+          "date": "2026-04-12",
+          "value": 1664.06
         }
       ],
       "extra_state": {
@@ -22864,17 +22876,17 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1937.85,
+      "bankroll": 1899.98,
       "starting_bankroll": 2000.0,
-      "total_pnl": -62.15,
-      "total_pnl_pct": -3.11,
-      "total_trades": 64,
+      "total_pnl": -100.02,
+      "total_pnl_pct": -5.0,
+      "total_trades": 66,
       "wins": 23,
-      "losses": 41,
-      "win_rate": 35.9,
+      "losses": 43,
+      "win_rate": 34.8,
       "daily_pnl": 0.0,
       "open_positions": 3,
-      "last_trade_at": "2026-04-10T20:34:02.730960+00:00",
+      "last_trade_at": "2026-04-11T19:58:36.736638+00:00",
       "today_trades": 0,
       "today_wins": 0,
       "today_losses": 0,
@@ -23057,6 +23069,16 @@
           "pnl": 0.0,
           "prev_balance": 1451.99,
           "balance": 1198.54,
+          "pnl_pct_of_prev": 0.0
+        },
+        {
+          "date": "2026-04-11",
+          "trades": 2,
+          "wins": 0,
+          "losses": 2,
+          "pnl": 0.0,
+          "prev_balance": 1198.54,
+          "balance": 1632.66,
           "pnl_pct_of_prev": 0.0
         }
       ],
@@ -24276,17 +24298,55 @@
             "margin": 217.8,
             "funding_paid": 0.0
           }
+        },
+        {
+          "id": 66,
+          "opened_at": "2026-04-10T20:58:21.615937+00:00",
+          "closed_at": "2026-04-11T19:58:36.734855+00:00",
+          "symbol": "XRP",
+          "direction": "",
+          "entry_price": 1.364118,
+          "exit_price": 1.371586,
+          "pnl": 0,
+          "pnl_pct": 0.0,
+          "outcome": "LOSS",
+          "exit_reason": "",
+          "bankroll_after": 1442.59,
+          "extra": {
+            "leverage": 3,
+            "margin": 248.92,
+            "funding_paid": -0.0747
+          }
+        },
+        {
+          "id": 67,
+          "opened_at": "2026-04-10T23:46:09.417918+00:00",
+          "closed_at": "2026-04-11T19:58:36.736638+00:00",
+          "symbol": "ETH",
+          "direction": "",
+          "entry_price": 2242.694408,
+          "exit_price": 2316.281544,
+          "pnl": 0,
+          "pnl_pct": 0.0,
+          "outcome": "LOSS",
+          "exit_reason": "",
+          "bankroll_after": 1632.66,
+          "extra": {
+            "leverage": 3,
+            "margin": 211.55,
+            "funding_paid": -0.0635
+          }
         }
       ],
       "open": [
         {
           "symbol": "BTC",
           "entry_price": 71645.87088,
-          "current_price": 72903.895446,
-          "pnl": 13.5,
-          "pnl_pct": 5.27,
+          "current_price": 73105.179377,
+          "pnl": 15.66,
+          "pnl_pct": 6.11,
           "opened_at": "2026-04-09T23:16:31.849588+00:00",
-          "hold_minutes": 2158.5,
+          "hold_minutes": 2951.9,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -24298,36 +24358,36 @@
         },
         {
           "symbol": "XRP",
-          "entry_price": 1.364118,
-          "current_price": 1.348207,
-          "pnl": 8.71,
-          "pnl_pct": 3.5,
-          "opened_at": "2026-04-10T20:58:21.615937+00:00",
-          "hold_minutes": 856.6,
+          "entry_price": 1.359086,
+          "current_price": 1.353222,
+          "pnl": -3.17,
+          "pnl_pct": -1.29,
+          "opened_at": "2026-04-11T23:04:55.998802+00:00",
+          "hold_minutes": 83.5,
           "extra": {
-            "direction": "short",
+            "direction": "long",
             "leverage": 3,
-            "stop_loss": 1.39,
-            "take_profit": 1.32,
-            "margin": 248.92,
-            "liquidation_price": 1.81
+            "stop_loss": 1.34,
+            "take_profit": 1.4,
+            "margin": 244.9,
+            "liquidation_price": 0.91
           }
         },
         {
           "symbol": "ETH",
-          "entry_price": 2242.694408,
-          "current_price": 2241.457596,
-          "pnl": 0.35,
-          "pnl_pct": 0.17,
-          "opened_at": "2026-04-10T23:46:09.417918+00:00",
-          "hold_minutes": 688.9,
+          "entry_price": 2281.913008,
+          "current_price": 2285.458167,
+          "pnl": -0.97,
+          "pnl_pct": -0.47,
+          "opened_at": "2026-04-12T00:15:19.142691+00:00",
+          "hold_minutes": 13.1,
           "extra": {
             "direction": "short",
             "leverage": 3,
-            "stop_loss": 2278.16,
-            "take_profit": 2177.16,
-            "margin": 211.55,
-            "liquidation_price": 2979.05
+            "stop_loss": 2318.0,
+            "take_profit": 2215.23,
+            "margin": 208.12,
+            "liquidation_price": 3031.14
           }
         }
       ],
@@ -24426,14 +24486,18 @@
         },
         {
           "date": "2026-04-11",
-          "value": 1198.54
+          "value": 1632.66
+        },
+        {
+          "date": "2026-04-12",
+          "value": 1179.16
         }
       ],
       "extra_state": {
-        "total_fees": 107.82,
-        "total_funding": -2.17,
+        "total_fees": 110.96,
+        "total_funding": -2.3,
         "liquidations": 0,
-        "consec_losses": 1,
+        "consec_losses": 0,
         "peak_bankroll": 2000.0,
         "max_drawdown": 29.93
       }
