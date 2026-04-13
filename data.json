@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-13T22:15:00.620503+00:00",
+  "updated_at": "2026-04-13T22:20:01.047643+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -23421,20 +23421,20 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1882.41,
+      "bankroll": 1875.47,
       "starting_bankroll": 2000.0,
-      "total_pnl": -117.59,
-      "total_pnl_pct": -5.88,
-      "total_trades": 74,
+      "total_pnl": -105.8,
+      "total_pnl_pct": -5.29,
+      "total_trades": 75,
       "wins": 26,
-      "losses": 48,
-      "win_rate": 35.1,
-      "daily_pnl": -10.26,
-      "open_positions": 1,
-      "last_trade_at": "2026-04-13T22:07:09.007108+00:00",
-      "today_trades": 5,
+      "losses": 49,
+      "win_rate": 34.7,
+      "daily_pnl": -20.74,
+      "open_positions": 0,
+      "last_trade_at": "2026-04-13T22:19:33.698976+00:00",
+      "today_trades": 6,
       "today_wins": 1,
-      "today_losses": 4,
+      "today_losses": 5,
       "daily_breakdown": [
         {
           "date": "2026-03-21",
@@ -23638,9 +23638,9 @@
         },
         {
           "date": "2026-04-13",
-          "trades": 5,
+          "trades": 6,
           "wins": 1,
-          "losses": 4,
+          "losses": 5,
           "pnl": 0.0,
           "prev_balance": 1164.76,
           "balance": 1674.48,
@@ -25053,27 +25053,28 @@
             "margin": 214.33,
             "funding_paid": 0.0
           }
-        }
-      ],
-      "open": [
+        },
         {
-          "symbol": "XRP",
-          "entry_price": 1.350699,
-          "current_price": 1.358236,
-          "pnl": -3.54,
-          "pnl_pct": -1.67,
+          "id": 75,
           "opened_at": "2026-04-13T21:26:30.074885+00:00",
-          "hold_minutes": 48.5,
+          "closed_at": "2026-04-13T22:19:33.698976+00:00",
+          "symbol": "XRP",
+          "direction": "",
+          "entry_price": 1.350699,
+          "exit_price": 1.371466,
+          "pnl": 0,
+          "pnl_pct": 0.0,
+          "outcome": "LOSS",
+          "exit_reason": "",
+          "bankroll_after": 1875.47,
           "extra": {
-            "direction": "short",
             "leverage": 3,
-            "stop_loss": 1.37,
-            "take_profit": 1.31,
             "margin": 211.47,
-            "liquidation_price": 1.79
+            "funding_paid": 0.0
           }
         }
       ],
+      "open": [],
       "equity_curve": [
         {
           "date": "2026-03-19",
@@ -25181,10 +25182,10 @@
         }
       ],
       "extra_state": {
-        "total_fees": 122.41,
+        "total_fees": 123.14,
         "total_funding": -2.8,
         "liquidations": 0,
-        "consec_losses": 1,
+        "consec_losses": 2,
         "peak_bankroll": 2000.0,
         "max_drawdown": 29.93
       }
