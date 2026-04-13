@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-13T22:20:01.047643+00:00",
+  "updated_at": "2026-04-13T22:25:00.675622+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -23643,7 +23643,7 @@
           "losses": 5,
           "pnl": 0.0,
           "prev_balance": 1164.76,
-          "balance": 1674.48,
+          "balance": 1875.47,
           "pnl_pct_of_prev": 0.0
         }
       ],
@@ -25178,7 +25178,7 @@
         },
         {
           "date": "2026-04-13",
-          "value": 1674.48
+          "value": 1875.47
         }
       ],
       "extra_state": {
