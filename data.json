@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-14T18:35:01.350076+00:00",
+  "updated_at": "2026-04-14T18:40:01.068680+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -10429,7 +10429,7 @@
       "losses": 102,
       "win_rate": 25.5,
       "daily_pnl": 0.0,
-      "open_positions": 3,
+      "open_positions": 5,
       "last_trade_at": "2026-04-09T15:57:30.474284-04:00",
       "today_trades": 0,
       "today_wins": 0,
@@ -13302,15 +13302,15 @@
         {
           "symbol": "NVDA",
           "entry_price": 194.8146,
-          "current_price": 194.81462,
+          "current_price": 194.84,
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-14T14:31:42.613117-04:00",
-          "hold_minutes": 3.3,
+          "hold_minutes": 8.3,
           "extra": {
             "direction": "long",
             "leverage": null,
-            "stop_loss": 194.39,
+            "stop_loss": 194.42,
             "take_profit": 195.79,
             "margin": 0,
             "liquidation_price": null
@@ -13323,7 +13323,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-14T14:33:09.861806-04:00",
-          "hold_minutes": 1.9,
+          "hold_minutes": 6.9,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -13340,12 +13340,46 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-14T14:34:31.245025-04:00",
-          "hold_minutes": 0.5,
+          "hold_minutes": 5.5,
           "extra": {
             "direction": "short",
             "leverage": null,
             "stop_loss": 364.68,
             "take_profit": 361.36,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "AAPL",
+          "entry_price": 258.1916,
+          "current_price": 258.19155,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-14T14:37:08.981866-04:00",
+          "hold_minutes": 2.9,
+          "extra": {
+            "direction": "short",
+            "leverage": null,
+            "stop_loss": 258.79,
+            "take_profit": 256.9,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "MSFT",
+          "entry_price": 391.7079,
+          "current_price": 391.7079,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-14T14:38:22.127523-04:00",
+          "hold_minutes": 1.7,
+          "extra": {
+            "direction": "short",
+            "leverage": null,
+            "stop_loss": 393.27,
+            "take_profit": 389.74,
             "margin": 0,
             "liquidation_price": null
           }
@@ -23851,10 +23885,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1864.79,
+      "bankroll": 1869.87,
       "starting_bankroll": 2000.0,
-      "total_pnl": -135.21,
-      "total_pnl_pct": -6.76,
+      "total_pnl": -130.13,
+      "total_pnl_pct": -6.51,
       "total_trades": 78,
       "wins": 26,
       "losses": 52,
@@ -25575,11 +25609,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2340.47612,
-          "current_price": 2334.102113,
-          "pnl": 1.94,
-          "pnl_pct": 0.82,
+          "current_price": 2325.165362,
+          "pnl": 4.66,
+          "pnl_pct": 1.96,
           "opened_at": "2026-04-14T17:21:44.290757+00:00",
-          "hold_minutes": 73.3,
+          "hold_minutes": 78.3,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -25592,11 +25626,11 @@
         {
           "symbol": "BTC",
           "entry_price": 74719.27672,
-          "current_price": 74465.588783,
-          "pnl": 2.48,
-          "pnl_pct": 1.02,
+          "current_price": 74224.176068,
+          "pnl": 4.84,
+          "pnl_pct": 1.99,
           "opened_at": "2026-04-14T17:58:14.913947+00:00",
-          "hold_minutes": 36.8,
+          "hold_minutes": 41.8,
           "extra": {
             "direction": "short",
             "leverage": 3,
