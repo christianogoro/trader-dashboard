@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-14T00:00:01.185059+00:00",
+  "updated_at": "2026-04-14T00:05:00.435063+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -2097,7 +2097,7 @@
       "wins": 180,
       "losses": 190,
       "win_rate": 48.6,
-      "daily_pnl": -111.3,
+      "daily_pnl": 0.0,
       "open_positions": 0,
       "last_trade_at": "2026-04-13T12:06:34.386551+00:00",
       "today_trades": 0,
@@ -10152,6 +10152,10 @@
         {
           "date": "2026-04-13",
           "value": 6991.66
+        },
+        {
+          "date": "2026-04-14",
+          "value": 6991.66
         }
       ],
       "extra_state": {
@@ -13123,7 +13127,7 @@
       "wins": 174,
       "losses": 135,
       "win_rate": 56.3,
-      "daily_pnl": -207.65,
+      "daily_pnl": 0.0,
       "open_positions": 0,
       "last_trade_at": "2026-04-13T22:00:11.358327+00:00",
       "today_trades": 0,
@@ -20394,6 +20398,10 @@
         {
           "date": "2026-04-13",
           "value": 4439.96
+        },
+        {
+          "date": "2026-04-14",
+          "value": 4439.96
         }
       ],
       "extra_state": {
@@ -20412,7 +20420,7 @@
       "wins": 58,
       "losses": 60,
       "win_rate": 49.2,
-      "daily_pnl": 10.17,
+      "daily_pnl": 0.0,
       "open_positions": 0,
       "last_trade_at": "2026-04-13T21:15:11.373047+00:00",
       "today_trades": 0,
@@ -23411,6 +23419,10 @@
         {
           "date": "2026-04-13",
           "value": 1728.35
+        },
+        {
+          "date": "2026-04-14",
+          "value": 1728.35
         }
       ],
       "extra_state": {
@@ -23421,15 +23433,15 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1873.76,
+      "bankroll": 1873.88,
       "starting_bankroll": 2000.0,
-      "total_pnl": -126.24,
+      "total_pnl": -126.12,
       "total_pnl_pct": -6.31,
       "total_trades": 75,
       "wins": 26,
       "losses": 49,
       "win_rate": 34.7,
-      "daily_pnl": -20.74,
+      "daily_pnl": 0.0,
       "open_positions": 1,
       "last_trade_at": "2026-04-13T22:19:33.698976+00:00",
       "today_trades": 0,
@@ -25078,11 +25090,11 @@
         {
           "symbol": "BTC",
           "entry_price": 74604.03552,
-          "current_price": 74479.394856,
-          "pnl": -1.41,
-          "pnl_pct": -0.5,
+          "current_price": 74490.002572,
+          "pnl": -1.29,
+          "pnl_pct": -0.46,
           "opened_at": "2026-04-13T23:49:38.376738+00:00",
-          "hold_minutes": 10.4,
+          "hold_minutes": 15.4,
           "extra": {
             "direction": "long",
             "leverage": 3,
