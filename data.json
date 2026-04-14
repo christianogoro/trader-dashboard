@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-14T19:20:03.159968+00:00",
+  "updated_at": "2026-04-14T19:25:04.959593+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -13396,7 +13396,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-14T14:38:22.127523-04:00",
-          "hold_minutes": 41.7,
+          "hold_minutes": 46.8,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -13413,7 +13413,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-14T15:06:03.864908-04:00",
-          "hold_minutes": 14.0,
+          "hold_minutes": 19.1,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -13430,7 +13430,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-14T15:08:20.166950-04:00",
-          "hold_minutes": 11.8,
+          "hold_minutes": 16.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -13443,15 +13443,15 @@
         {
           "symbol": "QQQ",
           "entry_price": 627.8672,
-          "current_price": 627.86724,
+          "current_price": 627.985,
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-14T15:09:36.016282-04:00",
-          "hold_minutes": 10.5,
+          "hold_minutes": 15.6,
           "extra": {
             "direction": "long",
             "leverage": null,
-            "stop_loss": 627.06,
+            "stop_loss": 627.18,
             "take_profit": 631.0,
             "margin": 0,
             "liquidation_price": null
@@ -13464,7 +13464,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-14T15:18:41.436958-04:00",
-          "hold_minutes": 1.4,
+          "hold_minutes": 6.5,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -23975,10 +23975,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1869.97,
+      "bankroll": 1872.82,
       "starting_bankroll": 2000.0,
-      "total_pnl": -130.03,
-      "total_pnl_pct": -6.5,
+      "total_pnl": -127.18,
+      "total_pnl_pct": -6.36,
       "total_trades": 78,
       "wins": 26,
       "losses": 52,
@@ -25699,11 +25699,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2340.47612,
-          "current_price": 2320.696986,
-          "pnl": 6.02,
-          "pnl_pct": 2.54,
+          "current_price": 2315.571496,
+          "pnl": 7.58,
+          "pnl_pct": 3.19,
           "opened_at": "2026-04-14T17:21:44.290757+00:00",
-          "hold_minutes": 118.4,
+          "hold_minutes": 123.4,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -25716,11 +25716,11 @@
         {
           "symbol": "BTC",
           "entry_price": 74719.27672,
-          "current_price": 74353.065907,
-          "pnl": 3.58,
-          "pnl_pct": 1.47,
+          "current_price": 74221.107263,
+          "pnl": 4.87,
+          "pnl_pct": 2.0,
           "opened_at": "2026-04-14T17:58:14.913947+00:00",
-          "hold_minutes": 81.8,
+          "hold_minutes": 86.9,
           "extra": {
             "direction": "short",
             "leverage": 3,
