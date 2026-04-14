@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-14T19:55:01.336484+00:00",
+  "updated_at": "2026-04-14T20:00:00.308520+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -10420,20 +10420,20 @@
     "stock": {
       "name": "Stock Trader",
       "status": "running",
-      "bankroll": 22985.3,
+      "bankroll": 22915.61,
       "starting_bankroll": 25000.0,
-      "total_pnl": -2014.7,
-      "total_pnl_pct": -8.06,
-      "total_trades": 145,
+      "total_pnl": -2084.39,
+      "total_pnl_pct": -8.34,
+      "total_trades": 149,
       "wins": 36,
-      "losses": 109,
-      "win_rate": 24.8,
-      "daily_pnl": -246.27,
-      "open_positions": 4,
-      "last_trade_at": "2026-04-14T15:51:36.220926-04:00",
-      "today_trades": 8,
+      "losses": 113,
+      "win_rate": 24.2,
+      "daily_pnl": -315.96,
+      "open_positions": 0,
+      "last_trade_at": "2026-04-14T15:55:47.886932-04:00",
+      "today_trades": 12,
       "today_wins": 1,
-      "today_losses": 7,
+      "today_losses": 11,
       "daily_breakdown": [
         {
           "date": "2026-03-25",
@@ -10557,13 +10557,13 @@
         },
         {
           "date": "2026-04-14",
-          "trades": 8,
+          "trades": 12,
           "wins": 1,
-          "losses": 7,
-          "pnl": -246.27,
+          "losses": 11,
+          "pnl": -315.96,
           "prev_balance": 23231.58,
           "balance": 23031.66,
-          "pnl_pct_of_prev": -1.06
+          "pnl_pct_of_prev": -1.36
         }
       ],
       "trades": [
@@ -13466,78 +13466,89 @@
             "strategy": "vwap_bounce",
             "hold_minutes": 43.3
           }
-        }
-      ],
-      "open": [
+        },
         {
-          "symbol": "QQQ",
-          "entry_price": 627.8672,
-          "current_price": 628.24,
-          "pnl": 0,
-          "pnl_pct": 0,
+          "id": 145,
           "opened_at": "2026-04-14T15:09:36.016282-04:00",
-          "hold_minutes": 45.4,
+          "closed_at": "2026-04-14T15:55:47.871200-04:00",
+          "symbol": "QQQ",
+          "direction": "long",
+          "entry_price": 627.8672,
+          "exit_price": 627.4519,
+          "pnl": -5.81,
+          "pnl_pct": -0.07,
+          "outcome": "LOSS",
+          "exit_reason": "eod_close",
+          "bankroll_after": 22979.49,
           "extra": {
-            "direction": "long",
-            "leverage": null,
-            "stop_loss": 627.44,
-            "take_profit": 631.0,
-            "margin": 0,
-            "liquidation_price": null
+            "shares": 14,
+            "score": 80,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 46.2
           }
         },
         {
-          "symbol": "GOOG",
-          "entry_price": 328.9707,
-          "current_price": 328.9707,
-          "pnl": 0,
-          "pnl_pct": 0,
+          "id": 146,
           "opened_at": "2026-04-14T15:18:41.436958-04:00",
-          "hold_minutes": 36.3,
+          "closed_at": "2026-04-14T15:55:47.878927-04:00",
+          "symbol": "GOOG",
+          "direction": "short",
+          "entry_price": 328.9707,
+          "exit_price": 330.3,
+          "pnl": -37.22,
+          "pnl_pct": -0.4,
+          "outcome": "LOSS",
+          "exit_reason": "eod_close",
+          "bankroll_after": 22942.27,
           "extra": {
-            "direction": "short",
-            "leverage": null,
-            "stop_loss": 330.29,
-            "take_profit": 327.32,
-            "margin": 0,
-            "liquidation_price": null
+            "shares": 28,
+            "score": 73,
+            "strategy": "breakout",
+            "hold_minutes": 37.1
           }
         },
         {
-          "symbol": "MSFT",
-          "entry_price": 392.7424,
-          "current_price": 392.88,
-          "pnl": 0,
-          "pnl_pct": 0,
+          "id": 147,
           "opened_at": "2026-04-14T15:27:01.514665-04:00",
-          "hold_minutes": 28.0,
+          "closed_at": "2026-04-14T15:55:47.883110-04:00",
+          "symbol": "MSFT",
+          "direction": "long",
+          "entry_price": 392.7424,
+          "exit_price": 392.7169,
+          "pnl": -0.59,
+          "pnl_pct": -0.01,
+          "outcome": "LOSS",
+          "exit_reason": "eod_close",
+          "bankroll_after": 22941.68,
           "extra": {
-            "direction": "long",
-            "leverage": null,
-            "stop_loss": 391.91,
-            "take_profit": 394.7,
-            "margin": 0,
-            "liquidation_price": null
+            "shares": 23,
+            "score": 65,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 28.8
           }
         },
         {
-          "symbol": "SOFI",
-          "entry_price": 17.9479,
-          "current_price": 17.95,
-          "pnl": 0,
-          "pnl_pct": 0,
+          "id": 149,
           "opened_at": "2026-04-14T15:43:02.858629-04:00",
-          "hold_minutes": 12.0,
+          "closed_at": "2026-04-14T15:55:47.886932-04:00",
+          "symbol": "SOFI",
+          "direction": "long",
+          "entry_price": 17.9479,
+          "exit_price": 17.8971,
+          "pnl": -26.07,
+          "pnl_pct": -0.28,
+          "outcome": "LOSS",
+          "exit_reason": "eod_close",
+          "bankroll_after": 22915.61,
           "extra": {
-            "direction": "long",
-            "leverage": null,
-            "stop_loss": 17.87,
-            "take_profit": 18.05,
-            "margin": 0,
-            "liquidation_price": null
+            "shares": 513,
+            "score": 70,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 12.8
           }
         }
       ],
+      "open": [],
       "equity_curve": [
         {
           "date": "2026-03-23",
@@ -13610,7 +13621,7 @@
       ],
       "extra_state": {
         "total_fees": 0.0,
-        "consec_losses": 5
+        "consec_losses": 9
       }
     },
     "crypto_5m": {
@@ -24038,10 +24049,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1873.32,
+      "bankroll": 1872.63,
       "starting_bankroll": 2000.0,
-      "total_pnl": -126.68,
-      "total_pnl_pct": -6.33,
+      "total_pnl": -127.37,
+      "total_pnl_pct": -6.37,
       "total_trades": 78,
       "wins": 26,
       "losses": 52,
@@ -25762,11 +25773,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2340.47612,
-          "current_price": 2312.910184,
-          "pnl": 8.39,
-          "pnl_pct": 3.53,
+          "current_price": 2314.158701,
+          "pnl": 8.01,
+          "pnl_pct": 3.37,
           "opened_at": "2026-04-14T17:21:44.290757+00:00",
-          "hold_minutes": 153.3,
+          "hold_minutes": 158.3,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -25779,11 +25790,11 @@
         {
           "symbol": "BTC",
           "entry_price": 74719.27672,
-          "current_price": 74252.818255,
-          "pnl": 4.56,
-          "pnl_pct": 1.87,
+          "current_price": 74284.529247,
+          "pnl": 4.25,
+          "pnl_pct": 1.75,
           "opened_at": "2026-04-14T17:58:14.913947+00:00",
-          "hold_minutes": 116.8,
+          "hold_minutes": 121.8,
           "extra": {
             "direction": "short",
             "leverage": 3,
