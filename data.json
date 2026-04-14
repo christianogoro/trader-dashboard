@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-13T23:55:01.171896+00:00",
+  "updated_at": "2026-04-14T00:00:01.185059+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -2100,9 +2100,9 @@
       "daily_pnl": -111.3,
       "open_positions": 0,
       "last_trade_at": "2026-04-13T12:06:34.386551+00:00",
-      "today_trades": 5,
-      "today_wins": 1,
-      "today_losses": 4,
+      "today_trades": 0,
+      "today_wins": 0,
+      "today_losses": 0,
       "daily_breakdown": [
         {
           "date": "2026-03-20",
@@ -13126,9 +13126,9 @@
       "daily_pnl": -207.65,
       "open_positions": 0,
       "last_trade_at": "2026-04-13T22:00:11.358327+00:00",
-      "today_trades": 9,
-      "today_wins": 5,
-      "today_losses": 4,
+      "today_trades": 0,
+      "today_wins": 0,
+      "today_losses": 0,
       "daily_breakdown": [
         {
           "date": "2026-03-06",
@@ -20415,9 +20415,9 @@
       "daily_pnl": 10.17,
       "open_positions": 0,
       "last_trade_at": "2026-04-13T21:15:11.373047+00:00",
-      "today_trades": 4,
-      "today_wins": 2,
-      "today_losses": 2,
+      "today_trades": 0,
+      "today_wins": 0,
+      "today_losses": 0,
       "daily_breakdown": [
         {
           "date": "2026-03-06",
@@ -23421,10 +23421,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1875.01,
+      "bankroll": 1873.76,
       "starting_bankroll": 2000.0,
-      "total_pnl": -124.99,
-      "total_pnl_pct": -6.25,
+      "total_pnl": -126.24,
+      "total_pnl_pct": -6.31,
       "total_trades": 75,
       "wins": 26,
       "losses": 49,
@@ -23432,9 +23432,9 @@
       "daily_pnl": -20.74,
       "open_positions": 1,
       "last_trade_at": "2026-04-13T22:19:33.698976+00:00",
-      "today_trades": 6,
-      "today_wins": 1,
-      "today_losses": 5,
+      "today_trades": 0,
+      "today_wins": 0,
+      "today_losses": 0,
       "daily_breakdown": [
         {
           "date": "2026-03-21",
@@ -25078,11 +25078,11 @@
         {
           "symbol": "BTC",
           "entry_price": 74604.03552,
-          "current_price": 74589.891899,
-          "pnl": -0.16,
-          "pnl_pct": -0.06,
+          "current_price": 74479.394856,
+          "pnl": -1.41,
+          "pnl_pct": -0.5,
           "opened_at": "2026-04-13T23:49:38.376738+00:00",
-          "hold_minutes": 5.4,
+          "hold_minutes": 10.4,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -25196,6 +25196,10 @@
         },
         {
           "date": "2026-04-13",
+          "value": 1593.85
+        },
+        {
+          "date": "2026-04-14",
           "value": 1593.85
         }
       ],
