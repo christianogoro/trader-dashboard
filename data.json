@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-14T19:05:00.308748+00:00",
+  "updated_at": "2026-04-14T19:10:00.279282+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -10420,20 +10420,20 @@
     "stock": {
       "name": "Stock Trader",
       "status": "running",
-      "bankroll": 23231.58,
+      "bankroll": 23178.95,
       "starting_bankroll": 25000.0,
-      "total_pnl": -1768.42,
-      "total_pnl_pct": -7.07,
-      "total_trades": 138,
-      "wins": 35,
-      "losses": 103,
-      "win_rate": 25.4,
-      "daily_pnl": -50.21,
+      "total_pnl": -1821.05,
+      "total_pnl_pct": -7.28,
+      "total_trades": 140,
+      "wins": 36,
+      "losses": 104,
+      "win_rate": 25.7,
+      "daily_pnl": -52.63,
       "open_positions": 5,
-      "last_trade_at": "2026-04-14T15:04:44.454366-04:00",
-      "today_trades": 1,
-      "today_wins": 0,
-      "today_losses": 1,
+      "last_trade_at": "2026-04-14T15:09:23.630956-04:00",
+      "today_trades": 3,
+      "today_wins": 1,
+      "today_losses": 2,
       "daily_breakdown": [
         {
           "date": "2026-03-25",
@@ -10557,13 +10557,13 @@
         },
         {
           "date": "2026-04-14",
-          "trades": 1,
-          "wins": 0,
-          "losses": 1,
-          "pnl": -50.21,
+          "trades": 3,
+          "wins": 1,
+          "losses": 2,
+          "pnl": -52.62,
           "prev_balance": 23231.58,
-          "balance": 23231.58,
-          "pnl_pct_of_prev": -0.22
+          "balance": 23178.95,
+          "pnl_pct_of_prev": -0.23
         }
       ],
       "trades": [
@@ -13326,60 +13326,49 @@
             "strategy": "momentum",
             "hold_minutes": 30.2
           }
+        },
+        {
+          "id": 139,
+          "opened_at": "2026-04-14T14:33:09.861806-04:00",
+          "closed_at": "2026-04-14T15:08:10.056661-04:00",
+          "symbol": "META",
+          "direction": "short",
+          "entry_price": 659.9694,
+          "exit_price": 663.0274,
+          "pnl": -42.81,
+          "pnl_pct": -0.46,
+          "outcome": "LOSS",
+          "exit_reason": "stop_loss",
+          "bankroll_after": 23138.55,
+          "extra": {
+            "shares": 14,
+            "score": 78,
+            "strategy": "momentum",
+            "hold_minutes": 35.0
+          }
+        },
+        {
+          "id": 138,
+          "opened_at": "2026-04-14T14:31:42.613117-04:00",
+          "closed_at": "2026-04-14T15:09:23.630956-04:00",
+          "symbol": "NVDA",
+          "direction": "long",
+          "entry_price": 194.8146,
+          "exit_price": 195.6741,
+          "pnl": 40.4,
+          "pnl_pct": 0.44,
+          "outcome": "WIN",
+          "exit_reason": "take_profit",
+          "bankroll_after": 23178.95,
+          "extra": {
+            "shares": 47,
+            "score": 72,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 37.7
+          }
         }
       ],
       "open": [
-        {
-          "symbol": "NVDA",
-          "entry_price": 194.8146,
-          "current_price": 195.26,
-          "pnl": 0,
-          "pnl_pct": 0,
-          "opened_at": "2026-04-14T14:31:42.613117-04:00",
-          "hold_minutes": 33.3,
-          "extra": {
-            "direction": "long",
-            "leverage": null,
-            "stop_loss": 194.84,
-            "take_profit": 195.79,
-            "margin": 0,
-            "liquidation_price": null
-          }
-        },
-        {
-          "symbol": "META",
-          "entry_price": 659.9694,
-          "current_price": 659.96937,
-          "pnl": 0,
-          "pnl_pct": 0,
-          "opened_at": "2026-04-14T14:33:09.861806-04:00",
-          "hold_minutes": 31.8,
-          "extra": {
-            "direction": "short",
-            "leverage": null,
-            "stop_loss": 662.24,
-            "take_profit": 656.67,
-            "margin": 0,
-            "liquidation_price": null
-          }
-        },
-        {
-          "symbol": "TSLA",
-          "entry_price": 363.2164,
-          "current_price": 363.21642,
-          "pnl": 0,
-          "pnl_pct": 0,
-          "opened_at": "2026-04-14T14:34:31.245025-04:00",
-          "hold_minutes": 30.5,
-          "extra": {
-            "direction": "short",
-            "leverage": null,
-            "stop_loss": 364.68,
-            "take_profit": 361.36,
-            "margin": 0,
-            "liquidation_price": null
-          }
-        },
         {
           "symbol": "AAPL",
           "entry_price": 258.1916,
@@ -13387,7 +13376,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-14T14:37:08.981866-04:00",
-          "hold_minutes": 27.9,
+          "hold_minutes": 32.9,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -13404,12 +13393,63 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-14T14:38:22.127523-04:00",
-          "hold_minutes": 26.6,
+          "hold_minutes": 31.6,
           "extra": {
             "direction": "short",
             "leverage": null,
             "stop_loss": 392.24,
             "take_profit": 389.74,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "AMZN",
+          "entry_price": 248.2315,
+          "current_price": 248.23152,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-14T15:06:03.864908-04:00",
+          "hold_minutes": 3.9,
+          "extra": {
+            "direction": "short",
+            "leverage": null,
+            "stop_loss": 249.24,
+            "take_profit": 246.96,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "TSLA",
+          "entry_price": 365.6052,
+          "current_price": 365.60524,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-14T15:08:20.166950-04:00",
+          "hold_minutes": 1.7,
+          "extra": {
+            "direction": "long",
+            "leverage": null,
+            "stop_loss": 364.27,
+            "take_profit": 367.43,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "QQQ",
+          "entry_price": 627.8672,
+          "current_price": 627.86724,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-14T15:09:36.016282-04:00",
+          "hold_minutes": 0.4,
+          "extra": {
+            "direction": "long",
+            "leverage": null,
+            "stop_loss": 625.36,
+            "take_profit": 631.0,
             "margin": 0,
             "liquidation_price": null
           }
@@ -13482,7 +13522,7 @@
         },
         {
           "date": "2026-04-14",
-          "value": 23231.58
+          "value": 23178.95
         }
       ],
       "extra_state": {
@@ -23915,10 +23955,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1871.2,
+      "bankroll": 1869.9,
       "starting_bankroll": 2000.0,
-      "total_pnl": -128.8,
-      "total_pnl_pct": -6.44,
+      "total_pnl": -130.1,
+      "total_pnl_pct": -6.5,
       "total_trades": 78,
       "wins": 26,
       "losses": 52,
@@ -25639,11 +25679,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2340.47612,
-          "current_price": 2319.645603,
-          "pnl": 6.34,
-          "pnl_pct": 2.67,
+          "current_price": 2321.255533,
+          "pnl": 5.85,
+          "pnl_pct": 2.46,
           "opened_at": "2026-04-14T17:21:44.290757+00:00",
-          "hold_minutes": 103.3,
+          "hold_minutes": 108.3,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -25656,11 +25696,11 @@
         {
           "symbol": "BTC",
           "entry_price": 74719.27672,
-          "current_price": 74259.978801,
-          "pnl": 4.49,
-          "pnl_pct": 1.84,
+          "current_price": 74342.836555,
+          "pnl": 3.68,
+          "pnl_pct": 1.51,
           "opened_at": "2026-04-14T17:58:14.913947+00:00",
-          "hold_minutes": 66.8,
+          "hold_minutes": 71.8,
           "extra": {
             "direction": "short",
             "leverage": 3,
