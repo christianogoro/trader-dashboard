@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-04-14T15:45:00.902524+00:00",
+  "updated_at": "2026-04-14T15:50:00.651830+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
       "status": "running",
-      "bankroll": 10490.6,
-      "starting_bankroll": 10800.0,
-      "total_pnl": -309.4,
-      "total_pnl_pct": -2.86,
+      "bankroll": 10598.58,
+      "starting_bankroll": 10900.0,
+      "total_pnl": -301.42,
+      "total_pnl_pct": -2.77,
       "total_trades": 100,
       "wins": 34,
       "losses": 66,
       "win_rate": 34.0,
       "daily_pnl": 264.17,
-      "open_positions": 8,
+      "open_positions": 9,
       "last_trade_at": "2026-04-14T15:22:18.087692+00:00",
       "today_trades": 8,
       "today_wins": 3,
@@ -26,7 +26,7 @@
           "losses": 6,
           "pnl": -175.49,
           "prev_balance": null,
-          "balance": 10624.51,
+          "balance": 10724.51,
           "pnl_pct_of_prev": null
         },
         {
@@ -35,9 +35,9 @@
           "wins": 20,
           "losses": 34,
           "pnl": -192.98,
-          "prev_balance": 10624.51,
-          "balance": 10431.53,
-          "pnl_pct_of_prev": -1.82
+          "prev_balance": 10724.51,
+          "balance": 10531.53,
+          "pnl_pct_of_prev": -1.8
         },
         {
           "date": "2026-04-02",
@@ -45,9 +45,9 @@
           "wins": 11,
           "losses": 21,
           "pnl": -156.29,
-          "prev_balance": 10431.53,
-          "balance": 10275.24,
-          "pnl_pct_of_prev": -1.5
+          "prev_balance": 10531.53,
+          "balance": 10375.24,
+          "pnl_pct_of_prev": -1.48
         },
         {
           "date": "2026-04-14",
@@ -55,9 +55,9 @@
           "wins": 3,
           "losses": 5,
           "pnl": 264.17,
-          "prev_balance": 10275.24,
-          "balance": 10539.41,
-          "pnl_pct_of_prev": 2.57
+          "prev_balance": 10375.24,
+          "balance": 10639.41,
+          "pnl_pct_of_prev": 2.55
         }
       ],
       "trades": [
@@ -1970,7 +1970,7 @@
           "pnl": -26.530612244897945,
           "pnl_pct": -26.530612244897945,
           "opened_at": "2026-03-08T15:05:22.134191+00:00",
-          "hold_minutes": 53296.9,
+          "hold_minutes": 53321.2,
           "extra": {
             "entry_score": 73,
             "partial_sold": false
@@ -1983,7 +1983,7 @@
           "pnl": 5.103326612903225,
           "pnl_pct": 5.103326612903225,
           "opened_at": "2026-03-24T14:21:16.102514+00:00",
-          "hold_minutes": 30301.0,
+          "hold_minutes": 30325.3,
           "extra": {
             "entry_score": 80,
             "partial_sold": false
@@ -1996,7 +1996,7 @@
           "pnl": -15.798112433319655,
           "pnl_pct": -15.798112433319655,
           "opened_at": "2026-03-27T07:12:53.664261+00:00",
-          "hold_minutes": 26409.4,
+          "hold_minutes": 26433.7,
           "extra": {
             "entry_score": 83,
             "partial_sold": false
@@ -2009,7 +2009,7 @@
           "pnl": -3.1000885739592476,
           "pnl_pct": -3.1000885739592476,
           "opened_at": "2026-03-31T12:01:53.087097+00:00",
-          "hold_minutes": 20360.4,
+          "hold_minutes": 20384.7,
           "extra": {
             "entry_score": 82,
             "partial_sold": false
@@ -2022,7 +2022,7 @@
           "pnl": -3.5771489588894756,
           "pnl_pct": -3.5771489588894756,
           "opened_at": "2026-04-01T08:51:04.975466+00:00",
-          "hold_minutes": 19111.2,
+          "hold_minutes": 19135.5,
           "extra": {
             "entry_score": 84,
             "partial_sold": false
@@ -2035,7 +2035,7 @@
           "pnl": 0.0,
           "pnl_pct": 0.0,
           "opened_at": "2026-04-01T18:32:46.290799+00:00",
-          "hold_minutes": 18529.5,
+          "hold_minutes": 18553.8,
           "extra": {
             "entry_score": 80,
             "partial_sold": false
@@ -2048,7 +2048,7 @@
           "pnl": -4.885430177258976,
           "pnl_pct": -4.885430177258976,
           "opened_at": "2026-04-02T19:50:44.985911+00:00",
-          "hold_minutes": 17011.6,
+          "hold_minutes": 17035.9,
           "extra": {
             "entry_score": 82,
             "partial_sold": false
@@ -2057,13 +2057,26 @@
         {
           "symbol": "DJT",
           "entry_price": 3.996e-05,
-          "current_price": 3.995e-05,
-          "pnl": -0.025025025025016134,
-          "pnl_pct": -0.025025025025016134,
+          "current_price": 4.314e-05,
+          "pnl": 7.957957957957951,
+          "pnl_pct": 7.957957957957951,
           "opened_at": "2026-04-14T15:22:05.141774+00:00",
-          "hold_minutes": 0.2,
+          "hold_minutes": 24.5,
           "extra": {
             "entry_score": 81,
+            "partial_sold": false
+          }
+        },
+        {
+          "symbol": "bitdog",
+          "entry_price": 6.679e-06,
+          "current_price": 6.679e-06,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "opened_at": "2026-04-14T15:46:36.622216+00:00",
+          "hold_minutes": 0.0,
+          "extra": {
+            "entry_score": 83,
             "partial_sold": false
           }
         }
@@ -2071,19 +2084,19 @@
       "equity_curve": [
         {
           "date": "2026-03-31",
-          "value": 10624.51
+          "value": 10724.51
         },
         {
           "date": "2026-04-01",
-          "value": 10431.53
+          "value": 10531.53
         },
         {
           "date": "2026-04-02",
-          "value": 10275.24
+          "value": 10375.24
         },
         {
           "date": "2026-04-14",
-          "value": 10539.41
+          "value": 10639.41
         }
       ]
     },
@@ -23787,10 +23800,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1872.17,
+      "bankroll": 1871.84,
       "starting_bankroll": 2000.0,
-      "total_pnl": -127.83,
-      "total_pnl_pct": -6.39,
+      "total_pnl": -128.16,
+      "total_pnl_pct": -6.41,
       "total_trades": 77,
       "wins": 26,
       "losses": 51,
@@ -25492,11 +25505,11 @@
         {
           "symbol": "BTC",
           "entry_price": 74604.03552,
-          "current_price": 75298.840921,
-          "pnl": 7.86,
-          "pnl_pct": 2.79,
+          "current_price": 75269.669702,
+          "pnl": 7.53,
+          "pnl_pct": 2.68,
           "opened_at": "2026-04-13T23:49:38.376738+00:00",
-          "hold_minutes": 955.4,
+          "hold_minutes": 960.4,
           "extra": {
             "direction": "long",
             "leverage": 3,
