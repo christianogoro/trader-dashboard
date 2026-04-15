@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-15T18:40:01.013491+00:00",
+  "updated_at": "2026-04-15T18:45:00.346835+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -10887,7 +10887,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T17:50:10.343661+00:00",
-          "hold_minutes": 49.8,
+          "hold_minutes": 54.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -10904,7 +10904,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T18:00:10.341900+00:00",
-          "hold_minutes": 39.8,
+          "hold_minutes": 44.8,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -14203,7 +14203,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T14:31:39.774140-04:00",
-          "hold_minutes": 8.4,
+          "hold_minutes": 13.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -14220,7 +14220,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T14:33:55.907154-04:00",
-          "hold_minutes": 6.1,
+          "hold_minutes": 11.1,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -14233,11 +14233,11 @@
         {
           "symbol": "SOFI",
           "entry_price": 18.7187,
-          "current_price": 18.7187,
+          "current_price": 18.72,
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T14:35:03.095179-04:00",
-          "hold_minutes": 5.0,
+          "hold_minutes": 10.0,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -14254,7 +14254,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T14:37:08.076291-04:00",
-          "hold_minutes": 2.9,
+          "hold_minutes": 7.9,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -14271,7 +14271,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T14:38:24.602519-04:00",
-          "hold_minutes": 1.6,
+          "hold_minutes": 6.6,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -24932,10 +24932,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1847.1,
+      "bankroll": 1845.85,
       "starting_bankroll": 2000.0,
-      "total_pnl": -152.9,
-      "total_pnl_pct": -7.65,
+      "total_pnl": -154.15,
+      "total_pnl_pct": -7.71,
       "total_trades": 80,
       "wins": 26,
       "losses": 54,
@@ -26704,11 +26704,11 @@
         {
           "symbol": "BTC",
           "entry_price": 74719.27672,
-          "current_price": 74251.79532,
-          "pnl": 4.57,
-          "pnl_pct": 1.88,
+          "current_price": 74314.194369,
+          "pnl": 3.96,
+          "pnl_pct": 1.63,
           "opened_at": "2026-04-14T17:58:14.913947+00:00",
-          "hold_minutes": 1481.8,
+          "hold_minutes": 1486.8,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -26721,11 +26721,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2346.431352,
-          "current_price": 2352.358411,
-          "pnl": -1.82,
-          "pnl_pct": -0.76,
+          "current_price": 2354.442651,
+          "pnl": -2.46,
+          "pnl_pct": -1.02,
           "opened_at": "2026-04-15T17:57:32.494185+00:00",
-          "hold_minutes": 42.5,
+          "hold_minutes": 47.5,
           "extra": {
             "direction": "short",
             "leverage": 3,
