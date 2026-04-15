@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-15T20:35:00.710037+00:00",
+  "updated_at": "2026-04-15T20:40:00.551527+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -2125,7 +2125,7 @@
       "losses": 209,
       "win_rate": 49.3,
       "daily_pnl": 829.77,
-      "open_positions": 2,
+      "open_positions": 3,
       "last_trade_at": "2026-04-15T20:30:10.713982+00:00",
       "today_trades": 31,
       "today_wins": 19,
@@ -10984,7 +10984,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T20:05:10.346698+00:00",
-          "hold_minutes": 29.8,
+          "hold_minutes": 34.8,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -11001,12 +11001,29 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T20:15:10.431695+00:00",
-          "hold_minutes": 19.8,
+          "hold_minutes": 24.8,
           "extra": {
             "direction": "short",
             "leverage": null,
             "stop_loss": 159.01782,
             "take_profit": 158.85184,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "EUR/JPY",
+          "entry_price": 187.53651,
+          "current_price": 187.53651,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-15T20:35:10.512003+00:00",
+          "hold_minutes": 4.8,
+          "extra": {
+            "direction": "long",
+            "leverage": null,
+            "stop_loss": 187.48849,
+            "take_profit": 187.63253,
             "margin": 0,
             "liquidation_price": null
           }
@@ -14540,7 +14557,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T16:00:08.467640-04:00",
-          "hold_minutes": 34.9,
+          "hold_minutes": 39.9,
           "extra": {
             "direction": "long",
             "leverage": null,
