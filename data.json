@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-15T17:25:00.826397+00:00",
+  "updated_at": "2026-04-15T17:30:00.496799+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -10837,7 +10837,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T14:35:10.478559+00:00",
-          "hold_minutes": 169.8,
+          "hold_minutes": 174.8,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -10854,11 +10854,11 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T16:45:10.795520+00:00",
-          "hold_minutes": 39.8,
+          "hold_minutes": 44.8,
           "extra": {
             "direction": "long",
             "leverage": null,
-            "stop_loss": 113.86059,
+            "stop_loss": 113.87758,
             "take_profit": 113.96978,
             "margin": 0,
             "liquidation_price": null
@@ -10871,7 +10871,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T17:20:11.005554+00:00",
-          "hold_minutes": 4.8,
+          "hold_minutes": 9.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -24783,20 +24783,20 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1855.47,
+      "bankroll": 1849.66,
       "starting_bankroll": 2000.0,
-      "total_pnl": -144.53,
-      "total_pnl_pct": -7.23,
-      "total_trades": 79,
+      "total_pnl": -150.34,
+      "total_pnl_pct": -7.52,
+      "total_trades": 80,
       "wins": 26,
-      "losses": 53,
-      "win_rate": 32.9,
-      "daily_pnl": -10.2,
-      "open_positions": 2,
-      "last_trade_at": "2026-04-15T15:02:49.991396+00:00",
-      "today_trades": 1,
+      "losses": 54,
+      "win_rate": 32.5,
+      "daily_pnl": -15.55,
+      "open_positions": 1,
+      "last_trade_at": "2026-04-15T17:28:00.988031+00:00",
+      "today_trades": 2,
       "today_wins": 0,
-      "today_losses": 1,
+      "today_losses": 2,
       "daily_breakdown": [
         {
           "date": "2026-03-21",
@@ -25020,9 +25020,9 @@
         },
         {
           "date": "2026-04-15",
-          "trades": 1,
+          "trades": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "pnl": 0.0,
           "prev_balance": 1172.3,
           "balance": 1369.02,
@@ -26530,34 +26530,36 @@
             "margin": 206.92,
             "funding_paid": -0.1242
           }
+        },
+        {
+          "id": 79,
+          "opened_at": "2026-04-14T17:21:44.290757+00:00",
+          "closed_at": "2026-04-15T17:28:00.988031+00:00",
+          "symbol": "ETH",
+          "direction": "",
+          "entry_price": 2340.47612,
+          "exit_price": 2356.08336,
+          "pnl": 0,
+          "pnl_pct": 0.0,
+          "outcome": "LOSS",
+          "exit_reason": "",
+          "bankroll_after": 1601.12,
+          "extra": {
+            "leverage": 3,
+            "margin": 237.45,
+            "funding_paid": -0.2136
+          }
         }
       ],
       "open": [
         {
-          "symbol": "ETH",
-          "entry_price": 2340.47612,
-          "current_price": 2344.484516,
-          "pnl": -1.22,
-          "pnl_pct": -0.51,
-          "opened_at": "2026-04-14T17:21:44.290757+00:00",
-          "hold_minutes": 1443.3,
-          "extra": {
-            "direction": "short",
-            "leverage": 3,
-            "stop_loss": 2377.49,
-            "take_profit": 2272.08,
-            "margin": 237.45,
-            "liquidation_price": 3108.93
-          }
-        },
-        {
           "symbol": "BTC",
           "entry_price": 74719.27672,
-          "current_price": 74029.818374,
-          "pnl": 6.74,
-          "pnl_pct": 2.77,
+          "current_price": 74201.671493,
+          "pnl": 5.06,
+          "pnl_pct": 2.08,
           "opened_at": "2026-04-14T17:58:14.913947+00:00",
-          "hold_minutes": 1406.8,
+          "hold_minutes": 1411.8,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -26683,10 +26685,10 @@
         }
       ],
       "extra_state": {
-        "total_fees": 131.21,
-        "total_funding": -2.74,
+        "total_fees": 132.03,
+        "total_funding": -2.95,
         "liquidations": 0,
-        "consec_losses": 0,
+        "consec_losses": 1,
         "peak_bankroll": 2000.0,
         "max_drawdown": 32.79
       }
