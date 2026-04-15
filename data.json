@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-15T19:40:01.197571+00:00",
+  "updated_at": "2026-04-15T19:45:00.779588+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -10900,7 +10900,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T17:50:10.343661+00:00",
-          "hold_minutes": 109.9,
+          "hold_minutes": 114.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -10917,11 +10917,11 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T18:00:10.341900+00:00",
-          "hold_minutes": 99.9,
+          "hold_minutes": 104.8,
           "extra": {
             "direction": "short",
             "leverage": null,
-            "stop_loss": 159.00685,
+            "stop_loss": 159.00109,
             "take_profit": 158.93865,
             "margin": 0,
             "liquidation_price": null
@@ -10934,7 +10934,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T19:05:10.873011+00:00",
-          "hold_minutes": 34.8,
+          "hold_minutes": 39.8,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -14293,7 +14293,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T14:31:39.774140-04:00",
-          "hold_minutes": 68.4,
+          "hold_minutes": 73.4,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -14306,11 +14306,11 @@
         {
           "symbol": "SOFI",
           "entry_price": 18.7187,
-          "current_price": 18.77,
+          "current_price": 18.775,
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T14:35:03.095179-04:00",
-          "hold_minutes": 65.0,
+          "hold_minutes": 70.0,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -14327,7 +14327,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T15:12:23.061696-04:00",
-          "hold_minutes": 27.6,
+          "hold_minutes": 32.6,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -14344,7 +14344,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T15:14:32.669747-04:00",
-          "hold_minutes": 25.5,
+          "hold_minutes": 30.5,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -14361,7 +14361,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T15:31:02.658066-04:00",
-          "hold_minutes": 9.0,
+          "hold_minutes": 14.0,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -25264,7 +25264,7 @@
           "losses": 4,
           "pnl": 0.0,
           "prev_balance": 1172.3,
-          "balance": 1360.7,
+          "balance": 1824.5,
           "pnl_pct_of_prev": 0.0
         }
       ],
@@ -26940,7 +26940,7 @@
         },
         {
           "date": "2026-04-15",
-          "value": 1360.7
+          "value": 1824.5
         }
       ],
       "extra_state": {
