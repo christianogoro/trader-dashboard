@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-16T03:40:00.462537+00:00",
+  "updated_at": "2026-04-16T03:45:01.230841+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -11151,7 +11151,7 @@
     },
     "stock": {
       "name": "Stock Trader",
-      "status": "running",
+      "status": "stopped",
       "bankroll": 22950.78,
       "starting_bankroll": 25000.0,
       "total_pnl": -2049.22,
@@ -14558,7 +14558,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-15T16:00:08.467640-04:00",
-          "hold_minutes": 459.9,
+          "hold_minutes": 464.9,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -25223,10 +25223,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1811.69,
+      "bankroll": 1812.09,
       "starting_bankroll": 2000.0,
-      "total_pnl": -188.31,
-      "total_pnl_pct": -9.42,
+      "total_pnl": -187.91,
+      "total_pnl_pct": -9.4,
       "total_trades": 83,
       "wins": 26,
       "losses": 57,
@@ -27062,11 +27062,11 @@
         {
           "symbol": "BTC",
           "entry_price": 74725.77152,
-          "current_price": 75004.273109,
-          "pnl": -3.06,
-          "pnl_pct": -1.12,
+          "current_price": 74985.160255,
+          "pnl": -2.85,
+          "pnl_pct": -1.04,
           "opened_at": "2026-04-15T20:45:24.874221+00:00",
-          "hold_minutes": 414.6,
+          "hold_minutes": 419.6,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -27079,11 +27079,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2362.25868,
-          "current_price": 2361.581563,
-          "pnl": 0.2,
-          "pnl_pct": 0.09,
+          "current_price": 2360.938301,
+          "pnl": 0.39,
+          "pnl_pct": 0.17,
           "opened_at": "2026-04-15T20:55:36.605512+00:00",
-          "hold_minutes": 404.4,
+          "hold_minutes": 409.4,
           "extra": {
             "direction": "short",
             "leverage": 3,
