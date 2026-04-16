@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-16T20:10:00.496248+00:00",
+  "updated_at": "2026-04-16T20:15:00.882663+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -15356,7 +15356,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:59:41.369974-04:00",
-          "hold_minutes": 10.3,
+          "hold_minutes": 15.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -28129,7 +28129,7 @@
         "total_fees": 145.11,
         "total_funding": -3.47,
         "liquidations": 0,
-        "consec_losses": 3,
+        "consec_losses": 0,
         "peak_bankroll": 2000.0,
         "max_drawdown": 35.13
       }
