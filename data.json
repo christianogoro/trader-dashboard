@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-16T19:40:00.721644+00:00",
+  "updated_at": "2026-04-16T19:45:01.016359+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -15196,7 +15196,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T14:37:02.276412-04:00",
-          "hold_minutes": 63.0,
+          "hold_minutes": 68.0,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -15213,7 +15213,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T14:47:42.844261-04:00",
-          "hold_minutes": 52.3,
+          "hold_minutes": 57.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -15230,7 +15230,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T14:59:34.443900-04:00",
-          "hold_minutes": 40.4,
+          "hold_minutes": 45.4,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -15243,15 +15243,15 @@
         {
           "symbol": "AMD",
           "entry_price": 275.305,
-          "current_price": 276.135,
+          "current_price": 277.43,
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:19:44.512955-04:00",
-          "hold_minutes": 20.3,
+          "hold_minutes": 25.3,
           "extra": {
             "direction": "long",
             "leverage": null,
-            "stop_loss": 274.52,
+            "stop_loss": 275.82,
             "take_profit": 277.45,
             "margin": 0,
             "liquidation_price": null
@@ -15260,15 +15260,15 @@
         {
           "symbol": "META",
           "entry_price": 675.5649,
-          "current_price": 675.56489,
+          "current_price": 675.58,
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:38:43.602562-04:00",
-          "hold_minutes": 1.3,
+          "hold_minutes": 6.3,
           "extra": {
             "direction": "long",
             "leverage": null,
-            "stop_loss": 672.87,
+            "stop_loss": 673.91,
             "take_profit": 678.94,
             "margin": 0,
             "liquidation_price": null
@@ -26217,7 +26217,7 @@
           "losses": 5,
           "pnl": 0.0,
           "prev_balance": 1119.84,
-          "balance": 1629.62,
+          "balance": 1816.52,
           "pnl_pct_of_prev": 0.0
         }
       ],
@@ -28030,7 +28030,7 @@
         },
         {
           "date": "2026-04-16",
-          "value": 1629.62
+          "value": 1816.52
         }
       ],
       "extra_state": {
