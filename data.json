@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-16T18:30:01.260132+00:00",
+  "updated_at": "2026-04-16T18:35:00.850094+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -11689,7 +11689,7 @@
       "losses": 121,
       "win_rate": 25.8,
       "daily_pnl": -90.8,
-      "open_positions": 0,
+      "open_positions": 3,
       "last_trade_at": "2026-04-16T09:34:14.296025-04:00",
       "today_trades": 1,
       "today_wins": 0,
@@ -15108,7 +15108,59 @@
           }
         }
       ],
-      "open": [],
+      "open": [
+        {
+          "symbol": "AAPL",
+          "entry_price": 263.9036,
+          "current_price": 263.90364,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-16T14:31:51.931297-04:00",
+          "hold_minutes": 3.2,
+          "extra": {
+            "direction": "long",
+            "leverage": null,
+            "stop_loss": 263.29,
+            "take_profit": 265.23,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "GOOG",
+          "entry_price": 332.0376,
+          "current_price": 332.03763,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-16T14:33:03.031820-04:00",
+          "hold_minutes": 2.0,
+          "extra": {
+            "direction": "short",
+            "leverage": null,
+            "stop_loss": 333.37,
+            "take_profit": 330.38,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "NFLX",
+          "entry_price": 108.3282,
+          "current_price": 108.32822,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-16T14:34:19.064621-04:00",
+          "hold_minutes": 0.7,
+          "extra": {
+            "direction": "long",
+            "leverage": null,
+            "stop_loss": 107.89,
+            "take_profit": 108.86,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        }
+      ],
       "equity_curve": [
         {
           "date": "2026-03-23",
@@ -25767,10 +25819,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1841.96,
+      "bankroll": 1841.73,
       "starting_bankroll": 2000.0,
-      "total_pnl": -158.04,
-      "total_pnl_pct": -7.9,
+      "total_pnl": -158.27,
+      "total_pnl_pct": -7.91,
       "total_trades": 86,
       "wins": 28,
       "losses": 58,
@@ -27663,11 +27715,11 @@
         {
           "symbol": "BTC",
           "entry_price": 74725.77152,
-          "current_price": 74427.246941,
-          "pnl": 3.28,
-          "pnl_pct": 1.2,
+          "current_price": 74406.313815,
+          "pnl": 3.51,
+          "pnl_pct": 1.28,
           "opened_at": "2026-04-15T20:45:24.874221+00:00",
-          "hold_minutes": 1304.6,
+          "hold_minutes": 1309.6,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -27680,11 +27732,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2317.634408,
-          "current_price": 2326.313808,
-          "pnl": -2.22,
-          "pnl_pct": -1.12,
+          "current_price": 2327.4867,
+          "pnl": -2.52,
+          "pnl_pct": -1.28,
           "opened_at": "2026-04-16T15:30:08.381297+00:00",
-          "hold_minutes": 179.9,
+          "hold_minutes": 184.9,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -27697,11 +27749,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.428177,
-          "current_price": 1.433289,
-          "pnl": -2.21,
-          "pnl_pct": -1.07,
+          "current_price": 1.433659,
+          "pnl": -2.37,
+          "pnl_pct": -1.15,
           "opened_at": "2026-04-16T17:53:48.706911+00:00",
-          "hold_minutes": 36.2,
+          "hold_minutes": 41.2,
           "extra": {
             "direction": "short",
             "leverage": 3,
