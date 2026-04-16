@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-16T19:45:01.016359+00:00",
+  "updated_at": "2026-04-16T19:50:00.464736+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -11680,19 +11680,19 @@
     "stock": {
       "name": "Stock Trader",
       "status": "running",
-      "bankroll": 22751.1,
+      "bankroll": 22814.38,
       "starting_bankroll": 25000.0,
-      "total_pnl": -2248.9,
-      "total_pnl_pct": -9.0,
-      "total_trades": 167,
-      "wins": 42,
+      "total_pnl": -2185.62,
+      "total_pnl_pct": -8.74,
+      "total_trades": 168,
+      "wins": 43,
       "losses": 125,
-      "win_rate": 25.1,
-      "daily_pnl": -199.68,
+      "win_rate": 25.6,
+      "daily_pnl": -136.4,
       "open_positions": 5,
-      "last_trade_at": "2026-04-16T15:37:22.266649-04:00",
-      "today_trades": 5,
-      "today_wins": 0,
+      "last_trade_at": "2026-04-16T15:46:06.146352-04:00",
+      "today_trades": 6,
+      "today_wins": 1,
       "today_losses": 5,
       "daily_breakdown": [
         {
@@ -11837,13 +11837,13 @@
         },
         {
           "date": "2026-04-16",
-          "trades": 5,
-          "wins": 0,
+          "trades": 6,
+          "wins": 1,
           "losses": 5,
-          "pnl": -199.68,
+          "pnl": -136.4,
           "prev_balance": 22950.78,
-          "balance": 22751.1,
-          "pnl_pct_of_prev": -0.87
+          "balance": 22814.38,
+          "pnl_pct_of_prev": -0.59
         }
       ],
       "trades": [
@@ -15186,6 +15186,26 @@
             "strategy": "breakout",
             "hold_minutes": 64.3
           }
+        },
+        {
+          "id": 171,
+          "opened_at": "2026-04-16T15:19:44.512955-04:00",
+          "closed_at": "2026-04-16T15:46:06.146352-04:00",
+          "symbol": "AMD",
+          "direction": "long",
+          "entry_price": 275.305,
+          "exit_price": 277.2225,
+          "pnl": 63.28,
+          "pnl_pct": 0.7,
+          "outcome": "WIN",
+          "exit_reason": "take_profit",
+          "bankroll_after": 22814.38,
+          "extra": {
+            "shares": 33,
+            "score": 75,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 26.4
+          }
         }
       ],
       "open": [
@@ -15196,7 +15216,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T14:37:02.276412-04:00",
-          "hold_minutes": 68.0,
+          "hold_minutes": 73.0,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -15213,7 +15233,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T14:47:42.844261-04:00",
-          "hold_minutes": 57.3,
+          "hold_minutes": 62.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -15230,29 +15250,12 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T14:59:34.443900-04:00",
-          "hold_minutes": 45.4,
+          "hold_minutes": 50.4,
           "extra": {
             "direction": "short",
             "leverage": null,
             "stop_loss": 142.54,
             "take_profit": 140.76,
-            "margin": 0,
-            "liquidation_price": null
-          }
-        },
-        {
-          "symbol": "AMD",
-          "entry_price": 275.305,
-          "current_price": 277.43,
-          "pnl": 0,
-          "pnl_pct": 0,
-          "opened_at": "2026-04-16T15:19:44.512955-04:00",
-          "hold_minutes": 25.3,
-          "extra": {
-            "direction": "long",
-            "leverage": null,
-            "stop_loss": 275.82,
-            "take_profit": 277.45,
             "margin": 0,
             "liquidation_price": null
           }
@@ -15264,12 +15267,29 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:38:43.602562-04:00",
-          "hold_minutes": 6.3,
+          "hold_minutes": 11.3,
           "extra": {
             "direction": "long",
             "leverage": null,
             "stop_loss": 673.91,
             "take_profit": 678.94,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "AMZN",
+          "entry_price": 249.4592,
+          "current_price": 249.47,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-16T15:47:24.206200-04:00",
+          "hold_minutes": 2.6,
+          "extra": {
+            "direction": "long",
+            "leverage": null,
+            "stop_loss": 248.84,
+            "take_profit": 250.71,
             "margin": 0,
             "liquidation_price": null
           }
@@ -15350,12 +15370,12 @@
         },
         {
           "date": "2026-04-16",
-          "value": 22751.1
+          "value": 22814.38
         }
       ],
       "extra_state": {
         "total_fees": 0.0,
-        "consec_losses": 4
+        "consec_losses": 0
       }
     },
     "crypto_5m": {
