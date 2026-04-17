@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T11:20:00.538178+00:00",
+  "updated_at": "2026-04-17T11:25:01.343976+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -12749,7 +12749,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T09:35:10.701795+00:00",
-          "hold_minutes": 104.8,
+          "hold_minutes": 109.9,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -16566,7 +16566,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:59:41.369974-04:00",
-          "hold_minutes": 920.3,
+          "hold_minutes": 925.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -27347,10 +27347,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1779.15,
+      "bankroll": 1780.24,
       "starting_bankroll": 2000.0,
-      "total_pnl": -220.85,
-      "total_pnl_pct": -11.04,
+      "total_pnl": -219.76,
+      "total_pnl_pct": -10.99,
       "total_trades": 93,
       "wins": 28,
       "losses": 65,
@@ -29386,11 +29386,11 @@
         {
           "symbol": "BTC",
           "entry_price": 75279.97584,
-          "current_price": 75458.063014,
-          "pnl": 1.89,
-          "pnl_pct": 0.71,
+          "current_price": 75470.312396,
+          "pnl": 2.02,
+          "pnl_pct": 0.76,
           "opened_at": "2026-04-17T10:32:45.049689+00:00",
-          "hold_minutes": 47.3,
+          "hold_minutes": 52.3,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29403,11 +29403,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.436108,
-          "current_price": 1.4411,
-          "pnl": 2.36,
-          "pnl_pct": 1.04,
+          "current_price": 1.44313,
+          "pnl": 3.32,
+          "pnl_pct": 1.47,
           "opened_at": "2026-04-17T10:32:46.790423+00:00",
-          "hold_minutes": 47.2,
+          "hold_minutes": 52.2,
           "extra": {
             "direction": "long",
             "leverage": 3,
