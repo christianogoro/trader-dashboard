@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T18:40:00.899233+00:00",
+  "updated_at": "2026-04-17T18:45:00.619184+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -12902,7 +12902,7 @@
       "losses": 132,
       "win_rate": 25.0,
       "daily_pnl": -137.36,
-      "open_positions": 4,
+      "open_positions": 5,
       "last_trade_at": "2026-04-17T09:33:44.491542-04:00",
       "today_trades": 1,
       "today_wins": 0,
@@ -16599,7 +16599,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T14:34:08.150277-04:00",
-          "hold_minutes": 5.9,
+          "hold_minutes": 10.9,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -16612,15 +16612,15 @@
         {
           "symbol": "MSTR",
           "entry_price": 164.7646,
-          "current_price": 165.33,
+          "current_price": 165.585,
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T14:35:50.635372-04:00",
-          "hold_minutes": 4.2,
+          "hold_minutes": 9.2,
           "extra": {
             "direction": "long",
             "leverage": null,
-            "stop_loss": 163.16,
+            "stop_loss": 163.42,
             "take_profit": 167.85,
             "margin": 0,
             "liquidation_price": null
@@ -16633,7 +16633,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T14:38:24.533761-04:00",
-          "hold_minutes": 1.6,
+          "hold_minutes": 6.6,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -16650,12 +16650,29 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T14:39:48.263631-04:00",
-          "hold_minutes": 0.2,
+          "hold_minutes": 5.2,
           "extra": {
             "direction": "long",
             "leverage": null,
             "stop_loss": 269.97,
             "take_profit": 272.41,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "NFLX",
+          "entry_price": 97.4373,
+          "current_price": 97.43734,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-17T14:41:53.921152-04:00",
+          "hold_minutes": 3.1,
+          "extra": {
+            "direction": "long",
+            "leverage": null,
+            "stop_loss": 97.02,
+            "take_profit": 97.99,
             "margin": 0,
             "liquidation_price": null
           }
@@ -27589,10 +27606,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1801.49,
+      "bankroll": 1802.87,
       "starting_bankroll": 2000.0,
-      "total_pnl": -198.51,
-      "total_pnl_pct": -9.93,
+      "total_pnl": -197.13,
+      "total_pnl_pct": -9.86,
       "total_trades": 96,
       "wins": 30,
       "losses": 66,
@@ -29685,11 +29702,11 @@
         {
           "symbol": "BTC",
           "entry_price": 77569.506,
-          "current_price": 77366.152093,
-          "pnl": -2.13,
-          "pnl_pct": -0.79,
+          "current_price": 77414.842465,
+          "pnl": -1.62,
+          "pnl_pct": -0.6,
           "opened_at": "2026-04-17T15:43:59.711244+00:00",
-          "hold_minutes": 176.0,
+          "hold_minutes": 181.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29702,11 +29719,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.482305,
-          "current_price": 1.479342,
-          "pnl": -1.38,
-          "pnl_pct": -0.6,
+          "current_price": 1.48121,
+          "pnl": -0.51,
+          "pnl_pct": -0.22,
           "opened_at": "2026-04-17T15:44:03.022115+00:00",
-          "hold_minutes": 176.0,
+          "hold_minutes": 181.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
