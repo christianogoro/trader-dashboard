@@ -1,24 +1,980 @@
 {
-  "updated_at": "2026-04-17T04:00:01.458287+00:00",
+  "updated_at": "2026-04-17T04:05:00.987345+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
-      "status": "stopped",
+      "status": "running",
+      "is_live": true,
       "bankroll": 0,
       "starting_bankroll": 0,
       "total_pnl": 0,
       "total_pnl_pct": 0,
-      "total_trades": 0,
+      "total_trades": 78,
+      "total_cost": 427.71,
       "wins": 0,
       "losses": 0,
       "win_rate": 0,
       "daily_pnl": 0,
       "open_positions": 0,
-      "last_trade_at": null,
-      "trades": [],
+      "last_trade_at": "2026-04-17T03:57:25.199372Z",
+      "today_trades": 16,
+      "today_wins": 0,
+      "today_losses": 0,
+      "daily_breakdown": [],
+      "trades": [
+        {
+          "id": "4cabcadf",
+          "opened_at": "2026-04-15T00:05:10.257813Z",
+          "closed_at": "2026-04-15T00:05:10.257813Z",
+          "symbol": "KXMLBGAME-26APR141840SFCIN-SF",
+          "direction": "yes",
+          "entry_price": 0.29,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 20,
+            "cost": 5.4,
+            "fees": 0.28
+          }
+        },
+        {
+          "id": "380b17b2",
+          "opened_at": "2026-04-15T00:05:11.111734Z",
+          "closed_at": "2026-04-15T00:05:11.111734Z",
+          "symbol": "KXHIGHCHI-26APR15-T73",
+          "direction": "yes",
+          "entry_price": 0.23,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 21,
+            "cost": 4.62,
+            "fees": 0.26
+          }
+        },
+        {
+          "id": "8652773c",
+          "opened_at": "2026-04-15T00:06:01.97739Z",
+          "closed_at": "2026-04-15T00:06:01.97739Z",
+          "symbol": "KXMLBGAME-26APR141835AZBAL-AZ",
+          "direction": "yes",
+          "entry_price": 0.71,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 10,
+            "cost": 7.1,
+            "fees": 0.15
+          }
+        },
+        {
+          "id": "d092c19c",
+          "opened_at": "2026-04-15T00:06:02.933104Z",
+          "closed_at": "2026-04-15T00:06:02.933104Z",
+          "symbol": "KXMLBGAME-26APR142210NYMLAD-LAD",
+          "direction": "yes",
+          "entry_price": 0.65,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 11,
+            "cost": 7.15,
+            "fees": 0.18
+          }
+        },
+        {
+          "id": "a189740b",
+          "opened_at": "2026-04-15T00:06:03.773517Z",
+          "closed_at": "2026-04-15T00:06:03.773517Z",
+          "symbol": "KXMLBGAME-26APR141840KCDET-KC",
+          "direction": "yes",
+          "entry_price": 0.65,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 11,
+            "cost": 6.93,
+            "fees": 0.18
+          }
+        },
+        {
+          "id": "72bf76e4",
+          "opened_at": "2026-04-15T12:13:30.388357Z",
+          "closed_at": "2026-04-15T12:13:30.388357Z",
+          "symbol": "KXHIGHTATL-26APR15-B87.5",
+          "direction": "no",
+          "entry_price": 0.39,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 12,
+            "cost": 4.68,
+            "fees": 0.2
+          }
+        },
+        {
+          "id": "ee915eb9",
+          "opened_at": "2026-04-15T12:13:31.22026Z",
+          "closed_at": "2026-04-15T12:13:31.22026Z",
+          "symbol": "KXHIGHAUS-26APR15-B83.5",
+          "direction": "yes",
+          "entry_price": 0.18,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 18,
+            "cost": 3.2,
+            "fees": 0.19
+          }
+        },
+        {
+          "id": "cec0e7aa",
+          "opened_at": "2026-04-15T12:14:24.211517Z",
+          "closed_at": "2026-04-15T12:14:24.211517Z",
+          "symbol": "KXBTCD-26APR1717-T72999.99",
+          "direction": "yes",
+          "entry_price": 0.68,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 12,
+            "cost": 8.16,
+            "fees": 0.19
+          }
+        },
+        {
+          "id": "a1e13d19",
+          "opened_at": "2026-04-15T12:14:25.106102Z",
+          "closed_at": "2026-04-15T12:14:25.106102Z",
+          "symbol": "KXBTCD-26APR1509-T74099.99",
+          "direction": "yes",
+          "entry_price": 0.73,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 5,
+            "cost": 3.45,
+            "fees": 0.08
+          }
+        },
+        {
+          "id": "7ec23383",
+          "opened_at": "2026-04-09T19:32:33.735585Z",
+          "closed_at": "2026-04-09T19:32:33.735585Z",
+          "symbol": "KXCPI-26MAR-T0.8",
+          "direction": "yes",
+          "entry_price": 0.66,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 9,
+            "cost": 5.94,
+            "fees": 0.15
+          }
+        },
+        {
+          "id": "331473d4",
+          "opened_at": "2026-04-13T23:28:37.792918Z",
+          "closed_at": "2026-04-13T23:28:37.792918Z",
+          "symbol": "KXMLBGAME-26APR131835AZBAL-AZ",
+          "direction": "yes",
+          "entry_price": 0.57,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 12,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "3955d600",
+          "opened_at": "2026-04-14T00:36:51.169383Z",
+          "closed_at": "2026-04-14T00:36:51.169383Z",
+          "symbol": "KXHIGHMIA-26APR14-B79.5",
+          "direction": "yes",
+          "entry_price": 0.07,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 69,
+            "cost": 2.1,
+            "fees": 0.14
+          }
+        },
+        {
+          "id": "7dab349f",
+          "opened_at": "2026-04-14T00:37:06.29552Z",
+          "closed_at": "2026-04-14T00:37:06.29552Z",
+          "symbol": "KXBTCD-26APR1321-T74299.99",
+          "direction": "yes",
+          "entry_price": 0.65,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 12,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "59594dd1",
+          "opened_at": "2026-04-14T13:13:33.111627Z",
+          "closed_at": "2026-04-14T13:13:33.111627Z",
+          "symbol": "KXWTI-26APR14-T95.99",
+          "direction": "yes",
+          "entry_price": 0.6,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 21,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "e63a5777",
+          "opened_at": "2026-04-14T13:13:33.987283Z",
+          "closed_at": "2026-04-14T13:13:33.987283Z",
+          "symbol": "KXBTCD-26APR1410-T74499.99",
+          "direction": "yes",
+          "entry_price": 0.63,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 20,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "99e427a4",
+          "opened_at": "2026-04-15T12:13:32.052369Z",
+          "closed_at": "2026-04-15T12:13:32.052369Z",
+          "symbol": "KXHIGHTPHX-26APR15-B85.5",
+          "direction": "no",
+          "entry_price": 0.42,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 9,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "82f2114c",
+          "opened_at": "2026-04-16T00:45:14.472281Z",
+          "closed_at": "2026-04-16T00:45:14.472281Z",
+          "symbol": "KXMLBGAME-26APR151840KCDET-DET",
+          "direction": "no",
+          "entry_price": 0.13,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 17,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "83340476",
+          "opened_at": "2026-04-16T11:37:18.841523Z",
+          "closed_at": "2026-04-16T11:37:18.841523Z",
+          "symbol": "KXWTI-26APR16-T89.99",
+          "direction": "no",
+          "entry_price": 0.18,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 22,
+            "cost": 3.96,
+            "fees": 0.23
+          }
+        },
+        {
+          "id": "3db1fc7e",
+          "opened_at": "2026-04-16T11:37:20.094671Z",
+          "closed_at": "2026-04-16T11:37:20.094671Z",
+          "symbol": "KXWTI-26APR17-T91.99",
+          "direction": "no",
+          "entry_price": 0.63,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 6,
+            "cost": 3.72,
+            "fees": 0.1
+          }
+        },
+        {
+          "id": "bcc905f0",
+          "opened_at": "2026-04-16T11:41:11.505457Z",
+          "closed_at": "2026-04-16T11:41:11.505457Z",
+          "symbol": "KXBTCD-26APR1608-T74399.99",
+          "direction": "yes",
+          "entry_price": 0.6,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 5,
+            "cost": 2.7,
+            "fees": 0.09
+          }
+        },
+        {
+          "id": "6bc738ff",
+          "opened_at": "2026-04-16T12:06:10.021221Z",
+          "closed_at": "2026-04-16T12:06:10.021221Z",
+          "symbol": "KXHIGHMIA-26APR16-B82.5",
+          "direction": "yes",
+          "entry_price": 0.55,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 15,
+            "cost": 8.1,
+            "fees": 0.27
+          }
+        },
+        {
+          "id": "29a245f7",
+          "opened_at": "2026-04-16T12:06:10.725477Z",
+          "closed_at": "2026-04-16T12:06:10.725477Z",
+          "symbol": "KXHIGHTBOS-26APR16-T63",
+          "direction": "yes",
+          "entry_price": 0.71,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 11,
+            "cost": 7.81,
+            "fees": 0.16
+          }
+        },
+        {
+          "id": "cf60dd2c",
+          "opened_at": "2026-04-16T11:37:20.794786Z",
+          "closed_at": "2026-04-16T11:37:20.794786Z",
+          "symbol": "KXETHD-26APR1717-T2389.99",
+          "direction": "no",
+          "entry_price": 0.76,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 5,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "f55743dc",
+          "opened_at": "2026-04-16T12:05:45.04868Z",
+          "closed_at": "2026-04-16T12:05:45.04868Z",
+          "symbol": "KXBTCD-26APR1617-T73999.99",
+          "direction": "yes",
+          "entry_price": 0.77,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 10,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "7beabdbc",
+          "opened_at": "2026-04-16T12:05:45.676431Z",
+          "closed_at": "2026-04-16T12:05:45.676431Z",
+          "symbol": "KXBTCD-26APR1609-T74599.99",
+          "direction": "yes",
+          "entry_price": 0.66,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 7,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "1d54a3ea",
+          "opened_at": "2026-04-16T12:05:44.317762Z",
+          "closed_at": "2026-04-16T12:05:44.317762Z",
+          "symbol": "KXETHD-26APR1617-T2299.99",
+          "direction": "yes",
+          "entry_price": 0.82,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 10,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "fa1d8b67",
+          "opened_at": "2026-04-16T11:37:21.422523Z",
+          "closed_at": "2026-04-16T11:37:21.422523Z",
+          "symbol": "KXBTCD-26APR1617-T73999.99",
+          "direction": "yes",
+          "entry_price": 0.66,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 5,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "1f57ad54",
+          "opened_at": "2026-04-16T15:22:08.789824Z",
+          "closed_at": "2026-04-16T15:22:08.789824Z",
+          "symbol": "KXSOL15M-26APR161130-30",
+          "direction": "yes",
+          "entry_price": 0.92,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 7,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "3c4d5b27",
+          "opened_at": "2026-04-16T16:38:51.083276Z",
+          "closed_at": "2026-04-16T16:38:51.083276Z",
+          "symbol": "KXXRP15M-26APR161245-45",
+          "direction": "no",
+          "entry_price": 0.85,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 8,
+            "cost": 6.72,
+            "fees": 0.08
+          }
+        },
+        {
+          "id": "96ab32d7",
+          "opened_at": "2026-04-16T17:11:57.011276Z",
+          "closed_at": "2026-04-16T17:11:57.011276Z",
+          "symbol": "KXETH15M-26APR161315-15",
+          "direction": "no",
+          "entry_price": 0.36,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 5,
+            "cost": 1.65,
+            "fees": 0.08
+          }
+        },
+        {
+          "id": "006287b3",
+          "opened_at": "2026-04-16T17:12:00.703891Z",
+          "closed_at": "2026-04-16T17:12:00.703891Z",
+          "symbol": "KXXRP15M-26APR161315-15",
+          "direction": "no",
+          "entry_price": 0.42,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 4,
+            "cost": 1.52,
+            "fees": 0.07
+          }
+        },
+        {
+          "id": "663e837d",
+          "opened_at": "2026-04-16T17:19:44.036219Z",
+          "closed_at": "2026-04-16T17:19:44.036219Z",
+          "symbol": "KXBTC15M-26APR161330-30",
+          "direction": "no",
+          "entry_price": 0.32,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 9,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "c22affcd",
+          "opened_at": "2026-04-16T19:11:20.690891Z",
+          "closed_at": "2026-04-16T19:11:20.690891Z",
+          "symbol": "KXSOL15M-26APR161515-15",
+          "direction": "yes",
+          "entry_price": 0.31,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 6,
+            "cost": 1.62,
+            "fees": 0.09
+          }
+        },
+        {
+          "id": "1f4a099c",
+          "opened_at": "2026-04-16T19:26:09.589232Z",
+          "closed_at": "2026-04-16T19:26:09.589232Z",
+          "symbol": "KXDOGE15M-26APR161530-30",
+          "direction": "no",
+          "entry_price": 0.2,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 15,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "93ed829d",
+          "opened_at": "2026-04-17T00:05:44.235312Z",
+          "closed_at": "2026-04-17T00:05:44.235312Z",
+          "symbol": "KXMLBGAME-26APR162040SEASD-SD",
+          "direction": "yes",
+          "entry_price": 0.49,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 21,
+            "cost": 10.29,
+            "fees": 0.37
+          }
+        },
+        {
+          "id": "c2b39809",
+          "opened_at": "2026-04-17T00:05:44.948018Z",
+          "closed_at": "2026-04-17T00:05:44.948018Z",
+          "symbol": "KXMLBGAME-26APR162010COLHOU-HOU",
+          "direction": "yes",
+          "entry_price": 0.6,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 17,
+            "cost": 10.2,
+            "fees": 0.29
+          }
+        },
+        {
+          "id": "3f018500",
+          "opened_at": "2026-04-17T00:05:45.731623Z",
+          "closed_at": "2026-04-17T00:05:45.731623Z",
+          "symbol": "KXMLBTOTAL-26APR161810BALCLE-6",
+          "direction": "yes",
+          "entry_price": 0.34,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 30,
+            "cost": 9.6,
+            "fees": 0.46
+          }
+        },
+        {
+          "id": "c34471aa",
+          "opened_at": "2026-04-17T00:05:46.411698Z",
+          "closed_at": "2026-04-17T00:05:46.411698Z",
+          "symbol": "KXHIGHTSEA-26APR16-B56.5",
+          "direction": "yes",
+          "entry_price": 0.91,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 11,
+            "cost": 9.63,
+            "fees": 0.09
+          }
+        },
+        {
+          "id": "68b690ef",
+          "opened_at": "2026-04-17T00:05:47.049686Z",
+          "closed_at": "2026-04-17T00:05:47.049686Z",
+          "symbol": "KXBTCD-26APR1621-T74899.99",
+          "direction": "yes",
+          "entry_price": 0.8,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 10,
+            "cost": 7.1,
+            "fees": 0.15
+          }
+        },
+        {
+          "id": "25e67426",
+          "opened_at": "2026-04-17T00:01:07.846477Z",
+          "closed_at": "2026-04-17T00:01:07.846477Z",
+          "symbol": "KXBTC15M-26APR162015-15",
+          "direction": "yes",
+          "entry_price": 0.28,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 10,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "efa283fb",
+          "opened_at": "2026-04-17T00:05:19.584669Z",
+          "closed_at": "2026-04-17T00:05:19.584669Z",
+          "symbol": "KXWTI-26APR17-T91.99",
+          "direction": "no",
+          "entry_price": 0.35,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 20,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "1eb4d7e6",
+          "opened_at": "2026-04-17T00:20:13.634406Z",
+          "closed_at": "2026-04-17T00:20:13.634406Z",
+          "symbol": "KXBTC15M-26APR162030-30",
+          "direction": "no",
+          "entry_price": 0.42,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 3,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "2c2692ca",
+          "opened_at": "2026-04-17T00:34:50.582203Z",
+          "closed_at": "2026-04-17T00:34:50.582203Z",
+          "symbol": "KXSOL15M-26APR162045-45",
+          "direction": "no",
+          "entry_price": 0.26,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 4,
+            "cost": 1.04,
+            "fees": 0.06
+          }
+        },
+        {
+          "id": "aa7157c9",
+          "opened_at": "2026-04-17T00:34:47.083392Z",
+          "closed_at": "2026-04-17T00:34:47.083392Z",
+          "symbol": "KXBTC15M-26APR162045-45",
+          "direction": "no",
+          "entry_price": 0.12,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 9,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "7324acfc",
+          "opened_at": "2026-04-17T03:34:49.113701Z",
+          "closed_at": "2026-04-17T03:34:49.113701Z",
+          "symbol": "KXBTC15M-26APR162345-45",
+          "direction": "no",
+          "entry_price": 0.2,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 10,
+            "cost": 1.6,
+            "fees": 0.1
+          }
+        },
+        {
+          "id": "754c90a2",
+          "opened_at": "2026-04-17T03:34:50.957989Z",
+          "closed_at": "2026-04-17T03:34:50.957989Z",
+          "symbol": "KXETH15M-26APR162345-45",
+          "direction": "no",
+          "entry_price": 0.23,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 7,
+            "cost": 1.12,
+            "fees": 0.07
+          }
+        },
+        {
+          "id": "31be59c5",
+          "opened_at": "2026-04-17T03:40:28.519012Z",
+          "closed_at": "2026-04-17T03:40:28.519012Z",
+          "symbol": "KXSOL15M-26APR162345-45",
+          "direction": "no",
+          "entry_price": 0.32,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 4,
+            "cost": 0.0,
+            "fees": 0.0
+          }
+        },
+        {
+          "id": "d9d17c7b",
+          "opened_at": "2026-04-17T03:51:21.240321Z",
+          "closed_at": "2026-04-17T03:51:21.240321Z",
+          "symbol": "KXSOL15M-26APR170000-00",
+          "direction": "no",
+          "entry_price": 0.47,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 4,
+            "cost": 1.88,
+            "fees": 0.07
+          }
+        },
+        {
+          "id": "80b41598",
+          "opened_at": "2026-04-17T03:57:21.521543Z",
+          "closed_at": "2026-04-17T03:57:21.521543Z",
+          "symbol": "KXETH15M-26APR170000-00",
+          "direction": "yes",
+          "entry_price": 0.1,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 10,
+            "cost": 0.68,
+            "fees": 0.05
+          }
+        },
+        {
+          "id": "17bdeaef",
+          "opened_at": "2026-04-17T03:57:25.199372Z",
+          "closed_at": "2026-04-17T03:57:25.199372Z",
+          "symbol": "KXXRP15M-26APR170000-00",
+          "direction": "yes",
+          "entry_price": 0.04,
+          "exit_price": null,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "outcome": "OPEN",
+          "exit_reason": "pending",
+          "bankroll_after": null,
+          "extra": {
+            "contracts": 28,
+            "cost": 1.11,
+            "fees": 0.08
+          }
+        }
+      ],
       "open": [],
-      "equity_curve": [],
-      "error": "[Errno 1] Operation not permitted: '/Users/christianogoro/Desktop/claude-master/kalshi-trader/trades.jsonl'"
+      "equity_curve": []
     },
     "meme": {
       "name": "Meme Scanner",
@@ -15379,7 +16335,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:59:41.369974-04:00",
-          "hold_minutes": 480.3,
+          "hold_minutes": 485.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -26106,10 +27062,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1816.15,
+      "bankroll": 1815.73,
       "starting_bankroll": 2000.0,
-      "total_pnl": -183.85,
-      "total_pnl_pct": -9.19,
+      "total_pnl": -184.27,
+      "total_pnl_pct": -9.21,
       "total_trades": 90,
       "wins": 28,
       "losses": 62,
@@ -28088,11 +29044,11 @@
         {
           "symbol": "BTC",
           "entry_price": 75172.71368,
-          "current_price": 74651.13188,
-          "pnl": 4.82,
-          "pnl_pct": 2.08,
+          "current_price": 74650.04976,
+          "pnl": 4.83,
+          "pnl_pct": 2.09,
           "opened_at": "2026-04-16T20:57:26.602647+00:00",
-          "hold_minutes": 422.6,
+          "hold_minutes": 427.6,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -28105,11 +29061,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2347.610408,
-          "current_price": 2326.05774,
-          "pnl": 5.42,
-          "pnl_pct": 2.75,
+          "current_price": 2326.13727,
+          "pnl": 5.4,
+          "pnl_pct": 2.74,
           "opened_at": "2026-04-16T20:57:27.575445+00:00",
-          "hold_minutes": 422.6,
+          "hold_minutes": 427.6,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -28122,11 +29078,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.437829,
-          "current_price": 1.431299,
-          "pnl": 2.81,
-          "pnl_pct": 1.36,
+          "current_price": 1.432252,
+          "pnl": 2.4,
+          "pnl_pct": 1.16,
           "opened_at": "2026-04-17T03:37:55.571372+00:00",
-          "hold_minutes": 22.1,
+          "hold_minutes": 27.1,
           "extra": {
             "direction": "short",
             "leverage": 3,
