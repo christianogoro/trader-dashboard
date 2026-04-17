@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T10:15:00.848472+00:00",
+  "updated_at": "2026-04-17T10:20:00.554189+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -3105,19 +3105,19 @@
     "forex": {
       "name": "Forex 5m",
       "status": "running",
-      "bankroll": 7408.78,
+      "bankroll": 7443.07,
       "starting_bankroll": 5000.0,
-      "total_pnl": 2408.78,
-      "total_pnl_pct": 48.18,
-      "total_trades": 447,
-      "wins": 218,
+      "total_pnl": 2443.07,
+      "total_pnl_pct": 48.86,
+      "total_trades": 448,
+      "wins": 219,
       "losses": 229,
-      "win_rate": 48.8,
-      "daily_pnl": -225.23,
-      "open_positions": 2,
-      "last_trade_at": "2026-04-17T09:35:11.688103+00:00",
-      "today_trades": 8,
-      "today_wins": 3,
+      "win_rate": 48.9,
+      "daily_pnl": -190.94,
+      "open_positions": 1,
+      "last_trade_at": "2026-04-17T10:15:10.913224+00:00",
+      "today_trades": 9,
+      "today_wins": 4,
       "today_losses": 5,
       "daily_breakdown": [
         {
@@ -3322,13 +3322,13 @@
         },
         {
           "date": "2026-04-17",
-          "trades": 8,
-          "wins": 3,
+          "trades": 9,
+          "wins": 4,
           "losses": 5,
-          "pnl": -225.23,
+          "pnl": -190.94,
           "prev_balance": 7634.01,
-          "balance": 7408.78,
-          "pnl_pct_of_prev": -2.95
+          "balance": 7443.07,
+          "pnl_pct_of_prev": -2.5
         }
       ],
       "trades": [
@@ -12718,26 +12718,30 @@
             "confidence": "low",
             "duration": "10m"
           }
+        },
+        {
+          "id": 448,
+          "opened_at": "2026-04-17T09:35:10.701795+00:00",
+          "closed_at": "2026-04-17T10:15:10.913224+00:00",
+          "symbol": "GBP/USD",
+          "direction": "short",
+          "entry_price": 1.35366,
+          "exit_price": 1.35339,
+          "pnl": 34.29,
+          "pnl_pct": 46.28,
+          "outcome": "WIN",
+          "exit_reason": "stop_loss",
+          "bankroll_after": 7443.07,
+          "extra": {
+            "pnl_pips": 2.7,
+            "spread_cost": 15.24,
+            "signal_score": 3,
+            "confidence": "low",
+            "duration": "40m"
+          }
         }
       ],
       "open": [
-        {
-          "symbol": "GBP/USD",
-          "entry_price": 1.35366,
-          "current_price": 1.35366,
-          "pnl": 0,
-          "pnl_pct": 0,
-          "opened_at": "2026-04-17T09:35:10.701795+00:00",
-          "hold_minutes": 39.8,
-          "extra": {
-            "direction": "short",
-            "leverage": null,
-            "stop_loss": 1.35339,
-            "take_profit": 1.35274,
-            "margin": 0,
-            "liquidation_price": null
-          }
-        },
         {
           "symbol": "GBP/JPY",
           "entry_price": 215.275,
@@ -12745,7 +12749,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T09:35:10.701795+00:00",
-          "hold_minutes": 39.8,
+          "hold_minutes": 44.8,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -12875,11 +12879,11 @@
         },
         {
           "date": "2026-04-17",
-          "value": 7408.78
+          "value": 7443.07
         }
       ],
       "extra_state": {
-        "total_spread_cost": 3749.11,
+        "total_spread_cost": 3764.35,
         "consec_losses": 0
       }
     },
@@ -16562,7 +16566,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:59:41.369974-04:00",
-          "hold_minutes": 855.3,
+          "hold_minutes": 860.3,
           "extra": {
             "direction": "long",
             "leverage": null,
