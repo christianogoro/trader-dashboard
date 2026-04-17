@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T10:55:00.824803+00:00",
+  "updated_at": "2026-04-17T11:00:00.727122+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -12749,7 +12749,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T09:35:10.701795+00:00",
-          "hold_minutes": 79.8,
+          "hold_minutes": 84.8,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -16566,7 +16566,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:59:41.369974-04:00",
-          "hold_minutes": 895.3,
+          "hold_minutes": 900.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -27347,9 +27347,9 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1776.09,
+      "bankroll": 1775.96,
       "starting_bankroll": 2000.0,
-      "total_pnl": -223.91,
+      "total_pnl": -224.04,
       "total_pnl_pct": -11.2,
       "total_trades": 93,
       "wins": 28,
@@ -29386,11 +29386,11 @@
         {
           "symbol": "BTC",
           "entry_price": 75279.97584,
-          "current_price": 75302.590084,
-          "pnl": 0.24,
-          "pnl_pct": 0.09,
+          "current_price": 75312.012686,
+          "pnl": 0.34,
+          "pnl_pct": 0.13,
           "opened_at": "2026-04-17T10:32:45.049689+00:00",
-          "hold_minutes": 22.3,
+          "hold_minutes": 27.3,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29403,11 +29403,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.436108,
-          "current_price": 1.438117,
-          "pnl": 0.95,
-          "pnl_pct": 0.42,
+          "current_price": 1.437631,
+          "pnl": 0.72,
+          "pnl_pct": 0.32,
           "opened_at": "2026-04-17T10:32:46.790423+00:00",
-          "hold_minutes": 22.2,
+          "hold_minutes": 27.2,
           "extra": {
             "direction": "long",
             "leverage": 3,
