@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T19:20:01.092284+00:00",
+  "updated_at": "2026-04-17T19:25:00.747190+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -12902,7 +12902,7 @@
       "losses": 135,
       "win_rate": 24.6,
       "daily_pnl": -262.86,
-      "open_positions": 4,
+      "open_positions": 5,
       "last_trade_at": "2026-04-17T15:06:50.056919-04:00",
       "today_trades": 4,
       "today_wins": 0,
@@ -16659,7 +16659,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T14:35:50.635372-04:00",
-          "hold_minutes": 44.2,
+          "hold_minutes": 49.2,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -16676,7 +16676,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T14:38:24.533761-04:00",
-          "hold_minutes": 41.6,
+          "hold_minutes": 46.6,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -16693,7 +16693,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T15:17:56.710851-04:00",
-          "hold_minutes": 2.1,
+          "hold_minutes": 7.1,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -16710,12 +16710,29 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T15:19:05.394279-04:00",
-          "hold_minutes": 0.9,
+          "hold_minutes": 5.9,
           "extra": {
             "direction": "long",
             "leverage": null,
             "stop_loss": 400.5,
             "take_profit": 405.4,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "AMD",
+          "entry_price": 277.4123,
+          "current_price": 277.41231,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-17T15:24:20.083094-04:00",
+          "hold_minutes": 0.7,
+          "extra": {
+            "direction": "short",
+            "leverage": null,
+            "stop_loss": 278.52,
+            "take_profit": 276.02,
             "margin": 0,
             "liquidation_price": null
           }
@@ -27649,10 +27666,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1804.07,
+      "bankroll": 1804.31,
       "starting_bankroll": 2000.0,
-      "total_pnl": -195.93,
-      "total_pnl_pct": -9.8,
+      "total_pnl": -195.69,
+      "total_pnl_pct": -9.78,
       "total_trades": 96,
       "wins": 30,
       "losses": 66,
@@ -29745,11 +29762,11 @@
         {
           "symbol": "BTC",
           "entry_price": 77569.506,
-          "current_price": 77364.242666,
-          "pnl": -2.15,
-          "pnl_pct": -0.79,
+          "current_price": 77348.967255,
+          "pnl": -2.31,
+          "pnl_pct": -0.85,
           "opened_at": "2026-04-17T15:43:59.711244+00:00",
-          "hold_minutes": 216.0,
+          "hold_minutes": 221.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29762,11 +29779,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.482305,
-          "current_price": 1.484924,
-          "pnl": 1.22,
-          "pnl_pct": 0.53,
+          "current_price": 1.485783,
+          "pnl": 1.62,
+          "pnl_pct": 0.7,
           "opened_at": "2026-04-17T15:44:03.022115+00:00",
-          "hold_minutes": 216.0,
+          "hold_minutes": 221.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
