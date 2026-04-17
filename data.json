@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T13:10:01.295744+00:00",
+  "updated_at": "2026-04-17T13:15:00.749774+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -16569,7 +16569,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:59:41.369974-04:00",
-          "hold_minutes": 1030.3,
+          "hold_minutes": 1035.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -27354,10 +27354,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1791.94,
+      "bankroll": 1800.0,
       "starting_bankroll": 2000.0,
-      "total_pnl": -208.06,
-      "total_pnl_pct": -10.4,
+      "total_pnl": -200.0,
+      "total_pnl_pct": -10.0,
       "total_trades": 94,
       "wins": 28,
       "losses": 66,
@@ -27616,7 +27616,7 @@
           "losses": 5,
           "pnl": 0.0,
           "prev_balance": 1114.95,
-          "balance": 1089.73,
+          "balance": 1271.2,
           "pnl_pct_of_prev": 0.0
         }
       ],
@@ -29412,11 +29412,11 @@
         {
           "symbol": "BTC",
           "entry_price": 75279.97584,
-          "current_price": 76684.885769,
-          "pnl": 14.91,
-          "pnl_pct": 5.6,
+          "current_price": 76881.818147,
+          "pnl": 17.0,
+          "pnl_pct": 6.38,
           "opened_at": "2026-04-17T10:32:45.049689+00:00",
-          "hold_minutes": 157.3,
+          "hold_minutes": 162.3,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29429,11 +29429,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.436108,
-          "current_price": 1.464028,
-          "pnl": 13.2,
-          "pnl_pct": 5.83,
+          "current_price": 1.476656,
+          "pnl": 19.17,
+          "pnl_pct": 8.47,
           "opened_at": "2026-04-17T10:32:46.790423+00:00",
-          "hold_minutes": 157.2,
+          "hold_minutes": 162.2,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29563,7 +29563,7 @@
         },
         {
           "date": "2026-04-17",
-          "value": 1089.73
+          "value": 1271.2
         }
       ],
       "extra_state": {
