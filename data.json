@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T06:25:01.363450+00:00",
+  "updated_at": "2026-04-17T06:30:01.131688+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -16349,7 +16349,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:59:41.369974-04:00",
-          "hold_minutes": 625.3,
+          "hold_minutes": 630.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -27076,10 +27076,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1815.61,
+      "bankroll": 1815.39,
       "starting_bankroll": 2000.0,
-      "total_pnl": -184.39,
-      "total_pnl_pct": -9.22,
+      "total_pnl": -184.61,
+      "total_pnl_pct": -9.23,
       "total_trades": 90,
       "wins": 28,
       "losses": 62,
@@ -29062,7 +29062,7 @@
           "pnl": 3.39,
           "pnl_pct": 1.46,
           "opened_at": "2026-04-16T20:57:26.602647+00:00",
-          "hold_minutes": 567.6,
+          "hold_minutes": 572.6,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -29075,11 +29075,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2347.610408,
-          "current_price": 2325.023848,
-          "pnl": 5.68,
-          "pnl_pct": 2.89,
+          "current_price": 2325.938445,
+          "pnl": 5.45,
+          "pnl_pct": 2.77,
           "opened_at": "2026-04-16T20:57:27.575445+00:00",
-          "hold_minutes": 567.6,
+          "hold_minutes": 572.6,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -29092,11 +29092,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.437829,
-          "current_price": 1.429835,
-          "pnl": 3.44,
+          "current_price": 1.429812,
+          "pnl": 3.45,
           "pnl_pct": 1.67,
           "opened_at": "2026-04-17T03:37:55.571372+00:00",
-          "hold_minutes": 167.1,
+          "hold_minutes": 172.1,
           "extra": {
             "direction": "short",
             "leverage": 3,
