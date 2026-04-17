@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T09:30:01.094625+00:00",
+  "updated_at": "2026-04-17T09:35:00.855237+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -12665,7 +12665,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T08:40:10.952787+00:00",
-          "hold_minutes": 49.8,
+          "hold_minutes": 54.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -12682,7 +12682,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T09:20:10.880560+00:00",
-          "hold_minutes": 9.8,
+          "hold_minutes": 14.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -12699,7 +12699,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T09:25:11.012302+00:00",
-          "hold_minutes": 4.8,
+          "hold_minutes": 9.8,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -16516,7 +16516,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:59:41.369974-04:00",
-          "hold_minutes": 810.3,
+          "hold_minutes": 815.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -27537,7 +27537,7 @@
           "losses": 4,
           "pnl": 0.0,
           "prev_balance": 1114.95,
-          "balance": 1367.55,
+          "balance": 1775.42,
           "pnl_pct_of_prev": 0.0
         }
       ],
@@ -29430,7 +29430,7 @@
         },
         {
           "date": "2026-04-17",
-          "value": 1367.55
+          "value": 1775.42
         }
       ],
       "extra_state": {
