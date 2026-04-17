@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T19:50:00.491050+00:00",
+  "updated_at": "2026-04-17T19:55:00.845072+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -12893,15 +12893,15 @@
     "stock": {
       "name": "Stock Trader",
       "status": "running",
-      "bankroll": 22370.08,
+      "bankroll": 22315.24,
       "starting_bankroll": 25000.0,
-      "total_pnl": -2629.92,
-      "total_pnl_pct": -10.52,
+      "total_pnl": -2684.76,
+      "total_pnl_pct": -10.74,
       "total_trades": 183,
       "wins": 45,
       "losses": 138,
       "win_rate": 24.6,
-      "daily_pnl": -281.35,
+      "daily_pnl": -336.18,
       "open_positions": 5,
       "last_trade_at": "2026-04-17T15:49:18.282039-04:00",
       "today_trades": 8,
@@ -13065,7 +13065,7 @@
           "losses": 7,
           "pnl": -336.19,
           "prev_balance": 22651.43,
-          "balance": 22370.08,
+          "balance": 22315.24,
           "pnl_pct_of_prev": -1.48
         }
       ],
@@ -16735,33 +16735,16 @@
         {
           "symbol": "MSTR",
           "entry_price": 164.7646,
-          "current_price": 166.39,
+          "current_price": 166.865,
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T14:35:50.635372-04:00",
-          "hold_minutes": 74.2,
+          "hold_minutes": 79.2,
           "extra": {
             "direction": "long",
             "leverage": null,
-            "stop_loss": 164.22,
+            "stop_loss": 164.7,
             "take_profit": 167.85,
-            "margin": 0,
-            "liquidation_price": null
-          }
-        },
-        {
-          "symbol": "TSLA",
-          "entry_price": 402.5321,
-          "current_price": 402.53213,
-          "pnl": 0,
-          "pnl_pct": 0,
-          "opened_at": "2026-04-17T15:19:05.394279-04:00",
-          "hold_minutes": 30.9,
-          "extra": {
-            "direction": "long",
-            "leverage": null,
-            "stop_loss": 400.5,
-            "take_profit": 405.4,
             "margin": 0,
             "liquidation_price": null
           }
@@ -16769,15 +16752,15 @@
         {
           "symbol": "NFLX",
           "entry_price": 97.4173,
-          "current_price": 97.41732,
+          "current_price": 97.46,
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T15:32:59.320355-04:00",
-          "hold_minutes": 17.0,
+          "hold_minutes": 22.0,
           "extra": {
             "direction": "long",
             "leverage": null,
-            "stop_loss": 96.99,
+            "stop_loss": 97.01,
             "take_profit": 98.0,
             "margin": 0,
             "liquidation_price": null
@@ -16790,7 +16773,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T15:42:54.935889-04:00",
-          "hold_minutes": 7.1,
+          "hold_minutes": 12.1,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -16807,12 +16790,29 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T15:44:08.175544-04:00",
-          "hold_minutes": 5.9,
+          "hold_minutes": 10.9,
           "extra": {
             "direction": "long",
             "leverage": null,
             "stop_loss": 646.65,
             "take_profit": 652.49,
+            "margin": 0,
+            "liquidation_price": null
+          }
+        },
+        {
+          "symbol": "SPY",
+          "entry_price": 709.1501,
+          "current_price": 709.15014,
+          "pnl": 0,
+          "pnl_pct": 0,
+          "opened_at": "2026-04-17T15:50:13.997602-04:00",
+          "hold_minutes": 4.8,
+          "extra": {
+            "direction": "short",
+            "leverage": null,
+            "stop_loss": 711.99,
+            "take_profit": 705.6,
             "margin": 0,
             "liquidation_price": null
           }
@@ -16897,12 +16897,12 @@
         },
         {
           "date": "2026-04-17",
-          "value": 22370.08
+          "value": 22315.24
         }
       ],
       "extra_state": {
         "total_fees": 0.0,
-        "consec_losses": 1
+        "consec_losses": 2
       }
     },
     "crypto_5m": {
@@ -27746,16 +27746,16 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1806.62,
+      "bankroll": 1806.59,
       "starting_bankroll": 2000.0,
-      "total_pnl": -193.38,
+      "total_pnl": -193.41,
       "total_pnl_pct": -9.67,
       "total_trades": 96,
       "wins": 30,
       "losses": 66,
       "win_rate": 31.2,
       "daily_pnl": -9.32,
-      "open_positions": 2,
+      "open_positions": 3,
       "last_trade_at": "2026-04-17T14:00:36.966166+00:00",
       "today_trades": 7,
       "today_wins": 2,
@@ -28008,7 +28008,7 @@
           "losses": 5,
           "pnl": 0.0,
           "prev_balance": 1114.95,
-          "balance": 1304.01,
+          "balance": 1108.2,
           "pnl_pct_of_prev": 0.0
         }
       ],
@@ -29842,11 +29842,11 @@
         {
           "symbol": "BTC",
           "entry_price": 77569.506,
-          "current_price": 77374.744511,
-          "pnl": -2.04,
-          "pnl_pct": -0.75,
+          "current_price": 77380.47279,
+          "pnl": -1.98,
+          "pnl_pct": -0.73,
           "opened_at": "2026-04-17T15:43:59.711244+00:00",
-          "hold_minutes": 246.0,
+          "hold_minutes": 251.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29859,11 +29859,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.482305,
-          "current_price": 1.490162,
-          "pnl": 3.66,
-          "pnl_pct": 1.59,
+          "current_price": 1.491128,
+          "pnl": 4.11,
+          "pnl_pct": 1.79,
           "opened_at": "2026-04-17T15:44:03.022115+00:00",
-          "hold_minutes": 246.0,
+          "hold_minutes": 251.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29871,6 +29871,23 @@
             "take_profit": 1.53,
             "margin": 230.16,
             "liquidation_price": 1.0
+          }
+        },
+        {
+          "symbol": "ETH",
+          "entry_price": 2429.275024,
+          "current_price": 2430.641181,
+          "pnl": -0.33,
+          "pnl_pct": -0.17,
+          "opened_at": "2026-04-17T19:50:04.616656+00:00",
+          "hold_minutes": 4.9,
+          "extra": {
+            "direction": "short",
+            "leverage": 3,
+            "stop_loss": 2467.69,
+            "take_profit": 2358.28,
+            "margin": 195.6,
+            "liquidation_price": 3226.89
           }
         }
       ],
@@ -29993,11 +30010,11 @@
         },
         {
           "date": "2026-04-17",
-          "value": 1304.01
+          "value": 1108.2
         }
       ],
       "extra_state": {
-        "total_fees": 157.82,
+        "total_fees": 158.49,
         "total_funding": -3.6,
         "liquidations": 0,
         "consec_losses": 0,
