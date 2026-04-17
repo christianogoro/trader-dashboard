@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T00:10:01.183639+00:00",
+  "updated_at": "2026-04-17T00:15:01.203151+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -15360,7 +15360,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:59:41.369974-04:00",
-          "hold_minutes": 250.3,
+          "hold_minutes": 255.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -26087,10 +26087,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1818.24,
+      "bankroll": 1817.52,
       "starting_bankroll": 2000.0,
-      "total_pnl": -181.76,
-      "total_pnl_pct": -9.09,
+      "total_pnl": -182.48,
+      "total_pnl_pct": -9.12,
       "total_trades": 89,
       "wins": 28,
       "losses": 61,
@@ -28040,11 +28040,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.448558,
-          "current_price": 1.448452,
-          "pnl": -0.06,
-          "pnl_pct": -0.02,
+          "current_price": 1.447087,
+          "pnl": -0.83,
+          "pnl_pct": -0.3,
           "opened_at": "2026-04-16T20:37:06.371472+00:00",
-          "hold_minutes": 212.9,
+          "hold_minutes": 217.9,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -28057,11 +28057,11 @@
         {
           "symbol": "BTC",
           "entry_price": 75172.71368,
-          "current_price": 74993.081774,
-          "pnl": 1.66,
-          "pnl_pct": 0.72,
+          "current_price": 74987.671174,
+          "pnl": 1.71,
+          "pnl_pct": 0.74,
           "opened_at": "2026-04-16T20:57:26.602647+00:00",
-          "hold_minutes": 192.6,
+          "hold_minutes": 197.6,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -28078,7 +28078,7 @@
           "pnl": 0.86,
           "pnl_pct": 0.44,
           "opened_at": "2026-04-16T20:57:27.575445+00:00",
-          "hold_minutes": 192.6,
+          "hold_minutes": 197.6,
           "extra": {
             "direction": "short",
             "leverage": 3,
