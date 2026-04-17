@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T16:55:00.359196+00:00",
+  "updated_at": "2026-04-17T17:00:00.992693+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -27476,9 +27476,9 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1815.51,
+      "bankroll": 1815.55,
       "starting_bankroll": 2000.0,
-      "total_pnl": -184.49,
+      "total_pnl": -184.45,
       "total_pnl_pct": -9.22,
       "total_trades": 96,
       "wins": 30,
@@ -29572,11 +29572,11 @@
         {
           "symbol": "BTC",
           "entry_price": 77569.506,
-          "current_price": 77889.334915,
-          "pnl": 3.35,
-          "pnl_pct": 1.24,
+          "current_price": 77893.153768,
+          "pnl": 3.39,
+          "pnl_pct": 1.25,
           "opened_at": "2026-04-17T15:43:59.711244+00:00",
-          "hold_minutes": 71.0,
+          "hold_minutes": 76.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29593,7 +29593,7 @@
           "pnl": 7.16,
           "pnl_pct": 3.11,
           "opened_at": "2026-04-17T15:44:03.022115+00:00",
-          "hold_minutes": 71.0,
+          "hold_minutes": 76.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
