@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T01:50:00.223575+00:00",
+  "updated_at": "2026-04-17T01:55:00.995558+00:00",
   "traders": {
     "meme": {
       "name": "Meme Scanner",
@@ -15360,7 +15360,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:59:41.369974-04:00",
-          "hold_minutes": 350.3,
+          "hold_minutes": 355.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -26087,10 +26087,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1812.5,
+      "bankroll": 1813.42,
       "starting_bankroll": 2000.0,
-      "total_pnl": -187.5,
-      "total_pnl_pct": -9.38,
+      "total_pnl": -186.58,
+      "total_pnl_pct": -9.33,
       "total_trades": 90,
       "wins": 28,
       "losses": 62,
@@ -26349,7 +26349,7 @@
           "losses": 1,
           "pnl": 0.0,
           "prev_balance": 1114.95,
-          "balance": 1114.95,
+          "balance": 1374.97,
           "pnl_pct_of_prev": 0.0
         }
       ],
@@ -28069,11 +28069,11 @@
         {
           "symbol": "BTC",
           "entry_price": 75172.71368,
-          "current_price": 74625.161002,
-          "pnl": 5.06,
-          "pnl_pct": 2.19,
+          "current_price": 74592.697405,
+          "pnl": 5.36,
+          "pnl_pct": 2.31,
           "opened_at": "2026-04-16T20:57:26.602647+00:00",
-          "hold_minutes": 292.6,
+          "hold_minutes": 297.6,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -28086,11 +28086,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2347.610408,
-          "current_price": 2331.227199,
-          "pnl": 4.12,
-          "pnl_pct": 2.09,
+          "current_price": 2328.761765,
+          "pnl": 4.74,
+          "pnl_pct": 2.41,
           "opened_at": "2026-04-16T20:57:27.575445+00:00",
-          "hold_minutes": 292.5,
+          "hold_minutes": 297.6,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -28220,7 +28220,7 @@
         },
         {
           "date": "2026-04-17",
-          "value": 1114.95
+          "value": 1374.97
         }
       ],
       "extra_state": {
