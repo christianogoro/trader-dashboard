@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T13:30:01.012240+00:00",
+  "updated_at": "2026-04-17T13:35:00.473002+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -12897,16 +12897,16 @@
       "starting_bankroll": 25000.0,
       "total_pnl": -2348.57,
       "total_pnl_pct": -9.39,
-      "total_trades": 175,
+      "total_trades": 176,
       "wins": 44,
-      "losses": 131,
-      "win_rate": 25.1,
-      "daily_pnl": 0.0,
+      "losses": 132,
+      "win_rate": 25.0,
+      "daily_pnl": -137.36,
       "open_positions": 1,
-      "last_trade_at": "2026-04-16T15:59:31.054488-04:00",
-      "today_trades": 0,
+      "last_trade_at": "2026-04-17T09:33:44.491542-04:00",
+      "today_trades": 1,
       "today_wins": 0,
-      "today_losses": 0,
+      "today_losses": 1,
       "daily_breakdown": [
         {
           "date": "2026-03-25",
@@ -13057,6 +13057,16 @@
           "prev_balance": 22950.78,
           "balance": 22651.43,
           "pnl_pct_of_prev": -1.3
+        },
+        {
+          "date": "2026-04-17",
+          "trades": 1,
+          "wins": 0,
+          "losses": 1,
+          "pnl": -137.36,
+          "prev_balance": 22651.43,
+          "balance": 22651.43,
+          "pnl_pct_of_prev": -0.61
         }
       ],
       "trades": [
@@ -16559,6 +16569,26 @@
             "strategy": "vwap_bounce",
             "hold_minutes": 1.0
           }
+        },
+        {
+          "id": 176,
+          "opened_at": "2026-04-16T15:59:41.369974-04:00",
+          "closed_at": "2026-04-17T09:33:44.491542-04:00",
+          "symbol": "AMD",
+          "direction": "long",
+          "entry_price": 278.3881,
+          "exit_price": 274.0956,
+          "pnl": -137.36,
+          "pnl_pct": -1.54,
+          "outcome": "LOSS",
+          "exit_reason": "stop_loss",
+          "bankroll_after": 22514.07,
+          "extra": {
+            "shares": 32,
+            "score": 120,
+            "strategy": "vwap_bounce",
+            "hold_minutes": 1054.1
+          }
         }
       ],
       "open": [
@@ -16569,7 +16599,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:59:41.369974-04:00",
-          "hold_minutes": 1050.3,
+          "hold_minutes": 1055.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -27354,10 +27384,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1795.34,
+      "bankroll": 1791.5,
       "starting_bankroll": 2000.0,
-      "total_pnl": -204.66,
-      "total_pnl_pct": -10.23,
+      "total_pnl": -208.5,
+      "total_pnl_pct": -10.42,
       "total_trades": 94,
       "wins": 28,
       "losses": 66,
@@ -29412,11 +29442,11 @@
         {
           "symbol": "BTC",
           "entry_price": 75279.97584,
-          "current_price": 76652.848923,
-          "pnl": 14.57,
-          "pnl_pct": 5.47,
+          "current_price": 76429.53326,
+          "pnl": 12.2,
+          "pnl_pct": 4.58,
           "opened_at": "2026-04-17T10:32:45.049689+00:00",
-          "hold_minutes": 177.3,
+          "hold_minutes": 182.3,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29429,11 +29459,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.436108,
-          "current_price": 1.471939,
-          "pnl": 16.94,
-          "pnl_pct": 7.48,
+          "current_price": 1.46883,
+          "pnl": 15.47,
+          "pnl_pct": 6.84,
           "opened_at": "2026-04-17T10:32:46.790423+00:00",
-          "hold_minutes": 177.2,
+          "hold_minutes": 182.2,
           "extra": {
             "direction": "long",
             "leverage": 3,
