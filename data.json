@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T14:25:00.467451+00:00",
+  "updated_at": "2026-04-17T14:30:00.420286+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -16682,20 +16682,20 @@
     "crypto_5m": {
       "name": "Crypto 5m",
       "status": "running",
-      "bankroll": 4899.82,
+      "bankroll": 4687.73,
       "starting_bankroll": 2000.0,
-      "total_pnl": 2899.82,
-      "total_pnl_pct": 144.99,
-      "total_trades": 320,
+      "total_pnl": 2687.73,
+      "total_pnl_pct": 134.39,
+      "total_trades": 321,
       "wins": 181,
-      "losses": 139,
-      "win_rate": 56.6,
-      "daily_pnl": 72.12,
+      "losses": 140,
+      "win_rate": 56.4,
+      "daily_pnl": -139.97,
       "open_positions": 0,
-      "last_trade_at": "2026-04-17T09:55:12.111502+00:00",
-      "today_trades": 2,
+      "last_trade_at": "2026-04-17T14:25:12.070787+00:00",
+      "today_trades": 3,
       "today_wins": 1,
-      "today_losses": 1,
+      "today_losses": 2,
       "daily_breakdown": [
         {
           "date": "2026-03-06",
@@ -17039,13 +17039,13 @@
         },
         {
           "date": "2026-04-17",
-          "trades": 2,
+          "trades": 3,
           "wins": 1,
-          "losses": 1,
-          "pnl": 72.12,
+          "losses": 2,
+          "pnl": -139.97,
           "prev_balance": 4827.7,
-          "balance": 4899.82,
-          "pnl_pct_of_prev": 1.49
+          "balance": 4687.73,
+          "pnl_pct_of_prev": -2.9
         }
       ],
       "trades": [
@@ -24088,6 +24088,28 @@
             "market_regime": "trending_up",
             "fee": 3.03
           }
+        },
+        {
+          "id": 325,
+          "opened_at": "2026-04-17T14:15:10.215188+00:00",
+          "closed_at": "2026-04-17T14:25:12.070787+00:00",
+          "symbol": "ETH",
+          "direction": "down",
+          "entry_price": 0.51,
+          "exit_price": null,
+          "pnl": -212.09,
+          "pnl_pct": -103.06,
+          "outcome": "LOSS",
+          "exit_reason": "resolved",
+          "bankroll_after": 4687.73,
+          "extra": {
+            "ml_prob": 0.4678,
+            "edge_pct": 16.96,
+            "bet_size": 205.79,
+            "confidence": "high",
+            "market_regime": "trending_up",
+            "fee": 6.3
+          }
         }
       ],
       "open": [],
@@ -24258,12 +24280,12 @@
         },
         {
           "date": "2026-04-17",
-          "value": 4899.82
+          "value": 4687.73
         }
       ],
       "extra_state": {
-        "total_fees": 628.02,
-        "consec_losses": 1
+        "total_fees": 634.32,
+        "consec_losses": 2
       }
     },
     "crypto_15m": {
