@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T14:00:00.408261+00:00",
+  "updated_at": "2026-04-17T14:05:00.603642+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -27366,19 +27366,19 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1806.01,
+      "bankroll": 1805.52,
       "starting_bankroll": 2000.0,
-      "total_pnl": -193.99,
-      "total_pnl_pct": -9.7,
-      "total_trades": 95,
-      "wins": 29,
+      "total_pnl": -170.71,
+      "total_pnl_pct": -8.54,
+      "total_trades": 96,
+      "wins": 30,
       "losses": 66,
-      "win_rate": 30.5,
-      "daily_pnl": -31.19,
-      "open_positions": 1,
-      "last_trade_at": "2026-04-17T13:42:18.357762+00:00",
-      "today_trades": 6,
-      "today_wins": 1,
+      "win_rate": 31.2,
+      "daily_pnl": -9.32,
+      "open_positions": 0,
+      "last_trade_at": "2026-04-17T14:00:36.966166+00:00",
+      "today_trades": 7,
+      "today_wins": 2,
       "today_losses": 5,
       "daily_breakdown": [
         {
@@ -27623,12 +27623,12 @@
         },
         {
           "date": "2026-04-17",
-          "trades": 6,
-          "wins": 1,
+          "trades": 7,
+          "wins": 2,
           "losses": 5,
           "pnl": 0.0,
           "prev_balance": 1114.95,
-          "balance": 1517.34,
+          "balance": 1805.52,
           "pnl_pct_of_prev": 0.0
         }
       ],
@@ -29437,27 +29437,28 @@
             "margin": 226.32,
             "funding_paid": 0.0
           }
-        }
-      ],
-      "open": [
+        },
         {
-          "symbol": "BTC",
-          "entry_price": 75279.97584,
-          "current_price": 77386.869604,
-          "pnl": 22.36,
-          "pnl_pct": 8.4,
+          "id": 94,
           "opened_at": "2026-04-17T10:32:45.049689+00:00",
-          "hold_minutes": 207.3,
+          "closed_at": "2026-04-17T14:00:36.966166+00:00",
+          "symbol": "BTC",
+          "direction": "",
+          "entry_price": 75279.97584,
+          "exit_price": 77428.008,
+          "pnl": 0,
+          "pnl_pct": 0.0,
+          "outcome": "WIN",
+          "exit_reason": "",
+          "bankroll_after": 1805.52,
           "extra": {
-            "direction": "long",
             "leverage": 3,
-            "stop_loss": 74091.5,
-            "take_profit": 77476.39,
             "margin": 266.31,
-            "liquidation_price": 50563.05
+            "funding_paid": 0.0
           }
         }
       ],
+      "open": [],
       "equity_curve": [
         {
           "date": "2026-03-19",
@@ -29577,11 +29578,11 @@
         },
         {
           "date": "2026-04-17",
-          "value": 1517.34
+          "value": 1805.52
         }
       ],
       "extra_state": {
-        "total_fees": 155.17,
+        "total_fees": 156.1,
         "total_funding": -3.6,
         "liquidations": 0,
         "consec_losses": 0,
