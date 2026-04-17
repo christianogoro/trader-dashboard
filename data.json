@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T11:05:00.867147+00:00",
+  "updated_at": "2026-04-17T11:10:01.225536+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -12749,7 +12749,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T09:35:10.701795+00:00",
-          "hold_minutes": 89.8,
+          "hold_minutes": 94.8,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -16566,7 +16566,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:59:41.369974-04:00",
-          "hold_minutes": 905.3,
+          "hold_minutes": 910.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -27347,10 +27347,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1777.59,
+      "bankroll": 1778.17,
       "starting_bankroll": 2000.0,
-      "total_pnl": -222.41,
-      "total_pnl_pct": -11.12,
+      "total_pnl": -221.83,
+      "total_pnl_pct": -11.09,
       "total_trades": 93,
       "wins": 28,
       "losses": 65,
@@ -29386,11 +29386,11 @@
         {
           "symbol": "BTC",
           "entry_price": 75279.97584,
-          "current_price": 75355.356654,
-          "pnl": 0.8,
-          "pnl_pct": 0.3,
+          "current_price": 75401.527403,
+          "pnl": 1.29,
+          "pnl_pct": 0.48,
           "opened_at": "2026-04-17T10:32:45.049689+00:00",
-          "hold_minutes": 32.3,
+          "hold_minutes": 37.3,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29403,11 +29403,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.436108,
-          "current_price": 1.440106,
-          "pnl": 1.89,
-          "pnl_pct": 0.84,
+          "current_price": 1.440296,
+          "pnl": 1.98,
+          "pnl_pct": 0.87,
           "opened_at": "2026-04-17T10:32:46.790423+00:00",
-          "hold_minutes": 32.2,
+          "hold_minutes": 37.2,
           "extra": {
             "direction": "long",
             "leverage": 3,
