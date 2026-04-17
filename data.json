@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T10:30:00.468726+00:00",
+  "updated_at": "2026-04-17T10:35:01.080397+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -12749,7 +12749,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-17T09:35:10.701795+00:00",
-          "hold_minutes": 54.8,
+          "hold_minutes": 59.8,
           "extra": {
             "direction": "short",
             "leverage": null,
@@ -16566,7 +16566,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:59:41.369974-04:00",
-          "hold_minutes": 870.3,
+          "hold_minutes": 875.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -27347,16 +27347,16 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1775.42,
+      "bankroll": 1776.02,
       "starting_bankroll": 2000.0,
-      "total_pnl": -201.53,
-      "total_pnl_pct": -10.08,
+      "total_pnl": -223.98,
+      "total_pnl_pct": -11.2,
       "total_trades": 93,
       "wins": 28,
       "losses": 65,
       "win_rate": 30.1,
       "daily_pnl": -40.14,
-      "open_positions": 0,
+      "open_positions": 2,
       "last_trade_at": "2026-04-17T09:29:14.509102+00:00",
       "today_trades": 4,
       "today_wins": 0,
@@ -29382,7 +29382,42 @@
           }
         }
       ],
-      "open": [],
+      "open": [
+        {
+          "symbol": "BTC",
+          "entry_price": 75279.97584,
+          "current_price": 75336.511451,
+          "pnl": 0.6,
+          "pnl_pct": 0.23,
+          "opened_at": "2026-04-17T10:32:45.049689+00:00",
+          "hold_minutes": 2.3,
+          "extra": {
+            "direction": "long",
+            "leverage": 3,
+            "stop_loss": 74091.5,
+            "take_profit": 77476.39,
+            "margin": 266.31,
+            "liquidation_price": 50563.05
+          }
+        },
+        {
+          "symbol": "XRP",
+          "entry_price": 1.436108,
+          "current_price": 1.437208,
+          "pnl": 0.52,
+          "pnl_pct": 0.23,
+          "opened_at": "2026-04-17T10:32:46.790423+00:00",
+          "hold_minutes": 2.2,
+          "extra": {
+            "direction": "long",
+            "leverage": 3,
+            "stop_loss": 1.41,
+            "take_profit": 1.48,
+            "margin": 226.32,
+            "liquidation_price": 0.96
+          }
+        }
+      ],
       "equity_curve": [
         {
           "date": "2026-03-19",
@@ -29506,7 +29541,7 @@
         }
       ],
       "extra_state": {
-        "total_fees": 151.36,
+        "total_fees": 153.06,
         "total_funding": -3.6,
         "liquidations": 0,
         "consec_losses": 0,
