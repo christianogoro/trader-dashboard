@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T16:15:01.237985+00:00",
+  "updated_at": "2026-04-17T16:20:00.495850+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -16682,20 +16682,20 @@
     "crypto_5m": {
       "name": "Crypto 5m",
       "status": "running",
-      "bankroll": 5208.47,
+      "bankroll": 4992.93,
       "starting_bankroll": 2000.0,
-      "total_pnl": 3208.47,
-      "total_pnl_pct": 160.42,
-      "total_trades": 324,
+      "total_pnl": 2992.93,
+      "total_pnl_pct": 149.65,
+      "total_trades": 325,
       "wins": 184,
-      "losses": 140,
-      "win_rate": 56.8,
-      "daily_pnl": 380.77,
+      "losses": 141,
+      "win_rate": 56.6,
+      "daily_pnl": 165.23,
       "open_positions": 0,
-      "last_trade_at": "2026-04-17T15:30:11.044303+00:00",
-      "today_trades": 6,
+      "last_trade_at": "2026-04-17T16:15:11.939453+00:00",
+      "today_trades": 7,
       "today_wins": 4,
-      "today_losses": 2,
+      "today_losses": 3,
       "daily_breakdown": [
         {
           "date": "2026-03-06",
@@ -17039,13 +17039,13 @@
         },
         {
           "date": "2026-04-17",
-          "trades": 6,
+          "trades": 7,
           "wins": 4,
-          "losses": 2,
-          "pnl": 380.77,
+          "losses": 3,
+          "pnl": 165.23,
           "prev_balance": 4827.7,
-          "balance": 5208.47,
-          "pnl_pct_of_prev": 7.89
+          "balance": 4992.93,
+          "pnl_pct_of_prev": 3.42
         }
       ],
       "trades": [
@@ -24176,6 +24176,28 @@
             "market_regime": "trending_up",
             "fee": 6.07
           }
+        },
+        {
+          "id": 329,
+          "opened_at": "2026-04-17T16:00:10.395267+00:00",
+          "closed_at": "2026-04-17T16:15:11.939453+00:00",
+          "symbol": "ETH",
+          "direction": "down",
+          "entry_price": 0.4884,
+          "exit_price": null,
+          "pnl": -215.54,
+          "pnl_pct": -103.2,
+          "outcome": "LOSS",
+          "exit_reason": "resolved",
+          "bankroll_after": 4992.93,
+          "extra": {
+            "ml_prob": 0.4303,
+            "edge_pct": 16.84,
+            "bet_size": 208.86,
+            "confidence": "high",
+            "market_regime": "trending_up",
+            "fee": 6.68
+          }
         }
       ],
       "open": [],
@@ -24346,12 +24368,12 @@
         },
         {
           "date": "2026-04-17",
-          "value": 5208.47
+          "value": 4992.93
         }
       ],
       "extra_state": {
-        "total_fees": 649.95,
-        "consec_losses": 0
+        "total_fees": 656.63,
+        "consec_losses": 1
       }
     },
     "crypto_15m": {
@@ -27454,10 +27476,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1813.41,
+      "bankroll": 1814.67,
       "starting_bankroll": 2000.0,
-      "total_pnl": -186.59,
-      "total_pnl_pct": -9.33,
+      "total_pnl": -185.33,
+      "total_pnl_pct": -9.27,
       "total_trades": 96,
       "wins": 30,
       "losses": 66,
@@ -29550,11 +29572,11 @@
         {
           "symbol": "BTC",
           "entry_price": 77569.506,
-          "current_price": 77961.893117,
-          "pnl": 4.11,
-          "pnl_pct": 1.52,
+          "current_price": 78015.357055,
+          "pnl": 4.67,
+          "pnl_pct": 1.72,
           "opened_at": "2026-04-17T15:43:59.711244+00:00",
-          "hold_minutes": 31.0,
+          "hold_minutes": 36.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29567,11 +29589,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.482305,
-          "current_price": 1.491536,
-          "pnl": 4.3,
-          "pnl_pct": 1.87,
+          "current_price": 1.493039,
+          "pnl": 5.0,
+          "pnl_pct": 2.17,
           "opened_at": "2026-04-17T15:44:03.022115+00:00",
-          "hold_minutes": 31.0,
+          "hold_minutes": 36.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
