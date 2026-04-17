@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T13:05:00.974957+00:00",
+  "updated_at": "2026-04-17T13:10:01.295744+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -16569,7 +16569,7 @@
           "pnl": 0,
           "pnl_pct": 0,
           "opened_at": "2026-04-16T15:59:41.369974-04:00",
-          "hold_minutes": 1025.3,
+          "hold_minutes": 1030.3,
           "extra": {
             "direction": "long",
             "leverage": null,
@@ -27354,20 +27354,20 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1790.74,
+      "bankroll": 1791.94,
       "starting_bankroll": 2000.0,
-      "total_pnl": -209.26,
-      "total_pnl_pct": -10.46,
-      "total_trades": 93,
+      "total_pnl": -208.06,
+      "total_pnl_pct": -10.4,
+      "total_trades": 94,
       "wins": 28,
-      "losses": 65,
-      "win_rate": 30.1,
-      "daily_pnl": -40.14,
-      "open_positions": 3,
-      "last_trade_at": "2026-04-17T09:29:14.509102+00:00",
-      "today_trades": 4,
+      "losses": 66,
+      "win_rate": 29.8,
+      "daily_pnl": -51.01,
+      "open_positions": 2,
+      "last_trade_at": "2026-04-17T13:09:36.208579+00:00",
+      "today_trades": 5,
       "today_wins": 0,
-      "today_losses": 4,
+      "today_losses": 5,
       "daily_breakdown": [
         {
           "date": "2026-03-21",
@@ -27611,9 +27611,9 @@
         },
         {
           "date": "2026-04-17",
-          "trades": 4,
+          "trades": 5,
           "wins": 0,
-          "losses": 4,
+          "losses": 5,
           "pnl": 0.0,
           "prev_balance": 1114.95,
           "balance": 1089.73,
@@ -29387,17 +29387,36 @@
             "margin": 196.79,
             "funding_paid": -0.059
           }
+        },
+        {
+          "id": 96,
+          "opened_at": "2026-04-17T12:15:01.013341+00:00",
+          "closed_at": "2026-04-17T13:09:36.208579+00:00",
+          "symbol": "ETH",
+          "direction": "",
+          "entry_price": 2355.76388,
+          "exit_price": 2397.46644,
+          "pnl": 0,
+          "pnl_pct": 0.0,
+          "outcome": "LOSS",
+          "exit_reason": "",
+          "bankroll_after": 1271.2,
+          "extra": {
+            "leverage": 3,
+            "margin": 192.34,
+            "funding_paid": 0.0
+          }
         }
       ],
       "open": [
         {
           "symbol": "BTC",
           "entry_price": 75279.97584,
-          "current_price": 76169.469451,
-          "pnl": 9.44,
-          "pnl_pct": 3.54,
+          "current_price": 76684.885769,
+          "pnl": 14.91,
+          "pnl_pct": 5.6,
           "opened_at": "2026-04-17T10:32:45.049689+00:00",
-          "hold_minutes": 152.3,
+          "hold_minutes": 157.3,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29410,11 +29429,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.436108,
-          "current_price": 1.458423,
-          "pnl": 10.55,
-          "pnl_pct": 4.66,
+          "current_price": 1.464028,
+          "pnl": 13.2,
+          "pnl_pct": 5.83,
           "opened_at": "2026-04-17T10:32:46.790423+00:00",
-          "hold_minutes": 152.2,
+          "hold_minutes": 157.2,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29422,23 +29441,6 @@
             "take_profit": 1.48,
             "margin": 226.32,
             "liquidation_price": 0.96
-          }
-        },
-        {
-          "symbol": "ETH",
-          "entry_price": 2355.76388,
-          "current_price": 2371.890301,
-          "pnl": -3.95,
-          "pnl_pct": -2.05,
-          "opened_at": "2026-04-17T12:15:01.013341+00:00",
-          "hold_minutes": 50.0,
-          "extra": {
-            "direction": "short",
-            "leverage": 3,
-            "stop_loss": 2393.01,
-            "take_profit": 2286.92,
-            "margin": 192.34,
-            "liquidation_price": 3129.24
           }
         }
       ],
@@ -29565,12 +29567,12 @@
         }
       ],
       "extra_state": {
-        "total_fees": 153.72,
+        "total_fees": 154.38,
         "total_funding": -3.6,
         "liquidations": 0,
-        "consec_losses": 0,
+        "consec_losses": 1,
         "peak_bankroll": 2000.0,
-        "max_drawdown": 35.13
+        "max_drawdown": 36.44
       }
     }
   }
