@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T03:26:24.601111+00:00",
+  "updated_at": "2026-04-18T03:40:00.798304+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -27802,10 +27802,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1799.95,
+      "bankroll": 1799.29,
       "starting_bankroll": 2000.0,
-      "total_pnl": -200.05,
-      "total_pnl_pct": -10.0,
+      "total_pnl": -200.71,
+      "total_pnl_pct": -10.04,
       "total_trades": 96,
       "wins": 30,
       "losses": 66,
@@ -29898,11 +29898,11 @@
         {
           "symbol": "BTC",
           "entry_price": 77569.506,
-          "current_price": 77190.484867,
-          "pnl": -3.97,
-          "pnl_pct": -1.47,
+          "current_price": 77210.533844,
+          "pnl": -3.76,
+          "pnl_pct": -1.39,
           "opened_at": "2026-04-17T15:43:59.711244+00:00",
-          "hold_minutes": 702.4,
+          "hold_minutes": 716.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29915,11 +29915,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.482305,
-          "current_price": 1.477067,
-          "pnl": -2.44,
-          "pnl_pct": -1.06,
+          "current_price": 1.472086,
+          "pnl": -4.76,
+          "pnl_pct": -2.07,
           "opened_at": "2026-04-17T15:44:03.022115+00:00",
-          "hold_minutes": 702.4,
+          "hold_minutes": 716.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29932,11 +29932,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2429.275024,
-          "current_price": 2422.77543,
-          "pnl": 1.57,
-          "pnl_pct": 0.8,
+          "current_price": 2416.77262,
+          "pnl": 3.02,
+          "pnl_pct": 1.54,
           "opened_at": "2026-04-17T19:50:04.616656+00:00",
-          "hold_minutes": 456.3,
+          "hold_minutes": 469.9,
           "extra": {
             "direction": "short",
             "leverage": 3,
