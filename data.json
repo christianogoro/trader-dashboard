@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T04:50:01.365342+00:00",
+  "updated_at": "2026-04-18T04:55:00.319311+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -29900,11 +29900,11 @@
         {
           "symbol": "BTC",
           "entry_price": 77569.506,
-          "current_price": 77074.009859,
-          "pnl": -5.19,
-          "pnl_pct": -1.92,
+          "current_price": 77132.247363,
+          "pnl": -4.58,
+          "pnl_pct": -1.69,
           "opened_at": "2026-04-17T15:43:59.711244+00:00",
-          "hold_minutes": 786.0,
+          "hold_minutes": 791.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29917,11 +29917,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2429.275024,
-          "current_price": 2407.043929,
-          "pnl": 5.37,
-          "pnl_pct": 2.75,
+          "current_price": 2409.569249,
+          "pnl": 4.76,
+          "pnl_pct": 2.43,
           "opened_at": "2026-04-17T19:50:04.616656+00:00",
-          "hold_minutes": 539.9,
+          "hold_minutes": 544.9,
           "extra": {
             "direction": "short",
             "leverage": 3,
