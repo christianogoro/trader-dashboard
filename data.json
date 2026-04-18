@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T03:50:02.646231+00:00",
+  "updated_at": "2026-04-18T03:55:01.200694+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -27788,20 +27788,20 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1799.13,
+      "bankroll": 1797.04,
       "starting_bankroll": 2000.0,
-      "total_pnl": -200.87,
-      "total_pnl_pct": -10.04,
-      "total_trades": 96,
+      "total_pnl": -202.96,
+      "total_pnl_pct": -10.15,
+      "total_trades": 97,
       "wins": 30,
-      "losses": 66,
-      "win_rate": 31.2,
-      "daily_pnl": 0.0,
-      "open_positions": 3,
-      "last_trade_at": "2026-04-17T14:00:36.966166+00:00",
-      "today_trades": 0,
+      "losses": 67,
+      "win_rate": 30.9,
+      "daily_pnl": -7.61,
+      "open_positions": 2,
+      "last_trade_at": "2026-04-18T03:54:03.817934+00:00",
+      "today_trades": 1,
       "today_wins": 0,
-      "today_losses": 0,
+      "today_losses": 1,
       "daily_breakdown": [
         {
           "date": "2026-03-21",
@@ -28050,6 +28050,16 @@
           "losses": 5,
           "pnl": 0.0,
           "prev_balance": 1114.95,
+          "balance": 1108.2,
+          "pnl_pct_of_prev": 0.0
+        },
+        {
+          "date": "2026-04-18",
+          "trades": 1,
+          "wins": 0,
+          "losses": 1,
+          "pnl": 0.0,
+          "prev_balance": 1108.2,
           "balance": 1108.2,
           "pnl_pct_of_prev": 0.0
         }
@@ -29878,17 +29888,36 @@
             "margin": 266.31,
             "funding_paid": 0.0
           }
+        },
+        {
+          "id": 98,
+          "opened_at": "2026-04-17T15:44:03.022115+00:00",
+          "closed_at": "2026-04-18T03:54:03.817934+00:00",
+          "symbol": "XRP",
+          "direction": "",
+          "entry_price": 1.482305,
+          "exit_price": 1.467825,
+          "pnl": 0,
+          "pnl_pct": 0.0,
+          "outcome": "LOSS",
+          "exit_reason": "",
+          "bankroll_after": 1330.75,
+          "extra": {
+            "leverage": 3,
+            "margin": 230.16,
+            "funding_paid": 0.069
+          }
         }
       ],
       "open": [
         {
           "symbol": "BTC",
           "entry_price": 77569.506,
-          "current_price": 77188.575441,
-          "pnl": -3.99,
-          "pnl_pct": -1.47,
+          "current_price": 77088.330557,
+          "pnl": -5.04,
+          "pnl_pct": -1.86,
           "opened_at": "2026-04-17T15:43:59.711244+00:00",
-          "hold_minutes": 726.1,
+          "hold_minutes": 731.0,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29899,30 +29928,13 @@
           }
         },
         {
-          "symbol": "XRP",
-          "entry_price": 1.482305,
-          "current_price": 1.472945,
-          "pnl": -4.36,
-          "pnl_pct": -1.89,
-          "opened_at": "2026-04-17T15:44:03.022115+00:00",
-          "hold_minutes": 726.0,
-          "extra": {
-            "direction": "long",
-            "leverage": 3,
-            "stop_loss": 1.46,
-            "take_profit": 1.53,
-            "margin": 230.16,
-            "liquidation_price": 1.0
-          }
-        },
-        {
           "symbol": "ETH",
           "entry_price": 2429.275024,
-          "current_price": 2418.138777,
-          "pnl": 2.69,
-          "pnl_pct": 1.38,
+          "current_price": 2408.989667,
+          "pnl": 4.9,
+          "pnl_pct": 2.51,
           "opened_at": "2026-04-17T19:50:04.616656+00:00",
-          "hold_minutes": 480.0,
+          "hold_minutes": 484.9,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -30060,10 +30072,10 @@
         }
       ],
       "extra_state": {
-        "total_fees": 158.49,
-        "total_funding": -3.6,
+        "total_fees": 159.28,
+        "total_funding": -3.53,
         "liquidations": 0,
-        "consec_losses": 0,
+        "consec_losses": 1,
         "peak_bankroll": 2000.0,
         "max_drawdown": 36.44
       }
