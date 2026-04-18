@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T15:00:00.450787+00:00",
+  "updated_at": "2026-04-18T15:05:00.881507+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -27788,10 +27788,10 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1816.52,
+      "bankroll": 1816.15,
       "starting_bankroll": 2000.0,
-      "total_pnl": -183.48,
-      "total_pnl_pct": -9.17,
+      "total_pnl": -183.85,
+      "total_pnl_pct": -9.19,
       "total_trades": 99,
       "wins": 31,
       "losses": 68,
@@ -29951,11 +29951,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.471832,
-          "current_price": 1.435186,
-          "pnl": 14.91,
+          "current_price": 1.435161,
+          "pnl": 14.92,
           "pnl_pct": 7.47,
           "opened_at": "2026-04-18T05:14:52.227248+00:00",
-          "hold_minutes": 585.1,
+          "hold_minutes": 590.1,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -29968,11 +29968,11 @@
         {
           "symbol": "BTC",
           "entry_price": 76148.93208,
-          "current_price": 76280.849291,
-          "pnl": -1.25,
-          "pnl_pct": -0.52,
+          "current_price": 76320.952123,
+          "pnl": -1.63,
+          "pnl_pct": -0.68,
           "opened_at": "2026-04-18T14:32:08.512364+00:00",
-          "hold_minutes": 27.9,
+          "hold_minutes": 32.9,
           "extra": {
             "direction": "short",
             "leverage": 3,
