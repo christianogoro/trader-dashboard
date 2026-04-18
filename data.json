@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T21:35:00.926375+00:00",
+  "updated_at": "2026-04-18T01:56:22.915313+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -17,7 +17,7 @@
       "daily_pnl": 0,
       "open_positions": 0,
       "last_trade_at": "2026-04-17T03:57:25.199372Z",
-      "today_trades": 16,
+      "today_trades": 0,
       "today_wins": 0,
       "today_losses": 0,
       "daily_breakdown": [],
@@ -987,12 +987,12 @@
       "wins": 28,
       "losses": 72,
       "win_rate": 28.0,
-      "daily_pnl": -35.07,
+      "daily_pnl": 0.0,
       "open_positions": 10,
       "last_trade_at": "2026-04-17T16:36:54.701525+00:00",
-      "today_trades": 11,
-      "today_wins": 5,
-      "today_losses": 6,
+      "today_trades": 0,
+      "today_wins": 0,
+      "today_losses": 0,
       "daily_breakdown": [
         {
           "date": "2026-04-02",
@@ -3113,12 +3113,12 @@
       "wins": 219,
       "losses": 230,
       "win_rate": 48.8,
-      "daily_pnl": -253.38,
+      "daily_pnl": 0.0,
       "open_positions": 0,
       "last_trade_at": "2026-04-17T11:45:11.712543+00:00",
-      "today_trades": 10,
-      "today_wins": 4,
-      "today_losses": 6,
+      "today_trades": 0,
+      "today_wins": 0,
+      "today_losses": 0,
       "daily_breakdown": [
         {
           "date": "2026-03-20",
@@ -12883,6 +12883,10 @@
         {
           "date": "2026-04-17",
           "value": 7380.63
+        },
+        {
+          "date": "2026-04-18",
+          "value": 7380.63
         }
       ],
       "extra_state": {
@@ -12904,9 +12908,9 @@
       "daily_pnl": -320.9,
       "open_positions": 0,
       "last_trade_at": "2026-04-17T15:57:51.111945-04:00",
-      "today_trades": 14,
-      "today_wins": 2,
-      "today_losses": 12,
+      "today_trades": 0,
+      "today_wins": 0,
+      "today_losses": 0,
       "daily_breakdown": [
         {
           "date": "2026-03-25",
@@ -16950,12 +16954,12 @@
       "wins": 186,
       "losses": 141,
       "win_rate": 56.9,
-      "daily_pnl": 580.89,
+      "daily_pnl": 0.0,
       "open_positions": 0,
       "last_trade_at": "2026-04-17T17:00:13.202138+00:00",
-      "today_trades": 9,
-      "today_wins": 6,
-      "today_losses": 3,
+      "today_trades": 0,
+      "today_wins": 0,
+      "today_losses": 0,
       "daily_breakdown": [
         {
           "date": "2026-03-06",
@@ -24673,6 +24677,10 @@
         {
           "date": "2026-04-17",
           "value": 5408.59
+        },
+        {
+          "date": "2026-04-18",
+          "value": 5408.59
         }
       ],
       "extra_state": {
@@ -27780,20 +27788,20 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1801.95,
+      "bankroll": 1800.05,
       "starting_bankroll": 2000.0,
-      "total_pnl": -198.05,
-      "total_pnl_pct": -9.9,
+      "total_pnl": -199.95,
+      "total_pnl_pct": -10.0,
       "total_trades": 96,
       "wins": 30,
       "losses": 66,
       "win_rate": 31.2,
-      "daily_pnl": -9.32,
+      "daily_pnl": 0.0,
       "open_positions": 3,
       "last_trade_at": "2026-04-17T14:00:36.966166+00:00",
-      "today_trades": 7,
-      "today_wins": 2,
-      "today_losses": 5,
+      "today_trades": 0,
+      "today_wins": 0,
+      "today_losses": 0,
       "daily_breakdown": [
         {
           "date": "2026-03-21",
@@ -29876,11 +29884,11 @@
         {
           "symbol": "BTC",
           "entry_price": 77569.506,
-          "current_price": 77243.948806,
-          "pnl": -3.41,
+          "current_price": 77244.903519,
+          "pnl": -3.4,
           "pnl_pct": -1.26,
           "opened_at": "2026-04-17T15:43:59.711244+00:00",
-          "hold_minutes": 351.0,
+          "hold_minutes": 612.4,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29893,11 +29901,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.482305,
-          "current_price": 1.479042,
-          "pnl": -1.52,
-          "pnl_pct": -0.66,
+          "current_price": 1.47462,
+          "pnl": -3.58,
+          "pnl_pct": -1.56,
           "opened_at": "2026-04-17T15:44:03.022115+00:00",
-          "hold_minutes": 351.0,
+          "hold_minutes": 612.4,
           "extra": {
             "direction": "long",
             "leverage": 3,
@@ -29910,11 +29918,11 @@
         {
           "symbol": "ETH",
           "entry_price": 2429.275024,
-          "current_price": 2420.622698,
-          "pnl": 2.09,
-          "pnl_pct": 1.07,
+          "current_price": 2420.001718,
+          "pnl": 2.24,
+          "pnl_pct": 1.15,
           "opened_at": "2026-04-17T19:50:04.616656+00:00",
-          "hold_minutes": 104.9,
+          "hold_minutes": 366.4,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -30044,6 +30052,10 @@
         },
         {
           "date": "2026-04-17",
+          "value": 1108.2
+        },
+        {
+          "date": "2026-04-18",
           "value": 1108.2
         }
       ],
