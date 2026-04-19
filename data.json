@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T00:00:00.890010+00:00",
+  "updated_at": "2026-04-19T00:05:01.020060+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -12887,6 +12887,10 @@
         {
           "date": "2026-04-18",
           "value": 7380.63
+        },
+        {
+          "date": "2026-04-19",
+          "value": 7380.63
         }
       ],
       "extra_state": {
@@ -24681,6 +24685,10 @@
         {
           "date": "2026-04-18",
           "value": 5408.59
+        },
+        {
+          "date": "2026-04-19",
+          "value": 5408.59
         }
       ],
       "extra_state": {
@@ -27788,15 +27796,15 @@
     "crypto_lev": {
       "name": "Crypto Leverage",
       "status": "running",
-      "bankroll": 1822.65,
+      "bankroll": 1821.69,
       "starting_bankroll": 2000.0,
-      "total_pnl": -177.35,
-      "total_pnl_pct": -8.87,
+      "total_pnl": -178.31,
+      "total_pnl_pct": -8.92,
       "total_trades": 99,
       "wins": 31,
       "losses": 68,
       "win_rate": 31.3,
-      "daily_pnl": -1.47,
+      "daily_pnl": 0.0,
       "open_positions": 2,
       "last_trade_at": "2026-04-18T11:08:52.662181+00:00",
       "today_trades": 0,
@@ -29951,11 +29959,11 @@
         {
           "symbol": "XRP",
           "entry_price": 1.471832,
-          "current_price": 1.432605,
-          "pnl": 15.96,
-          "pnl_pct": 8.0,
+          "current_price": 1.434399,
+          "pnl": 15.23,
+          "pnl_pct": 7.63,
           "opened_at": "2026-04-18T05:14:52.227248+00:00",
-          "hold_minutes": 1125.1,
+          "hold_minutes": 1130.2,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -29968,11 +29976,11 @@
         {
           "symbol": "BTC",
           "entry_price": 76148.93208,
-          "current_price": 75744.737746,
-          "pnl": 3.83,
-          "pnl_pct": 1.59,
+          "current_price": 75769.010513,
+          "pnl": 3.6,
+          "pnl_pct": 1.5,
           "opened_at": "2026-04-18T14:32:08.512364+00:00",
-          "hold_minutes": 567.9,
+          "hold_minutes": 572.9,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -30106,6 +30114,10 @@
         },
         {
           "date": "2026-04-18",
+          "value": 1362.73
+        },
+        {
+          "date": "2026-04-19",
           "value": 1362.73
         }
       ],
