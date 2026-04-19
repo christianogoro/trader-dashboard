@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T02:45:00.749261+00:00",
+  "updated_at": "2026-04-19T02:50:00.925608+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -3118,7 +3118,7 @@
     },
     "forex": {
       "name": "Forex 5m",
-      "status": "running",
+      "status": "stopped",
       "bankroll": 7380.63,
       "starting_bankroll": 5000.0,
       "total_pnl": 2380.63,
@@ -16963,7 +16963,7 @@
     },
     "crypto_5m": {
       "name": "Crypto 5m",
-      "status": "running",
+      "status": "stopped",
       "bankroll": 5408.59,
       "starting_bankroll": 2000.0,
       "total_pnl": 3408.59,
@@ -27809,7 +27809,7 @@
     },
     "crypto_lev": {
       "name": "Crypto Leverage",
-      "status": "running",
+      "status": "stopped",
       "bankroll": 1827.25,
       "starting_bankroll": 2000.0,
       "total_pnl": -172.75,
@@ -30006,7 +30006,7 @@
           "pnl": 6.0,
           "pnl_pct": 2.49,
           "opened_at": "2026-04-18T14:32:08.512364+00:00",
-          "hold_minutes": 732.9,
+          "hold_minutes": 737.9,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -30023,7 +30023,7 @@
           "pnl": 1.88,
           "pnl_pct": 0.92,
           "opened_at": "2026-04-19T02:10:03.006855+00:00",
-          "hold_minutes": 35.0,
+          "hold_minutes": 40.0,
           "extra": {
             "direction": "short",
             "leverage": 3,
