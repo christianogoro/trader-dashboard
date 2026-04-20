@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T23:55:00.362919+00:00",
+  "updated_at": "2026-04-20T00:00:00.672541+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -987,11 +987,11 @@
       "wins": 28,
       "losses": 72,
       "win_rate": 28.0,
-      "daily_pnl": 35.58,
+      "daily_pnl": 0.0,
       "open_positions": 10,
       "last_trade_at": "2026-04-19T01:38:15.633370+00:00",
-      "today_trades": 3,
-      "today_wins": 3,
+      "today_trades": 0,
+      "today_wins": 0,
       "today_losses": 0,
       "daily_breakdown": [
         {
@@ -27821,8 +27821,8 @@
       "daily_pnl": 16.72,
       "open_positions": 2,
       "last_trade_at": "2026-04-19T02:24:19.263817+00:00",
-      "today_trades": 1,
-      "today_wins": 1,
+      "today_trades": 0,
+      "today_wins": 0,
       "today_losses": 0,
       "daily_breakdown": [
         {
@@ -30006,7 +30006,7 @@
           "pnl": 6.0,
           "pnl_pct": 2.49,
           "opened_at": "2026-04-18T14:32:08.512364+00:00",
-          "hold_minutes": 2002.9,
+          "hold_minutes": 2007.9,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -30023,7 +30023,7 @@
           "pnl": 1.88,
           "pnl_pct": 0.92,
           "opened_at": "2026-04-19T02:10:03.006855+00:00",
-          "hold_minutes": 1305.0,
+          "hold_minutes": 1310.0,
           "extra": {
             "direction": "short",
             "leverage": 3,
