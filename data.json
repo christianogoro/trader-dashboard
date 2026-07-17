@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T19:09:32.253062+00:00",
+  "updated_at": "2026-07-17T20:10:50.938783+00:00",
   "traders": {
     "kalshi_live": {
       "name": "Kalshi Live",
@@ -30006,7 +30006,7 @@
           "pnl": 6.0,
           "pnl_pct": 2.49,
           "opened_at": "2026-04-18T14:32:08.512364+00:00",
-          "hold_minutes": 129877.4,
+          "hold_minutes": 129938.7,
           "extra": {
             "direction": "short",
             "leverage": 3,
@@ -30023,7 +30023,7 @@
           "pnl": 1.88,
           "pnl_pct": 0.92,
           "opened_at": "2026-04-19T02:10:03.006855+00:00",
-          "hold_minutes": 129179.5,
+          "hold_minutes": 129240.8,
           "extra": {
             "direction": "short",
             "leverage": 3,
